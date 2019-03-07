@@ -30,6 +30,12 @@ public class Utils {
     }
 
     public static String getTimeFormat(Date date) {
-        return SDF_TIME.format(date).toUpperCase();
+        return SDF_TIME.format(date);
+    }
+
+    public static String getDateCompleteFormat() {
+        Date now = new Date();
+        return getDateFormat(now) + " " + getTimeFormat(now);
+
     }
 }

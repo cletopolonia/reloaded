@@ -1,5 +1,6 @@
 package it.dev.cleto;
 
+import it.dev.cleto.report.Row;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
@@ -24,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 @Setter
 public class Show {
     String url;
+    String path;
     String name;
     Date date;
     EShow eshow;
@@ -35,6 +37,7 @@ public class Show {
         this.eshow = eShow;
         this.url = createUrl(this.eshow);
         this.name = createName(this.eshow);
+        this.path = createPath();
     }
 
     public void execute() {
@@ -47,14 +50,14 @@ public class Show {
                 // todo rimozione .original
             }
         } catch (FileNotFoundException e) {
-            log.error("  missing mp3: " + e.getMessage());
+            log.error("   missing mp3: " + e.getMessage());
         } catch (IOException e) {
             log.error(e.getMessage(), e);
         }
     }
 
     protected void resetTag() {
-        File file = new File(getName());
+        File file = new File(getPath());
         MP3File mp3file = null;
         try {
             mp3file = new MP3File(file);
@@ -92,25 +95,30 @@ public class Show {
     }
 
     protected boolean isAlreadyDownloaded() {
-        return !findStringInFile(Utils.DOWNLOADS, getName());
+        return !findStringInFile(Utils.DOWNLOADS, getPath());
     }
 
-    protected void download() throws FileNotFoundException, IOException {
+    protected void download() throws IOException {
         try {
             Instant start = Instant.now();
             final URL url = new URL(getUrl());
             BufferedInputStream in = new BufferedInputStream(url.openStream());
-            FileOutputStream fileOutputStream = new FileOutputStream(getName());
-            log.info("  downloading: " + getUrl() + " start " + Utils.getTimeFormat(Date.from(start)));
+            FileOutputStream fileOutputStream = new FileOutputStream(getPath());
+            log.info("  downloading: " + getUrl() + " start at " + Utils.getTimeFormat(Date.from(start)));
             byte dataBuffer[] = new byte[1024];
             int bytesRead;
             while ((bytesRead = in.read(dataBuffer, 0, 1024)) != -1) {
                 fileOutputStream.write(dataBuffer, 0, bytesRead);
             }
             Instant finish = Instant.now();
-            log.info("  downloaded: " + getUrl() + " end " + Utils.getTimeFormat(Date.from(finish)));
+            log.info("  downloaded:  " + getUrl() + " finish at " + Utils.getTimeFormat(Date.from(finish)));
             long duration = Duration.between(start, finish).toMillis();
-            log.info("  file downloaded: " + getName() + " in " + TimeUnit.MILLISECONDS.toSeconds(duration) + " secs.");
+            long downloadDurationInSec = TimeUnit.MILLISECONDS.toSeconds(duration);
+            log.info("  file created: " + getPath() + " in " + downloadDurationInSec + " secs.");
+            //Report report = new Report();
+            Row row = new Row(getName(), getUrl(), getPath(), downloadDurationInSec);
+            log.info(row);
+            //report.addRow(row);
         } catch (MalformedURLException e) {
             log.error(e.getMessage(), e);
         }
@@ -131,12 +139,17 @@ public class Show {
     }
 
     protected String createName(EShow eShow) {
+        return eShow.getName();
+    }
+
+    protected String createPath() {
         return Utils.BASE_PATH + Utils.getDateFormat(getDate())
-                + Utils.FILE_SEPARATOR + eShow.getName() + Utils.MP3;
+                + Utils.FILE_SEPARATOR + getName() + Utils.MP3;
     }
 
     protected String createUrl(EShow eShow) {
         return Utils.BASE_URL + eShow.getPartialUrl() + Utils.URL_SEPARATOR
                 + Utils.getDateFormat(getDate()) + Utils.MP3;
     }
+
 }
