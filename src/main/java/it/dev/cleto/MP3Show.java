@@ -1,5 +1,6 @@
 package it.dev.cleto;
 
+import it.dev.cleto.report.Report;
 import it.dev.cleto.report.Row;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,6 +13,8 @@ import org.farng.mp3.id3.AbstractID3v2;
 import org.farng.mp3.id3.AbstractID3v2Frame;
 import org.farng.mp3.id3.FrameBodyTIT2;
 import org.farng.mp3.id3.ID3v1;
+import org.jaudiotagger.audio.AudioFile;
+import org.jaudiotagger.audio.AudioFileIO;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -23,20 +26,22 @@ import java.util.concurrent.TimeUnit;
 
 @Getter
 @Setter
-public class Show {
+public class MP3Show {
     String url;
     String path;
     String name;
+    int durationMp3;
     Date date;
     EShow eshow;
+    String durationDownloadInSec;
 
-    Logger log = Logger.getLogger(Show.class);
+    Logger log = Logger.getLogger(MP3Show.class);
 
-    public Show(EShow eShow, Date date) {
+    public MP3Show(EShow eShow, Date date) {
         this.date = date;
         this.eshow = eShow;
-        this.url = createUrl(this.eshow);
-        this.name = createName(this.eshow);
+        this.url = createUrl(eshow);
+        this.name = createName(eshow);
         this.path = createPath();
     }
 
@@ -45,8 +50,9 @@ public class Show {
             if (validate()) {
                 download();
                 resetTag();
+                Report report = new Report();
+                report.addRow(createRow());
                 // todo add download file
-                // todo report csv
                 // todo rimozione .original
             }
         } catch (FileNotFoundException e) {
@@ -54,6 +60,10 @@ public class Show {
         } catch (IOException e) {
             log.error(e.getMessage(), e);
         }
+    }
+
+    protected Row createRow() {
+        return new Row(this);
     }
 
     protected void resetTag() {
@@ -66,6 +76,7 @@ public class Show {
             AbstractID3v2 id3v2 = mp3file.getID3v2Tag();
             AbstractID3v2Frame frame = id3v2.getFrame(Utils.TITLE_TAG);
             resetTitle(file.getName(), id3v1, id3v2, frame);
+            // todo reset other fields
             mp3file.save();
         } catch (IOException e) {
             log.error(e.getMessage(), e);
@@ -78,6 +89,17 @@ public class Show {
         id3v2.setSongTitle(title);
         ((FrameBodyTIT2) frame.getBody()).setText(title);
         id3v1.setSongTitle(title);
+    }
+
+    protected int calculateDuration() {
+        int duration = 0;
+        try {
+            AudioFile audioFile = AudioFileIO.read(new File(getPath()));
+            duration = audioFile.getAudioHeader().getTrackLength() / 60;
+        } catch (Exception e) {
+            log.error(e.getMessage(), e);
+        }
+        return duration;
     }
 
     protected boolean validate() {
@@ -95,7 +117,8 @@ public class Show {
     }
 
     protected boolean isAlreadyDownloaded() {
-        return !findStringInFile(Utils.DOWNLOADS, getPath());
+        File mp3 = new File(getPath());
+        return !findStringInFile(Utils.DOWNLOADS, getPath()) && !mp3.exists();
     }
 
     protected void download() throws IOException {
@@ -113,12 +136,9 @@ public class Show {
             Instant finish = Instant.now();
             log.info("  downloaded:  " + getUrl() + " finish at " + Utils.getTimeFormat(Date.from(finish)));
             long duration = Duration.between(start, finish).toMillis();
-            long downloadDurationInSec = TimeUnit.MILLISECONDS.toSeconds(duration);
-            log.info("  file created: " + getPath() + " in " + downloadDurationInSec + " secs.");
-            //Report report = new Report();
-            Row row = new Row(getName(), getUrl(), getPath(), downloadDurationInSec);
-            log.info(row);
-            //report.addRow(row);
+            this.durationDownloadInSec = TimeUnit.MILLISECONDS.toSeconds(duration) + "";
+            this.durationMp3 = calculateDuration();
+            log.info("  file created: " + getPath() + " in " + getDurationDownloadInSec() + " secs.");
         } catch (MalformedURLException e) {
             log.error(e.getMessage(), e);
         }

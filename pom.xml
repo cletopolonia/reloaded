@@ -32,10 +32,18 @@
             <version>1.2.17</version>
         </dependency>
 
+        <!-- for reset tag -->
         <dependency>
             <groupId>net.sf.javamusictag</groupId>
             <artifactId>jid3lib</artifactId>
             <version>0.5.4</version>
+        </dependency>
+
+        <!-- for get durationMp3InMins -->
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>jaudiotagger</artifactId>
+            <version>2.0.3</version>
         </dependency>
 
         <dependency>

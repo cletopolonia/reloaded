@@ -1,5 +1,6 @@
 package it.dev.cleto;
 
+import it.dev.cleto.report.Report;
 import org.farng.mp3.MP3File;
 import org.farng.mp3.TagConstant;
 import org.farng.mp3.TagException;
@@ -25,7 +26,7 @@ public class ReloadedTest {
     @Test
     public void shouldAnswerWithTrue() {
         String FILE_URL = "https://www.unipg.it/files/pagine/410/4-PDF-A.pdf";
-        String FILE_NAME = "/home/biadmin/Music/20190306_pino.mp3";
+        String FILE_NAME = "/home/biadmin/Music/20190305_cr31.mp3";
 
         File file = new File(FILE_NAME);
         MP3File mp3file = null;
@@ -47,6 +48,12 @@ public class ReloadedTest {
         }
 
         assertTrue(false);
+    }
+
+    @Test
+    public void reportExists() {
+        Report p = new Report();
+        p.getReport();
     }
 
 }

@@ -11,20 +11,20 @@ import java.util.Date;
 @Setter
 public class Programming {
     private Date date;
-    private ArrayList<Show> showList;
+    private ArrayList<MP3Show> MP3ShowList;
 
-    public Programming(Date date, ArrayList<Show> showList) {
+    public Programming(Date date, ArrayList<MP3Show> MP3ShowList) {
         this.date = date;
-        this.showList = showList;
+        this.MP3ShowList = MP3ShowList;
     }
 
     public Programming(Date date) {
         this.date = date;
-        this.showList = new ArrayList<>();
-        Arrays.stream(EShow.values()).forEach(eShow -> this.showList.add(new Show(eShow, this.date)));
+        this.MP3ShowList = new ArrayList<>();
+        Arrays.stream(EShow.values()).forEach(eShow -> this.MP3ShowList.add(new MP3Show(eShow, this.date)));
     }
 
     public void execute() {
-        showList.stream().forEach(s -> s.execute());
+        MP3ShowList.stream().forEach(s -> s.execute());
     }
 }

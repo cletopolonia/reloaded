@@ -1,5 +1,6 @@
 package it.dev.cleto.report;
 
+import it.dev.cleto.MP3Show;
 import it.dev.cleto.Utils;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,19 +17,24 @@ public class Row {
     private String url;
     private String downloadInSec;
     private String path;
-    private String dimension;
+    private String dimensionInMB;
     private String timestamp;
+    private String durationMp3InMins;
 
 
-    public Row(String name, String urlMp3, String path, long downloadDurationInSec) {
-        File file = new File(path);
-        this.name = name;
-        this.path = path;
-        this.url = urlMp3;
-        this.downloadInSec = "" + downloadDurationInSec;
-        this.dimension = "" + file.length();
+    public Row(MP3Show MP3Show) {
+        File file = new File(MP3Show.getPath());
+        this.name = MP3Show.getName();
+        this.path = MP3Show.getPath();
+        this.url = MP3Show.getUrl();
+        this.downloadInSec = MP3Show.getDurationDownloadInSec();
+        this.dimensionInMB = calculateDimension(file);
         this.timestamp = Utils.getDateCompleteFormat();
+        this.durationMp3InMins = MP3Show.getDurationMp3() + "";
     }
 
+    private String calculateDimension(File file) {
+        return "" + file.length() / (1024 * 1024);
+    }
 
 }
