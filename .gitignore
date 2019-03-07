@@ -1,3 +1,4 @@
 reloaded.iml
 .idea/
 target/
+*.class

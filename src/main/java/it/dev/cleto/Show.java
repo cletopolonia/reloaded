@@ -38,9 +38,18 @@ public class Show {
     }
 
     public void execute() {
-        if (validate()) {
-            download();
-            resetTag();
+        try {
+            if (validate()) {
+                download();
+                resetTag();
+                // todo add download file
+                // todo report csv
+                // todo rimozione .original
+            }
+        } catch (FileNotFoundException e) {
+            log.error("  missing mp3: " + e.getMessage());
+        } catch (IOException e) {
+            log.error(e.getMessage(), e);
         }
     }
 
@@ -86,25 +95,23 @@ public class Show {
         return !findStringInFile(Utils.DOWNLOADS, getName());
     }
 
-    protected void download() {
+    protected void download() throws FileNotFoundException, IOException {
         try {
             Instant start = Instant.now();
             final URL url = new URL(getUrl());
             BufferedInputStream in = new BufferedInputStream(url.openStream());
             FileOutputStream fileOutputStream = new FileOutputStream(getName());
+            log.info("  downloading: " + getUrl() + " start " + Utils.getTimeFormat(Date.from(start)));
             byte dataBuffer[] = new byte[1024];
             int bytesRead;
             while ((bytesRead = in.read(dataBuffer, 0, 1024)) != -1) {
                 fileOutputStream.write(dataBuffer, 0, bytesRead);
             }
             Instant finish = Instant.now();
+            log.info("  downloaded: " + getUrl() + " end " + Utils.getTimeFormat(Date.from(finish)));
             long duration = Duration.between(start, finish).toMillis();
-            log.info("  file downloaded: " + getName() + " in " + TimeUnit.MILLISECONDS.toSeconds(duration));
-        } catch (FileNotFoundException e) {
-            log.error(e.getMessage(), e);
+            log.info("  file downloaded: " + getName() + " in " + TimeUnit.MILLISECONDS.toSeconds(duration) + " secs.");
         } catch (MalformedURLException e) {
-            log.error(e.getMessage(), e);
-        } catch (IOException e) {
             log.error(e.getMessage(), e);
         }
     }

@@ -7,8 +7,10 @@ public class Utils {
 
     private static final String DATE_FORMAT = "yyyyMMdd";
     private static final String DAY_FORMAT = "EEEE";
+    private static final String TIME_FORMAT = "hh:mm:ss";
     private static final SimpleDateFormat SDF_DATE = new SimpleDateFormat(DATE_FORMAT);
     private static final SimpleDateFormat SDF_DAY = new SimpleDateFormat(DAY_FORMAT);
+    private static final SimpleDateFormat SDF_TIME = new SimpleDateFormat(TIME_FORMAT);
 
     public static final String MP3 = ".mp3";
     public static final String URL_SEPARATOR = "/";
@@ -27,4 +29,7 @@ public class Utils {
         return SDF_DAY.format(date).toUpperCase();
     }
 
+    public static String getTimeFormat(Date date) {
+        return SDF_TIME.format(date).toUpperCase();
+    }
 }
