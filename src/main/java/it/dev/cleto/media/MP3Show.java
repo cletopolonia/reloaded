@@ -55,7 +55,7 @@ public class MP3Show {
                 resetTag();
                 Report report = new Report();
                 report.addRow(createRow());
-                // todo remove .original
+                removeOriginal();
             }
         } catch (FileNotFoundException e) {
             log.error("   missing mp3: " + e.getMessage());
@@ -103,6 +103,12 @@ public class MP3Show {
         }
         return duration;
     }
+
+    protected void removeOriginal() {
+        File original = new File(createPathOriginal());
+        original.delete();
+    }
+
 
     protected boolean validate() {
         return isEnabled() && isAvailable() && isAlreadyDownloaded();
@@ -166,12 +172,17 @@ public class MP3Show {
 
     protected String createPath() {
         return Utils.BASE_PATH + Utils.getDateFormat(getDate())
-                + Utils.FILE_SEPARATOR + getName() + Utils.MP3;
+                + Utils.FILE_SEPARATOR + getName() + Utils.EXT_MP3;
     }
 
     protected String createUrl(EShow eShow) {
         return Utils.BASE_URL + eShow.getPartialUrl() + Utils.URL_SEPARATOR
-                + Utils.getDateFormat(getDate()) + Utils.MP3;
+                + Utils.getDateFormat(getDate()) + Utils.EXT_MP3;
+    }
+
+    protected String createPathOriginal() {
+        return Utils.BASE_PATH + Utils.getDateFormat(getDate())
+                + Utils.FILE_SEPARATOR + getName() + Utils.EXT_ORIGINAL_MP3;
     }
 
 }

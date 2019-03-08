@@ -1,6 +1,7 @@
 package it.dev.cleto;
 
 import it.dev.cleto.media.Programming;
+import it.dev.cleto.utils.Utils;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -10,16 +11,14 @@ public class Reloaded {
 
 
     public static void main(String[] args) {
-        System.out.println("-- Start");
 
+        // TODO configuration logs to exclude jaudiotagger
 
-        // todo configuration logs to exclude jaudiotagger
+        // TODO read date last download
+        // TODO custom from/to
+        // TODO custom url name
 
-        // todo read date last download
-
-        // todo custom from/to
-        // todo custom url name
-
+        Utils.banner("Start");
         // today -2gg
         Calendar todayCal = Calendar.getInstance();
         todayCal.add(Calendar.DATE, -2);
@@ -39,6 +38,6 @@ public class Reloaded {
         Date today = todayCal.getTime();
         Programming todayProgramming = new Programming(today);
         todayProgramming.execute();
-        System.out.println("-- End");
+        Utils.banner("End");
     }
 }

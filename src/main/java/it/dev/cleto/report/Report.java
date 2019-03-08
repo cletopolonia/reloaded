@@ -21,7 +21,6 @@ public class Report {
     private static final String PATH = "path";
     private static final String DIMENSION = "MB";
     private static final String DURATION_MP3 = "min";
-    private static final String LINE = System.lineSeparator();
     private static final String SEPARATOR = ",";
 
     Logger log = Logger.getLogger(Report.class);
@@ -43,7 +42,7 @@ public class Report {
 
     public String header() {
         final String[] properties = new String[]{TIMESTAMP, PATH, NAME, DURATION_DOWNLOAD, DIMENSION, DURATION_MP3, URL};
-        return Arrays.asList(properties).stream().collect(Collectors.joining(SEPARATOR)) + LINE;
+        return Arrays.asList(properties).stream().collect(Collectors.joining(SEPARATOR)) + Utils.LINE;
     }
 
     protected String toColumn(final Object object) {
@@ -73,7 +72,7 @@ public class Report {
     public void addRow(Row row) throws IOException {
         BufferedWriter output = new BufferedWriter(new FileWriter(Utils.DOWNLOADS_CSV, true));
         output.append(rowBuilder(row));
-        output.append(LINE);
+        output.append(Utils.LINE);
         output.close();
     }
 
