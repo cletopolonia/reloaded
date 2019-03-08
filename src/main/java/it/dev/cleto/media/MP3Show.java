@@ -1,7 +1,10 @@
-package it.dev.cleto;
+package it.dev.cleto.media;
 
 import it.dev.cleto.report.Report;
 import it.dev.cleto.report.Row;
+import it.dev.cleto.utils.EDays;
+import it.dev.cleto.utils.EShow;
+import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
@@ -52,8 +55,8 @@ public class MP3Show {
                 resetTag();
                 Report report = new Report();
                 report.addRow(createRow());
-                // todo add download file
-                // todo rimozione .original
+                // todo switch check on csv
+                // todo remove .original
             }
         } catch (FileNotFoundException e) {
             log.error("   missing mp3: " + e.getMessage());
@@ -118,7 +121,7 @@ public class MP3Show {
 
     protected boolean isAlreadyDownloaded() {
         File mp3 = new File(getPath());
-        return !findStringInFile(Utils.DOWNLOADS, getPath()) && !mp3.exists();
+        return !findStringInFile(Utils.DOWNLOADS_CSV, getPath()) && !mp3.exists();
     }
 
     protected void download() throws IOException {

@@ -1,4 +1,4 @@
-package it.dev.cleto;
+package it.dev.cleto.utils;
 
 import lombok.Getter;
 

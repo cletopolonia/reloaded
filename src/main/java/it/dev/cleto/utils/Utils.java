@@ -1,4 +1,4 @@
-package it.dev.cleto;
+package it.dev.cleto.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,7 +17,7 @@ public class Utils {
     public static final String FILE_SEPARATOR = "_";
     public static final String BASE_URL = "https://media.deejay.it/legacy/audio/";
     public static final String BASE_PATH = "/home/biadmin/Music/";
-    public static final String DOWNLOADS = "/home/biadmin/Music/downloads.log";
+    //public static final String DOWNLOADS = "/home/biadmin/Music/downloads.log";
     public static final String DOWNLOADS_CSV = "/home/biadmin/Music/downloads.csv";
     public static final String TITLE_TAG = "TIT2";
 

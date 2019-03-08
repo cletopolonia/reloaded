@@ -1,6 +1,6 @@
 package it.dev.cleto.report;
 
-import it.dev.cleto.Utils;
+import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
@@ -17,10 +17,10 @@ public class Report {
     private static final String NAME = "name";
     private static final String TIMESTAMP = "timestamp";
     private static final String URL = "url";
-    private static final String DURATION_DOWNLOAD = "durationDownloadInSec (in secs)";
+    private static final String DURATION_DOWNLOAD = "download (in secs)";
     private static final String PATH = "path";
-    private static final String DIMENSION = "dimensionInMB";
-    private static final String DURATION_SONG = "durationSong";
+    private static final String DIMENSION = "MB";
+    private static final String DURATION_SONG = "min";
     private static final String LINE = System.lineSeparator();
     private static final String SEPARATOR = ",";
 
@@ -39,11 +39,10 @@ public class Report {
                 log.error(e.getMessage(), e);
             }
         }
-
     }
 
     public String header() {
-        final String[] properties = new String[]{NAME, TIMESTAMP, URL, DURATION_DOWNLOAD, PATH, DIMENSION, DURATION_SONG};
+        final String[] properties = new String[]{TIMESTAMP, PATH, NAME, DURATION_DOWNLOAD, DIMENSION, DURATION_SONG, URL};
         return Arrays.asList(properties).stream().collect(Collectors.joining(SEPARATOR)) + LINE;
     }
 
@@ -80,13 +79,13 @@ public class Report {
 
     protected String rowBuilder(Row row) {
         final StringBuilder builder = new StringBuilder();
-        builder.append(Optional.ofNullable(row.getName()).map(string -> toColumn(string)).orElse(empty()));
         builder.append(Optional.ofNullable(row.getTimestamp()).map(string -> toColumn(string)).orElse(empty()));
-        builder.append(Optional.ofNullable(row.getUrl()).map(string -> toColumn(string)).orElse(empty()));
-        builder.append(Optional.ofNullable(row.getDownloadInSec()).map(string -> toColumn(string)).orElse(empty()));
         builder.append(Optional.ofNullable(row.getPath()).map(string -> toColumn(string)).orElse(empty()));
+        builder.append(Optional.ofNullable(row.getName()).map(string -> toColumn(string)).orElse(empty()));
+        builder.append(Optional.ofNullable(row.getDownloadInSec()).map(string -> toColumn(string)).orElse(empty()));
         builder.append(Optional.ofNullable(row.getDimensionInMB()).map(string -> toColumn(string)).orElse(empty()));
-        builder.append(Optional.ofNullable(row.getDurationMp3InMins()).orElse(empty()));
+        builder.append(Optional.ofNullable(row.getDurationMp3InMins()).map(string -> toColumn(string)).orElse(empty()));
+        builder.append(Optional.ofNullable(row.getUrl()).orElse(empty()));
         return builder.toString();
     }
 }

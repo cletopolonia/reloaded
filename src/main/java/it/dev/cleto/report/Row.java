@@ -1,7 +1,7 @@
 package it.dev.cleto.report;
 
-import it.dev.cleto.MP3Show;
-import it.dev.cleto.Utils;
+import it.dev.cleto.media.MP3Show;
+import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

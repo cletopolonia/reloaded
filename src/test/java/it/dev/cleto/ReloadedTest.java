@@ -1,6 +1,7 @@
 package it.dev.cleto;
 
 import it.dev.cleto.report.Report;
+import it.dev.cleto.utils.Utils;
 import org.farng.mp3.MP3File;
 import org.farng.mp3.TagConstant;
 import org.farng.mp3.TagException;
