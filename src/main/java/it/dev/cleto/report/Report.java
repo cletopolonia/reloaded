@@ -20,7 +20,7 @@ public class Report {
     private static final String DURATION_DOWNLOAD = "download (in secs)";
     private static final String PATH = "path";
     private static final String DIMENSION = "MB";
-    private static final String DURATION_SONG = "min";
+    private static final String DURATION_MP3 = "min";
     private static final String LINE = System.lineSeparator();
     private static final String SEPARATOR = ",";
 
@@ -42,7 +42,7 @@ public class Report {
     }
 
     public String header() {
-        final String[] properties = new String[]{TIMESTAMP, PATH, NAME, DURATION_DOWNLOAD, DIMENSION, DURATION_SONG, URL};
+        final String[] properties = new String[]{TIMESTAMP, PATH, NAME, DURATION_DOWNLOAD, DIMENSION, DURATION_MP3, URL};
         return Arrays.asList(properties).stream().collect(Collectors.joining(SEPARATOR)) + LINE;
     }
 

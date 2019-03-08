@@ -20,24 +20,25 @@ public class Reloaded {
         // todo custom from/to
         // todo custom url name
 
-        // today
+        // today -2gg
         Calendar todayCal = Calendar.getInstance();
-        Date today = todayCal.getTime();
-        Programming todayProgramming = new Programming(today);
-        todayProgramming.execute();
+        todayCal.add(Calendar.DATE, -2);
+        Date beforeYesterday = todayCal.getTime();
+        Programming beforeYesterdayProgramming = new Programming(beforeYesterday);
+        beforeYesterdayProgramming.execute();
 
-        // yesterday
+        // today -1gg
+        todayCal = Calendar.getInstance();
         todayCal.add(Calendar.DATE, -1);
         Date yesterday = todayCal.getTime();
         Programming yesterdayProgramming = new Programming(yesterday);
         yesterdayProgramming.execute();
 
-        // before yesterday
-        todayCal.add(Calendar.DATE, -1);
-        Date beforeYesterday = todayCal.getTime();
-        Programming beforeYesterdayProgramming = new Programming(beforeYesterday);
-        beforeYesterdayProgramming.execute();
-
+        // today
+        todayCal = Calendar.getInstance();
+        Date today = todayCal.getTime();
+        Programming todayProgramming = new Programming(today);
+        todayProgramming.execute();
         System.out.println("-- End");
     }
 }

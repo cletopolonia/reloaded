@@ -55,7 +55,6 @@ public class MP3Show {
                 resetTag();
                 Report report = new Report();
                 report.addRow(createRow());
-                // todo switch check on csv
                 // todo remove .original
             }
         } catch (FileNotFoundException e) {
@@ -79,7 +78,7 @@ public class MP3Show {
             AbstractID3v2 id3v2 = mp3file.getID3v2Tag();
             AbstractID3v2Frame frame = id3v2.getFrame(Utils.TITLE_TAG);
             resetTitle(file.getName(), id3v1, id3v2, frame);
-            // todo reset other fields
+            // TODO reset other fields
             mp3file.save();
         } catch (IOException e) {
             log.error(e.getMessage(), e);
