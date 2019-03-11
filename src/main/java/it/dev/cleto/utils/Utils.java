@@ -25,9 +25,8 @@ public class Utils {
     //public static final String DOWNLOADS = "/home/biadmin/Music/downloads.log";
     public static final String DOWNLOADS_CSV = "/home/biadmin/Music/downloads.csv";
 
-    public static final String TITLE_TAG = "TIT2";
-
     private static final Integer DECORATOR_WIDTH = 80;
+    public static final String UNKNOWN = "Unknown";
 
 
 

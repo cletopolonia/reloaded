@@ -17,8 +17,10 @@ public class Reloaded {
         // TODO read date last download
         // TODO custom from/to
         // TODO custom url name
+        // TODO spostare il download.csv nel repo ?
 
         Utils.banner("Start");
+
         // today -2gg
         Calendar todayCal = Calendar.getInstance();
         todayCal.add(Calendar.DATE, -2);

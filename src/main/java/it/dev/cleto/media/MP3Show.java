@@ -8,14 +8,9 @@ import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.log4j.Logger;
+import org.farng.mp3.AbstractMP3Tag;
 import org.farng.mp3.MP3File;
-import org.farng.mp3.TagConstant;
 import org.farng.mp3.TagException;
-import org.farng.mp3.TagOptionSingleton;
-import org.farng.mp3.id3.AbstractID3v2;
-import org.farng.mp3.id3.AbstractID3v2Frame;
-import org.farng.mp3.id3.FrameBodyTIT2;
-import org.farng.mp3.id3.ID3v1;
 import org.jaudiotagger.audio.AudioFile;
 import org.jaudiotagger.audio.AudioFileIO;
 
@@ -52,7 +47,7 @@ public class MP3Show {
         try {
             if (validate()) {
                 download();
-                resetTag();
+                resetTags();
                 Report report = new Report();
                 report.addRow(createRow());
                 removeOriginal();
@@ -68,17 +63,14 @@ public class MP3Show {
         return new Row(this);
     }
 
-    protected void resetTag() {
+    public void resetTags() {
         File file = new File(getPath());
         MP3File mp3file = null;
         try {
             mp3file = new MP3File(file);
-            TagOptionSingleton.getInstance().setDefaultSaveMode(TagConstant.MP3_FILE_SAVE_WRITE);
-            ID3v1 id3v1 = mp3file.getID3v1Tag();
-            AbstractID3v2 id3v2 = mp3file.getID3v2Tag();
-            AbstractID3v2Frame frame = id3v2.getFrame(Utils.TITLE_TAG);
-            resetTitle(file.getName(), id3v1, id3v2, frame);
-            // TODO reset other fields
+            //TagOptionSingleton.getInstance().setDefaultSaveMode(TagConstant.MP3_FILE_SAVE_WRITE);
+            resetTagID3v1Tag(mp3file);
+            resetTagID3v2Tag(file.getName(), mp3file);
             mp3file.save();
         } catch (IOException e) {
             log.error(e.getMessage(), e);
@@ -87,10 +79,22 @@ public class MP3Show {
         }
     }
 
-    protected void resetTitle(String title, ID3v1 id3v1, AbstractID3v2 id3v2, AbstractID3v2Frame frame) {
-        id3v2.setSongTitle(title);
-        ((FrameBodyTIT2) frame.getBody()).setText(title);
-        id3v1.setSongTitle(title);
+    private void resetTagID3v1Tag(MP3File mp3file) {
+        try {
+            mp3file.delete(mp3file.getID3v1Tag());
+        } catch (IOException e) {
+            log.error(e.getMessage(), e);
+        }
+    }
+
+    private void resetTagID3v2Tag(String name, MP3File mp3file) {
+        AbstractMP3Tag id3v2Tag = mp3file.getID3v2Tag();
+//        if (id3v2Tag == null) return;
+//        Utils.banner(id3v2Tag.toString());
+        id3v2Tag.setSongTitle(name);
+        id3v2Tag.setLeadArtist(Utils.UNKNOWN);
+        id3v2Tag.setSongGenre(Utils.UNKNOWN);
+        mp3file.setID3v2Tag(id3v2Tag);
     }
 
     protected int calculateDuration() {
