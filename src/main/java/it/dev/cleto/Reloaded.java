@@ -13,7 +13,6 @@ public class Reloaded {
     public static void main(String[] args) {
 
         // TODO configuration logs to exclude jaudiotagger
-        // TODO read date last download
 
         // TODO custom from/to
         // TODO custom url name
@@ -25,7 +24,7 @@ public class Reloaded {
         Date lastDownload = Utils.calculateLastDownload();
 
         while (now.after(lastDownload)) {
-            Utils.banner("Downloads: " + Utils.getDateFormat(lastDownload));
+            Utils.banner("  date: " + Utils.getDateFormat(lastDownload));
             Programming beforeYesterdayProgramming = new Programming(lastDownload);
             beforeYesterdayProgramming.execute();
             lastDownload = Utils.calculateNextDay(lastDownload);

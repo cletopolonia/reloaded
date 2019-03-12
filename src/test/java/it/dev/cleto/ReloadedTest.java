@@ -32,14 +32,10 @@ public class ReloadedTest {
 
     @Test
     public void resetTagTest() {
-        // String path = "/home/biadmin/Music/20190307_niki.mp3";
         Calendar todayCal = Calendar.getInstance();
         todayCal.add(Calendar.DATE, -4);
         Date beforeYesterday = todayCal.getTime();
-
         MP3Show mp3 = new MP3Show(EShow.TROP, beforeYesterday);
-
-        // when(mp3.getPath()).thenReturn(path);
         mp3.resetTags();
     }
 }

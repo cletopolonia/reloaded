@@ -1,5 +1,7 @@
 package it.dev.cleto.utils;
 
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,6 +12,8 @@ import java.util.*;
 
 public class Utils {
 
+    private static final Integer DECORATOR_WIDTH = 80;
+    private static final Logger log = Logger.getLogger(Utils.class);
     private static final String DATE_FORMAT = "yyyyMMdd";
     private static final String DAY_FORMAT = "EEEE";
     private static final String TIME_FORMAT = "HH:mm:ss";
@@ -26,10 +30,8 @@ public class Utils {
 
     public static final String BASE_URL = "https://media.deejay.it/legacy/audio/";
     public static final String BASE_PATH = "/home/biadmin/Music/";
-    //public static final String DOWNLOADS = "/home/biadmin/Music/downloads.log";
     public static final String DOWNLOADS_CSV = "/home/biadmin/Music/downloads.csv";
 
-    private static final Integer DECORATOR_WIDTH = 80;
     public static final String UNKNOWN = "Unknown";
 
 
@@ -90,9 +92,9 @@ public class Utils {
         try {
             return parseDate(dateString);
         } catch (ParseException e) {
-            e.printStackTrace();
+            log.error(e.getMessage(), e);
         }
-        return null;
+        return new Date();
     }
 
 
@@ -111,7 +113,7 @@ public class Utils {
                 line = reader.readLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error(e.getMessage(), e);
         }
         return result.get(result.size() - 1);
     }

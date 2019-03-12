@@ -88,8 +88,6 @@ public class MP3Show {
 
     private void resetTagID3v2Tag(String name, MP3File mp3file) {
         AbstractMP3Tag id3v2Tag = mp3file.getID3v2Tag();
-//        if (id3v2Tag == null) return;
-//        Utils.banner(id3v2Tag.toString());
         id3v2Tag.setSongTitle(name);
         id3v2Tag.setLeadArtist(Utils.UNKNOWN);
         id3v2Tag.setSongGenre(Utils.UNKNOWN);
