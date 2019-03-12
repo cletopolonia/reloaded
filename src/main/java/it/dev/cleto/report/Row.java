@@ -29,7 +29,7 @@ public class Row {
         this.url = MP3Show.getUrl();
         this.downloadInSec = MP3Show.getDurationDownloadInSec();
         this.dimensionInMB = calculateDimension(file);
-        this.timestamp = Utils.getDateCompleteFormat();
+        this.timestamp = Utils.getNowCompleteFormat();
         this.durationMp3InMins = MP3Show.getDurationMp3() + "";
     }
 

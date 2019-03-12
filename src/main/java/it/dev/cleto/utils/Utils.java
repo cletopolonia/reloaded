@@ -1,8 +1,12 @@
 package it.dev.cleto.utils;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
+import java.util.*;
 
 public class Utils {
 
@@ -29,7 +33,6 @@ public class Utils {
     public static final String UNKNOWN = "Unknown";
 
 
-
     public static String getDateFormat(Date date) {
         return SDF_DATE.format(date);
     }
@@ -42,10 +45,23 @@ public class Utils {
         return SDF_TIME.format(date);
     }
 
-    public static String getDateCompleteFormat() {
-        Date now = new Date();
-        return getDateFormat(now) + " " + getTimeFormat(now);
+    public static String getDateCompleteFormat(Date date) {
+        return getDateFormat(date) + " " + getTimeFormat(date);
+    }
 
+    private static Date parseTime(String date) throws ParseException {
+        return SDF_TIME.parse(date);
+    }
+
+    public static Date parseDate(String date) throws ParseException {
+        return SDF_DATE.parse(date);
+
+    }
+
+
+    public static String getNowCompleteFormat() {
+        Date now = new Date();
+        return getDateCompleteFormat(now);
     }
 
     protected static String decorator() {
@@ -65,5 +81,46 @@ public class Utils {
         mark.append(message + LINE);
         mark.append(decorator());
         return mark.toString();
+    }
+
+    public static Date calculateLastDownload() {
+        String res = getLastLine(DOWNLOADS_CSV);
+        String array[] = res.split(",");
+        String dateString = array[0];
+        try {
+            return parseDate(dateString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    private static String getLastLine(String path) {
+        List<String> result = new ArrayList<>();
+        FileReader in = null;
+        try {
+            in = new FileReader(path);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        try (BufferedReader reader = new BufferedReader(in)) {
+            String line = reader.readLine();
+            while (line != null) {
+                result.add(line);
+                line = reader.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result.get(result.size() - 1);
+    }
+
+
+    public static Date calculateNextDay(Date now) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(now);
+        cal.add(Calendar.DATE, 1);
+        return cal.getTime();
     }
 }

@@ -13,33 +13,43 @@ public class Reloaded {
     public static void main(String[] args) {
 
         // TODO configuration logs to exclude jaudiotagger
-
         // TODO read date last download
+
         // TODO custom from/to
         // TODO custom url name
         // TODO spostare il download.csv nel repo ?
 
         Utils.banner("Start");
+        Calendar nowCal = Calendar.getInstance();
+        Date now = nowCal.getTime();
+        Date lastDownload = Utils.calculateLastDownload();
 
-        // today -2gg
-        Calendar todayCal = Calendar.getInstance();
-        todayCal.add(Calendar.DATE, -2);
-        Date beforeYesterday = todayCal.getTime();
-        Programming beforeYesterdayProgramming = new Programming(beforeYesterday);
-        beforeYesterdayProgramming.execute();
+        while (now.after(lastDownload)) {
+            Utils.banner("Downloads: " + Utils.getDateFormat(lastDownload));
+            Programming beforeYesterdayProgramming = new Programming(lastDownload);
+            beforeYesterdayProgramming.execute();
+            lastDownload = Utils.calculateNextDay(lastDownload);
+        }
 
-        // today -1gg
-        todayCal = Calendar.getInstance();
-        todayCal.add(Calendar.DATE, -1);
-        Date yesterday = todayCal.getTime();
-        Programming yesterdayProgramming = new Programming(yesterday);
-        yesterdayProgramming.execute();
-
-        // today
-        todayCal = Calendar.getInstance();
-        Date today = todayCal.getTime();
-        Programming todayProgramming = new Programming(today);
-        todayProgramming.execute();
+//        // today -2gg
+//        Calendar todayCal = Calendar.getInstance();
+//        todayCal.add(Calendar.DATE, -2);
+//        Date beforeYesterday = todayCal.getTime();
+//        Programming beforeYesterdayProgramming = new Programming(beforeYesterday);
+//        beforeYesterdayProgramming.execute();
+//
+//        // today -1gg
+//        todayCal = Calendar.getInstance();
+//        todayCal.add(Calendar.DATE, -1);
+//        Date yesterday = todayCal.getTime();
+//        Programming yesterdayProgramming = new Programming(yesterday);
+//        yesterdayProgramming.execute();
+//
+//        // today
+//        todayCal = Calendar.getInstance();
+//        Date today = todayCal.getTime();
+//        Programming todayProgramming = new Programming(today);
+//        todayProgramming.execute();
         Utils.banner("End");
     }
 }

@@ -68,7 +68,6 @@ public class MP3Show {
         MP3File mp3file = null;
         try {
             mp3file = new MP3File(file);
-            //TagOptionSingleton.getInstance().setDefaultSaveMode(TagConstant.MP3_FILE_SAVE_WRITE);
             resetTagID3v1Tag(mp3file);
             resetTagID3v2Tag(file.getName(), mp3file);
             mp3file.save();
