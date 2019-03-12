@@ -21,7 +21,7 @@ public class Reloaded {
         Utils.banner("Start");
         Calendar nowCal = Calendar.getInstance();
         Date now = nowCal.getTime();
-        Date lastDownload = Utils.calculateLastDownload();
+        Date lastDownload = Utils.dateLastDownload();
 
         while (now.after(lastDownload)) {
             Utils.banner("  date: " + Utils.getDateFormat(lastDownload));

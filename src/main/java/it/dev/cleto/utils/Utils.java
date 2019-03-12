@@ -57,23 +57,21 @@ public class Utils {
 
     public static Date parseDate(String date) throws ParseException {
         return SDF_DATE.parse(date);
-
     }
-
 
     public static String getNowCompleteFormat() {
         Date now = new Date();
         return getDateCompleteFormat(now);
     }
 
+    public static void banner(String message) {
+        System.out.println(mark(message));
+    }
+
     protected static String decorator() {
         final char[] decorator = new char[DECORATOR_WIDTH];
         Arrays.fill(decorator, '=');
         return (new String(decorator)) + LINE;
-    }
-
-    public static void banner(String message) {
-        System.out.println(mark(message));
     }
 
     protected static String mark(final String message) {
@@ -85,7 +83,7 @@ public class Utils {
         return mark.toString();
     }
 
-    public static Date calculateLastDownload() {
+    public static Date dateLastDownload() {
         String res = getLastLine(DOWNLOADS_CSV);
         String array[] = res.split(",");
         String dateString = array[0];
@@ -96,7 +94,6 @@ public class Utils {
         }
         return new Date();
     }
-
 
     private static String getLastLine(String path) {
         List<String> result = new ArrayList<>();
@@ -117,7 +114,6 @@ public class Utils {
         }
         return result.get(result.size() - 1);
     }
-
 
     public static Date calculateNextDay(Date now) {
         Calendar cal = Calendar.getInstance();
