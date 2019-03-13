@@ -17,6 +17,7 @@ import org.jaudiotagger.audio.AudioFileIO;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.ParseException;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Date;
@@ -40,6 +41,14 @@ public class MP3Show {
         this.eshow = eShow;
         this.url = createUrl(eshow);
         this.name = createName(eshow);
+        this.path = createPath();
+    }
+
+    public MP3Show(EShow eShow, String date, String url) throws ParseException {
+        this.date = Utils.parseDate(date);
+        this.eshow = eShow;
+        this.url = url;
+        this.name = eShow.getName();
         this.path = createPath();
     }
 

@@ -1,6 +1,8 @@
 package it.dev.cleto;
 
+import it.dev.cleto.media.MP3Show;
 import it.dev.cleto.media.Programming;
+import it.dev.cleto.utils.EShow;
 import it.dev.cleto.utils.Utils;
 
 import java.util.Calendar;
@@ -10,15 +12,25 @@ import java.util.Date;
 public class Reloaded {
 
 
-    public static void main(String[] args) {
-
-        // TODO configuration logs to exclude jaudiotagger
+    public static void main(String[] args) throws Exception {
 
         // TODO custom from/to
-        // TODO custom url name
         // TODO spostare il download.csv nel repo ?
+        // TODO trasformare il csv in excel
 
         Utils.banner("Start");
+
+        boolean customON = false;
+
+        if (customON) {
+            String url = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190313.mp3";
+            String date = "20190313";
+            MP3Show custom = new MP3Show(EShow.CR31, date, url);
+            custom.execute();
+            Utils.banner("End");
+            System.exit(0);
+        }
+
         Calendar nowCal = Calendar.getInstance();
         Date now = nowCal.getTime();
         Date lastDownload = Utils.dateLastDownload();
@@ -30,25 +42,6 @@ public class Reloaded {
             lastDownload = Utils.calculateNextDay(lastDownload);
         }
 
-//        // today -2gg
-//        Calendar todayCal = Calendar.getInstance();
-//        todayCal.add(Calendar.DATE, -2);
-//        Date beforeYesterday = todayCal.getTime();
-//        Programming beforeYesterdayProgramming = new Programming(beforeYesterday);
-//        beforeYesterdayProgramming.execute();
-//
-//        // today -1gg
-//        todayCal = Calendar.getInstance();
-//        todayCal.add(Calendar.DATE, -1);
-//        Date yesterday = todayCal.getTime();
-//        Programming yesterdayProgramming = new Programming(yesterday);
-//        yesterdayProgramming.execute();
-//
-//        // today
-//        todayCal = Calendar.getInstance();
-//        Date today = todayCal.getTime();
-//        Programming todayProgramming = new Programming(today);
-//        todayProgramming.execute();
         Utils.banner("End");
     }
 }
