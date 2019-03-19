@@ -33,21 +33,21 @@ public class Reloaded {
         }
 
         Calendar nowCal = Calendar.getInstance();
-        Date now = nowCal.getTime();
-        Date lastDownload = Utils.dateLastDownload();
+        Date start = nowCal.getTime();
+        Date end = Utils.dateLastDownload();
 
         if (isCustomFromTo) {
-            String start = "20190313";
-            String stop = "20190313";
-            now = Utils.parseDate(start);
-            lastDownload = Utils.parseDate(stop);
+            String from = "20190313";
+            String to = "20190313";
+            start = Utils.parseDate(from);
+            end = Utils.parseDate(to);
         }
 
-        while (now.after(lastDownload)) {
-            Utils.banner("  date: " + Utils.getDateFormat(lastDownload));
-            Programming beforeYesterdayProgramming = new Programming(lastDownload);
+        while (start.after(end)) {
+            Utils.banner("  date: " + Utils.getDateFormat(end));
+            Programming beforeYesterdayProgramming = new Programming(end);
             beforeYesterdayProgramming.execute();
-            lastDownload = Utils.calculateNextDay(lastDownload);
+            end = Utils.calculateNextDay(end);
         }
 
         Utils.banner("End");
