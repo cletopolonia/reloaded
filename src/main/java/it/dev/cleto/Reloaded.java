@@ -14,6 +14,8 @@ public class Reloaded {
 
     public static void main(String[] args) throws Exception {
 
+        // TODO inserire i test
+        // TODO refactor per i metodi custom del main
         // TODO trasformare il csv in excel
 
         Utils.banner("Start");
