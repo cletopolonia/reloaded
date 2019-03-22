@@ -5,6 +5,7 @@ import it.dev.cleto.media.Programming;
 import it.dev.cleto.utils.EShow;
 import it.dev.cleto.utils.Utils;
 
+import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -15,6 +16,7 @@ public class Reloaded {
     public static void main(String[] args) throws Exception {
 
         // TODO inserire i test
+        // TODO creare la configuration
         // TODO refactor per i metodi custom del main
         // TODO trasformare il csv in excel
 
@@ -24,10 +26,10 @@ public class Reloaded {
         boolean isCustomFromTo = false;
 
         if (isCustomURL) {
+            EShow eShow = EShow.CR31;
             String url = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190313.mp3";
             String date = "20190313";
-            MP3Show custom = new MP3Show(EShow.CR31, date, url);
-            custom.execute();
+            invokeSingleDownload(eShow, url, date);
             Utils.banner("End");
             System.exit(0);
         }
@@ -52,5 +54,10 @@ public class Reloaded {
 
         Utils.banner("End");
         System.exit(0);
+    }
+
+    private static void invokeSingleDownload(EShow eShow, String url, String date) throws ParseException {
+        MP3Show custom = new MP3Show(eShow, date, url);
+        custom.execute();
     }
 }
