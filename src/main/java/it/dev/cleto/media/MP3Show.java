@@ -72,31 +72,28 @@ public class MP3Show {
         return new Row(this);
     }
 
-    public void resetTags() {
+    public void resetTags() throws IOException {
         File file = new File(getPath());
         MP3File mp3file = null;
         try {
             mp3file = new MP3File(file);
+            if (mp3file == null) return;
             resetTagID3v1Tag(mp3file);
-            resetTagID3v2Tag(file.getName(), mp3file);
+            updateTagID3v2Tag(file.getName(), mp3file);
             mp3file.save();
-        } catch (IOException e) {
-            log.error(e.getMessage(), e);
         } catch (TagException e) {
             log.error(e.getMessage(), e);
         }
     }
 
-    private void resetTagID3v1Tag(MP3File mp3file) {
-        try {
-            mp3file.delete(mp3file.getID3v1Tag());
-        } catch (IOException e) {
-            log.error(e.getMessage(), e);
-        }
+    private void resetTagID3v1Tag(MP3File mp3file) throws IOException {
+        if (mp3file.getID3v1Tag() == null) return;
+        mp3file.delete(mp3file.getID3v1Tag());
     }
 
-    private void resetTagID3v2Tag(String name, MP3File mp3file) {
+    private void updateTagID3v2Tag(String name, MP3File mp3file) {
         AbstractMP3Tag id3v2Tag = mp3file.getID3v2Tag();
+        if (id3v2Tag == null) return;
         id3v2Tag.setSongTitle(name);
         id3v2Tag.setLeadArtist(Utils.UNKNOWN);
         id3v2Tag.setSongGenre(Utils.UNKNOWN);
@@ -120,7 +117,6 @@ public class MP3Show {
             original.delete();
         }
     }
-
 
     protected boolean validate() {
         return isEnabled() && isAvailable() && isAlreadyDownloaded();

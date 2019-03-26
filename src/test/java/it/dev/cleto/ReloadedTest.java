@@ -5,6 +5,7 @@ import it.dev.cleto.report.Report;
 import it.dev.cleto.utils.EShow;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -31,7 +32,7 @@ public class ReloadedTest {
     }
 
     @Test
-    public void resetTagTest() {
+    public void resetTagTest() throws IOException {
         Calendar todayCal = Calendar.getInstance();
         todayCal.add(Calendar.DATE, -4);
         Date beforeYesterday = todayCal.getTime();
