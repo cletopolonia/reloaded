@@ -56,9 +56,9 @@ public class MP3Show {
         try {
             if (validate()) {
                 download();
-                resetTags();
                 Report report = new Report();
                 report.addRow(createRow());
+                resetTags();
                 removeOriginal();
             }
         } catch (FileNotFoundException e) {
@@ -116,7 +116,9 @@ public class MP3Show {
 
     protected void removeOriginal() {
         File original = new File(createPathOriginal());
-        original.delete();
+        if (original.exists()) {
+            original.delete();
+        }
     }
 
 

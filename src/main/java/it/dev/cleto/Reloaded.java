@@ -6,7 +6,6 @@ import it.dev.cleto.utils.EShow;
 import it.dev.cleto.utils.Utils;
 
 import java.text.ParseException;
-import java.util.Calendar;
 import java.util.Date;
 
 
@@ -34,26 +33,36 @@ public class Reloaded {
             System.exit(0);
         }
 
-        Calendar nowCal = Calendar.getInstance();
-        Date start = nowCal.getTime();
+        Date start = Utils.parseDate(Utils.getDateFormat(new Date()));
         Date end = Utils.dateLastDownload();
 
         if (isCustomFromTo) {
-            String from = "20190313";
-            String to = "20190313";
+            String from = "20190327";
+            String to = "20190327";
             start = Utils.parseDate(from);
             end = Utils.parseDate(to);
         }
 
-        while (start.after(end)) {
-            Utils.banner("  date: " + Utils.getDateFormat(end));
-            Programming beforeYesterdayProgramming = new Programming(end);
-            beforeYesterdayProgramming.execute();
-            end = Utils.calculateNextDay(end);
+        validatePeriod(start, end);
+
+        while (continueDownload(start, end)) {
+            Utils.banner("  date: " + Utils.getDateFormat(start));
+            Programming programming = new Programming(start);
+            programming.execute();
+            start = Utils.calculateNextDay(start);
         }
 
         Utils.banner("End");
         System.exit(0);
+    }
+
+    private static boolean continueDownload(Date start, Date end) {
+        return start.before(end) || start.equals(end);
+    }
+
+    private static void validatePeriod(Date start, Date end) {
+        if (start.after(end))
+            throw new RuntimeException("Invalid period - start[" + Utils.getDateFormat(start) + "] end[" + Utils.getDateFormat(end) + "]");
     }
 
     private static void invokeSingleDownload(EShow eShow, String url, String date) throws ParseException {
