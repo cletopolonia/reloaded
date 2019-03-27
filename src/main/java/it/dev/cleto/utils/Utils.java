@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.logging.Handler;
 
 public class Utils {
 
@@ -120,5 +121,13 @@ public class Utils {
         cal.setTime(now);
         cal.add(Calendar.DATE, 1);
         return cal.getTime();
+    }
+
+    public static void disableLoggerMp3Tags() {
+        java.util.logging.Logger globalLogger = java.util.logging.Logger.getLogger("");
+        Handler[] handlers = globalLogger.getHandlers();
+        for (Handler handler : handlers) {
+            globalLogger.removeHandler(handler);
+        }
     }
 }
