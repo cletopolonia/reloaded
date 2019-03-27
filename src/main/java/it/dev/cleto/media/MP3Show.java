@@ -26,15 +26,15 @@ import java.util.concurrent.TimeUnit;
 @Getter
 @Setter
 public class MP3Show {
-    String url;
-    String path;
-    String name;
-    int durationMp3;
-    Date date;
-    EShow eshow;
-    String durationDownloadInSec;
+    private String url;
+    private String path;
+    private String name;
+    private int durationMp3;
+    private Date date;
+    private EShow eshow;
+    private String durationDownloadInSec;
 
-    Logger log = Logger.getLogger(MP3Show.class);
+    private static Logger log = Logger.getLogger(MP3Show.class);
 
     public MP3Show(EShow eShow, Date date) {
         this.date = date;
@@ -52,7 +52,7 @@ public class MP3Show {
         this.path = createPath();
     }
 
-    public void execute() {
+    public void process() {
         try {
             if (validate()) {
                 download();

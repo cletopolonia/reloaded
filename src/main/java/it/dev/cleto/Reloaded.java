@@ -7,6 +7,7 @@ import it.dev.cleto.utils.Period;
 import it.dev.cleto.utils.Utils;
 
 import java.text.ParseException;
+import java.util.Date;
 
 
 public class Reloaded {
@@ -23,8 +24,9 @@ public class Reloaded {
         invokeSingleDownload(false);
         Period period = invokePeriodCreation(false);
         while (period.continueDownload()) {
-            Utils.banner("  date: " + Utils.getDateFormat(period.getStart()));
-            Programming programming = new Programming(period.getStart());
+            Date elaborationDate = period.getStart();
+            Utils.banner("  date: " + Utils.getDateFormat(elaborationDate));
+            Programming programming = new Programming(elaborationDate);
             programming.execute();
             period.increaseStartDate();
         }
@@ -39,7 +41,7 @@ public class Reloaded {
         String realDate = "20190314";
 
         MP3Show custom = new MP3Show(eShow, realDate, urlFixed);
-        custom.execute();
+        custom.process();
         Utils.banner("End");
         System.exit(0);
     }

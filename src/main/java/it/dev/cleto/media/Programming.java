@@ -26,6 +26,6 @@ public class Programming {
     }
 
     public void execute() {
-        MP3ShowList.stream().forEach(s -> s.execute());
+        MP3ShowList.stream().forEach(s -> s.process());
     }
 }
