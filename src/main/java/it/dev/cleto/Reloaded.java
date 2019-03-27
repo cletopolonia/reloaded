@@ -33,8 +33,8 @@ public class Reloaded {
             System.exit(0);
         }
 
-        Date start = Utils.parseDate(Utils.getDateFormat(new Date()));
-        Date end = Utils.dateLastDownload();
+        Date start = Utils.dateLastDownload();
+        Date end = Utils.parseDate(Utils.getDateFormat(new Date()));
 
         if (isCustomFromTo) {
             String from = "20190327";
