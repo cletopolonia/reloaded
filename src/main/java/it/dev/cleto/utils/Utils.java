@@ -123,7 +123,7 @@ public class Utils {
         return cal.getTime();
     }
 
-    public static void disableLoggerMp3Tags() {
+    public static void disableLoggerJAudioTagger() {
         java.util.logging.Logger globalLogger = java.util.logging.Logger.getLogger("");
         Handler[] handlers = globalLogger.getHandlers();
         for (Handler handler : handlers) {

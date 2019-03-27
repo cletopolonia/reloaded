@@ -16,7 +16,6 @@ public class Reloaded {
 
         // TODO inserire i test
         // TODO creare la configuration
-        // TODO refactor per i metodi custom del main
         // TODO trasformare il csv in excel
 
         Utils.banner("Start");
