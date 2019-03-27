@@ -20,9 +20,8 @@ public class Reloaded {
         // TODO trasformare il csv in excel
 
         Utils.banner("Start");
-
-        Utils.disableLoggerMp3Tags();
-        invokeSingleDownload(true);
+        Utils.disableLoggerJAudioTagger();
+        invokeSingleDownload(false);
         Period period = invokePeriodCreation(false);
         while (period.continueDownload()) {
             Utils.banner("  date: " + Utils.getDateFormat(period.getStart()));
@@ -37,8 +36,8 @@ public class Reloaded {
     private static void invokeSingleDownload(boolean isEnabled) throws ParseException {
         if (!isEnabled) return;
         EShow eShow = EShow.CR31;
-        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20180314.mp3";
-        String realDate = "20180314";
+        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190314.mp3";
+        String realDate = "20190314";
 
         MP3Show custom = new MP3Show(eShow, realDate, urlFixed);
         custom.execute();
