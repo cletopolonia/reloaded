@@ -1,8 +1,5 @@
 #!/bin/sh
 
-## TODO
-## gli mp3 scaricati vanno inseriti in 1 file csv con nome_prog, data_prog, url, data_download in modo da poterlo usare ed ordinare a piacimento con excel
-
 ## variables
 REMOT_PATH_OLD=http://cdn.flv.kataweb.it/deejay/audio/
 REMOT_PATH=https://media.deejay.it/legacy/audio/

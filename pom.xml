@@ -6,7 +6,8 @@
 
     <groupId>it.dev.cleto</groupId>
     <artifactId>reloaded</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <name>reloaded</name>
     <url>http://www.reloaded.com</url>
@@ -62,6 +63,7 @@
     </dependencies>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
@@ -95,5 +97,33 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeScope>runtime</includeScope>
+                            <outputDirectory>target/libs</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 </project>
