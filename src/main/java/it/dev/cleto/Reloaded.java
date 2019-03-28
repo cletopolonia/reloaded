@@ -12,24 +12,28 @@ import java.util.Date;
 
 public class Reloaded {
 
-
-    public static void main(String[] args) throws Exception {
+    private static void start() {
 
         // TODO inserire i test
         // TODO creare la configuration
         // TODO trasformare il csv in excel
 
         Utils.banner("Start");
-        Utils.disableLoggerJAudioTagger();
-        invokeSingleDownload(false);
-        Period period = invokePeriodCreation(false);
-        while (period.continueDownload()) {
-            Date elaborationDate = period.getStart();
-            Utils.banner("  date: " + Utils.getDateFormat(elaborationDate));
-            Programming programming = new Programming(elaborationDate);
-            programming.execute();
-            period.increaseStartDate();
+        try {
+            Utils.disableLoggerJAudioTagger();
+            invokeSingleDownload(false);
+            Period period = invokePeriodCreation(false);
+            while (period.continueDownload()) {
+                Date elaborationDate = period.getStart();
+                Utils.banner("  date: " + Utils.getDateFormat(elaborationDate));
+                Programming programming = new Programming(elaborationDate);
+                programming.execute();
+                period.increaseStartDate();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
         Utils.banner("End");
         System.exit(0);
     }
@@ -55,4 +59,9 @@ public class Reloaded {
             return new Period(from, to);
         }
     }
+
+    public static void main(String[] args) {
+        Reloaded.start();
+    }
+
 }
