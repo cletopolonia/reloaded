@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -cp "target/libs/*:target/reloaded.jar" it.dev.cleto.Reloaded
+java -cp "/home/biadmin/dev/mine/reloaded/target/libs/*:/home/biadmin/dev/mine/reloaded/target/reloaded.jar" it.dev.cleto.Reloaded
