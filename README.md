@@ -1,2 +1,2 @@
 # reloaded
-to download mp3 from deejay
+to download mp3 from deejay site

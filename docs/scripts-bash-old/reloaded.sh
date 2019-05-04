@@ -121,7 +121,7 @@ function addToCsvOld(){
 
 function validateParams(){
     if [[ "$#" -ne 4 ]] ; then
-        echo "Illegal number of parameters"
+        echo "Illegal numberOfPopulation of parameters"
         echo " - required 4 vs $#" 
         exit 1
     fi

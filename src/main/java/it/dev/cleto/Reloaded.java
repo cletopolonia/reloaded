@@ -43,9 +43,12 @@ public class Reloaded {
     private static void invokeSingleDownload(boolean isEnabled) throws ParseException {
         if (!isEnabled) return;
         log.info("invokeSingleDownload");
-        EShow eShow = EShow.CR31;
-        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190314.mp3";
-        String realDate = "20190314";
+//        EShow eShow = EShow.CR31;
+//        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190104.mp3";
+        String realDate = "20190404";
+        EShow eShow = EShow.DJCI;
+        String urlFixed = "https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190404.1.mp3";
+
         MP3Show custom = new MP3Show(eShow, realDate, urlFixed);
         custom.process();
         Utils.banner("End");
