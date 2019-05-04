@@ -12,12 +12,10 @@ public class PolygonVillage {
     final int QMIN = 2;
     final int QMAX = 10;
 
-    int meetInADay;
     int numberOfPopulation;
     ArrayList<Polygon> polygons;
 
-    public PolygonVillage(int meetInADay, int numberOfPopulation) {
-        this.meetInADay = meetInADay;
+    public PolygonVillage(int numberOfPopulation) {
         this.numberOfPopulation = numberOfPopulation;
         polygons = new ArrayList<>();
         createPopulation(numberOfPopulation);
@@ -25,7 +23,7 @@ public class PolygonVillage {
 
     private void createPopulation(int numberOfPopulation) {
         for (int i = 0; i < numberOfPopulation; i++) {
-            polygons.add(new Square(Utils.getRandomNumberInRange(QMIN, QMAX)));
+            polygons.add(new Polygon(Utils.getRandomNumberInRange(QMIN, QMAX)));
         }
     }
 
@@ -36,60 +34,55 @@ public class PolygonVillage {
         }
     }
 
-    private void letsMeet() {
+    private void letsMeet(int meetInADay) {
         log.info("letsMeet");
         for (int i = 0; i < meetInADay; i++) {
-            Square squareOne = pickUpOne();
-            Square squareTwo = pickUpOne();
-            int lowSide = getMinSide(squareOne, squareTwo);
-            int heightSide = squareOne.getSide() + squareTwo.getSide();
-            Rectangle rectangle = Utils.createRectangle(lowSide, heightSide);
-            log.info(rectangle.whoIAm());
-            polygons.add(rectangle);
+            Polygon first = pickUpOne();
+            Polygon second = pickUpOne();
+            log.info("first:  " + first.whoIAm());
+            log.info("second: " + second.whoIAm());
+            Polygon child = createChild(first, second);
+            log.info("child:  " + child.whoIAm());
+            polygons.add(first);
+            polygons.add(second);
+            polygons.add(child);
+            log.info("---------------");
         }
     }
 
-    private int getMinSide(Square square1, Square square2) {
-        return square1.getSide() > square2.getSide() ? square2.getSide() : square1.getSide();
+    private Polygon createChild(Polygon first, Polygon second) {
+        int sideOne = getAbsoluteMinSide(first, second);
+        int sideTwo = Utils.getSumSide(first, second);
+        if (Utils.getRandomNumberInRange(0, 1) == 1)
+            return new Polygon(sideOne, sideTwo);
+        return new Polygon(sideTwo, sideOne);
     }
 
-    private Square pickUpOne() {
-        Polygon polygon = null;
-        boolean squareNotFound = true;
-        while (squareNotFound) {
-            int randomNumber = Utils.getRandomNumberInRange(0, polygons.size() - 1);
-            polygon = polygons.get(randomNumber);
-            if (polygon.isASquare())
-                squareNotFound = false;
-        }
-        return (Square) polygon; // assunzione che i 2 quadrati che si incontrato non "muoiono" per dare vita ad un rettangolo.
+    private int getAbsoluteMinSide(Polygon man, Polygon woman) {
+        return man.getMinSide() > woman.getMinSide() ? woman.getMinSide() : man.getMinSide();
     }
 
-    // versione ricorsiva
-    private Square pickUpOneRicor() {
-        int randomNumber = Utils.getRandomNumberInRange(0, polygons.size() - 1);
-        Polygon polygon = polygons.get(randomNumber);
-        if (polygon.isASquare())
-            return (Square) polygon; // assunzione che i 2 quadrati che si incontrato non "muoiono" per dare vita ad un rettangolo.
-        return pickUpOne();
+    private Polygon pickUpOne() {
+        return polygons.remove(Utils.getRandomNumberInRange(0, polygons.size() - 1));
     }
 
-    public void execute(int numberOfDay) {
+    public void execute(int numberOfDay, int childMin, int childMax) {
         printPopulation();
         for (int i = 0; i < numberOfDay; i++) {
             log.info("\n\n --> day: " + (i + 1) + " population: " + polygons.size());
-            letsMeet();
+            letsMeet(Utils.getRandomNumberInRange(childMin, childMax));
         }
         printPopulation();
     }
 
     public static void main(String[] args) {
 
-        final int MEET_IN_A_DAY = 1;
-        final int NUMBER_OF_POPULATION = 18;
+        final int NUMBER_OF_POPULATION = 20;
+        final int CHILD_MIN = 1;
+        final int CHILD_MAX = 4;
 
-        PolygonVillage polygonVillage = new PolygonVillage(MEET_IN_A_DAY, NUMBER_OF_POPULATION);
-        polygonVillage.execute(4);
+        PolygonVillage polygonVillage = new PolygonVillage(NUMBER_OF_POPULATION);
+        polygonVillage.execute(3, CHILD_MIN, CHILD_MAX);
     }
 
 }
