@@ -65,6 +65,7 @@ public class PolygonVillage {
         return (Square) polygon; // assunzione che i 2 quadrati che si incontrato non "muoiono" per dare vita ad un rettangolo.
     }
 
+    // versione ricorsiva
     private Square pickUpOneRicor() {
         int randomNumber = Utils.getRandomNumberInRange(0, polygons.size() - 1);
         Polygon polygon = polygons.get(randomNumber);
@@ -84,11 +85,10 @@ public class PolygonVillage {
 
     public static void main(String[] args) {
 
-        //FASE 1
-        final int STEP1_MEET_IN_A_DAY = 1;
-        final int STEP1_NUMBER_OF_POPULATION = 18;
+        final int MEET_IN_A_DAY = 1;
+        final int NUMBER_OF_POPULATION = 18;
 
-        PolygonVillage polygonVillage = new PolygonVillage(STEP1_MEET_IN_A_DAY, STEP1_NUMBER_OF_POPULATION);
+        PolygonVillage polygonVillage = new PolygonVillage(MEET_IN_A_DAY, NUMBER_OF_POPULATION);
         polygonVillage.execute(4);
     }
 
