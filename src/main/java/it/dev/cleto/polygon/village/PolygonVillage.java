@@ -85,7 +85,7 @@ public class PolygonVillage {
     public static void main(String[] args) {
 
         //FASE 1
-        final int STEP1_MEET_IN_A_DAY = 3;
+        final int STEP1_MEET_IN_A_DAY = 1;
         final int STEP1_NUMBER_OF_POPULATION = 18;
 
         PolygonVillage polygonVillage = new PolygonVillage(STEP1_MEET_IN_A_DAY, STEP1_NUMBER_OF_POPULATION);
