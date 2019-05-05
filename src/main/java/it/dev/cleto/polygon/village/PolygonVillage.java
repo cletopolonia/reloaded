@@ -35,18 +35,18 @@ public class PolygonVillage {
     }
 
     private void letsMeet(int meetInADay) {
-        log.info("letsMeet");
+//        log.info("letsMeet");
         for (int i = 0; i < meetInADay; i++) {
             Polygon first = pickUpOne();
             Polygon second = pickUpOne();
-            log.info("first:  " + first.whoIAm());
-            log.info("second: " + second.whoIAm());
+//            log.info("first:  " + first.whoIAm());
+//            log.info("second: " + second.whoIAm());
             Polygon child = createChild(first, second);
-            log.info("child:  " + child.whoIAm());
+            log.info(child.whoIAm());
             polygons.add(first);
             polygons.add(second);
             polygons.add(child);
-            log.info("---------------");
+//            log.info("---------------");
         }
     }
 
@@ -67,22 +67,23 @@ public class PolygonVillage {
     }
 
     public void execute(int numberOfDay, int childMin, int childMax) {
-        printPopulation();
+        //printPopulation();
         for (int i = 0; i < numberOfDay; i++) {
-            log.info("\n\n --> day: " + (i + 1) + " population: " + polygons.size());
+            log.info("day " + (i + 1) + " population[" + polygons.size() + "]");
             letsMeet(Utils.getRandomNumberInRange(childMin, childMax));
         }
-        printPopulation();
+        //printPopulation();
     }
 
     public static void main(String[] args) {
 
         final int NUMBER_OF_POPULATION = 20;
+        final int NUMBER_OF_DAY = 4;
         final int CHILD_MIN = 1;
         final int CHILD_MAX = 4;
 
         PolygonVillage polygonVillage = new PolygonVillage(NUMBER_OF_POPULATION);
-        polygonVillage.execute(3, CHILD_MIN, CHILD_MAX);
+        polygonVillage.execute(NUMBER_OF_DAY, CHILD_MIN, CHILD_MAX);
     }
 
 }
