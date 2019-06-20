@@ -183,9 +183,16 @@ public class MP3Show {
                 + Utils.FILE_SEPARATOR + getName() + Utils.EXT_MP3;
     }
 
-    protected String createUrl(EShow eShow) {
+    protected String createUrlOld(EShow eShow) {
         return Utils.BASE_URL + eShow.getPartialUrl() + Utils.URL_SEPARATOR
                 + Utils.getDateFormat(getDate()) + Utils.EXT_MP3;
+    }
+
+    protected String createUrl(EShow eShow) {
+        Date date = getDate();
+        return Utils.BASE_URL + Utils.getDatePathUrlFormat(date) + Utils.EPISODES
+                + eShow.getPartialUrl() + Utils.URL_SEPARATOR
+                + Utils.getDateFormat(date) + Utils.EXT_MP3;
     }
 
     protected String createPathOriginal() {

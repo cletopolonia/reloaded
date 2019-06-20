@@ -41,13 +41,27 @@ public class Reloaded {
     }
 
     private static void invokeSingleDownload(boolean isEnabled) throws ParseException {
+
+//        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190104.mp3";
+//        String urlFixed = "https://media.deejay.it/legacy/podcast/trio/audio/20190531.mp3";
+//        String urlFixed = "https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190404.1.mp3";
+
         if (!isEnabled) return;
         log.info("invokeSingleDownload");
+        String basePath = "https://media.deejay.it/";
+
+        String pathDate = "2019/06/20";
+
+        String realDate = pathDate.replace("/", "");
+
 //        EShow eShow = EShow.CR31;
-//        String urlFixed = "https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190104.mp3";
-        String realDate = "20190404";
-        EShow eShow = EShow.DJCI;
-        String urlFixed = "https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190404.1.mp3";
+//        String urlFixed = basePath + pathDate + "/episodes/chiamate_roma_triuno_triuno/" + realDate +".mp3";
+
+//        EShow eShow = EShow.DJCI;
+//        String urlFixed = basePath + pathDate + "/episodes/deejay_chiama_italia/" + realDate +".mp3";
+
+        EShow eShow = EShow.TROP;
+        String urlFixed = basePath + pathDate + "/episodes/tropical_pizza/" + realDate + ".mp3";
 
         MP3Show custom = new MP3Show(eShow, realDate, urlFixed);
         custom.process();
