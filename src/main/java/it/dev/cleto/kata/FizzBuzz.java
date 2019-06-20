@@ -1,9 +1,5 @@
 package it.dev.cleto.kata;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class FizzBuzz {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
@@ -33,29 +29,29 @@ public class FizzBuzz {
         return value;
     }
 
-    @Test
-    public void fizzBuzz1() {
-        String fizzBuzz = printFizzBuzz(1);
-        assertEquals("1", fizzBuzz);
-    }
-
-    @Test
-    public void fizzBuzz3() {
-        String fizzBuzz = printFizzBuzz(3);
-        assertEquals("Fizz", fizzBuzz);
-    }
-
-    @Test
-    public void fizzBuzz5() {
-        String fizzBuzz = printFizzBuzz(5);
-        assertEquals("Buzz", fizzBuzz);
-    }
-
-    @Test
-    public void fizzBuzz15() {
-        String fizzBuzz = printFizzBuzz(15);
-        assertEquals("FizzBuzz", fizzBuzz);
-    }
+//    @Test
+//    public void fizzBuzz1() {
+//        String fizzBuzz = printFizzBuzz(1);
+//        assertEquals("1", fizzBuzz);
+//    }
+//
+//    @Test
+//    public void fizzBuzz3() {
+//        String fizzBuzz = printFizzBuzz(3);
+//        assertEquals("Fizz", fizzBuzz);
+//    }
+//
+//    @Test
+//    public void fizzBuzz5() {
+//        String fizzBuzz = printFizzBuzz(5);
+//        assertEquals("Buzz", fizzBuzz);
+//    }
+//
+//    @Test
+//    public void fizzBuzz15() {
+//        String fizzBuzz = printFizzBuzz(15);
+//        assertEquals("FizzBuzz", fizzBuzz);
+//    }
 
 
     private static String printFizzBuzz2(int i) {
