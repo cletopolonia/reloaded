@@ -33,16 +33,21 @@ public class MP3Show {
     private Date date;
     private EShow eshow;
     private String durationDownloadInSec;
+    private boolean hasOldUrl;
 
     private static Logger log = Logger.getLogger(MP3Show.class);
 
     public MP3Show(EShow eShow, Date date) {
         this.date = date;
         this.eshow = eShow;
-        this.url = createUrl(eshow);
+        if (eShow.isHasOldUrl())
+            this.url = createUrlOld(eshow);
+        else
+            this.url = createUrl(eshow);
         this.name = createName(eshow);
         this.path = createPath();
     }
+
 
     public MP3Show(EShow eShow, String date, String url) throws ParseException {
         this.date = Utils.parseDate(date);
@@ -184,7 +189,7 @@ public class MP3Show {
     }
 
     protected String createUrlOld(EShow eShow) {
-        return Utils.BASE_URL + eShow.getPartialUrl() + Utils.URL_SEPARATOR
+        return Utils.BASE_URL_OLD + eShow.getPartialUrl() + Utils.URL_SEPARATOR
                 + Utils.getDateFormat(getDate()) + Utils.EXT_MP3;
     }
 
