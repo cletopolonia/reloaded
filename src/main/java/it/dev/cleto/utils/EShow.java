@@ -9,7 +9,7 @@ public enum EShow {
 
     CR31("cr31", EDays.workingDay(), false, true, "chiamate_roma_triuno_triuno"),
     DJCI("djci", EDays.workingDay(), false, true, "deejay_chiama_italia"),
-    CATE("catt", EDays.workingDay(), false, true, "catteland"),
+    CATE("epcc", EDays.workingDay(), false, true, "catteland"),
     TROP("niki", EDays.workingDay(), false, true, "tropical_pizza"),
     DJFC("djfc", EDays.toList(EDays.SATURDAY), false, true, "deejay_football_club"),
     DJTC("djtc", EDays.toList(EDays.SUNDAY), false, true, "deejay_training_center"),
