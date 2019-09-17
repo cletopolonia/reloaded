@@ -74,8 +74,8 @@ public class Reloaded {
             return new Period();
         } else {
             log.info("invokePeriodCreation");
-            String from = "20160901";
-            String to = "20180701";
+            String from = "20190827";
+            String to = "20190921";
             return new Period(from, to);
         }
     }

@@ -7,14 +7,14 @@ import java.util.List;
 @Getter
 public enum EShow {
 
-    CR31("chiamate_roma_triuno_triuno", "cr31", EDays.workingDay(), false, true),
-    DJCI("deejay_chiama_italia", "djci", EDays.workingDay(), false, true),
-    TROP("tropical_pizza", "niki", EDays.workingDay(), false, true),
-    DJFC("deejay_football_club", "djfc", EDays.toList(EDays.SATURDAY), false, true),
-    CORD("cordialmente", "cord", EDays.toList(EDays.MONDAY), false, false),
-    PINO("pinocchio", "pino", EDays.workingDay(), false, false),
-    DJTC("deejay_training_center", "djtc", EDays.toList(EDays.SUNDAY), true, true),
-    ;
+    CR31("cr31", EDays.workingDay(), false, true, "chiamate_roma_triuno_triuno"),
+    DJCI("djci", EDays.workingDay(), false, true, "deejay_chiama_italia"),
+    CATE("catt", EDays.workingDay(), false, true, "catteland"),
+    TROP("niki", EDays.workingDay(), false, true, "tropical_pizza"),
+    DJFC("djfc", EDays.toList(EDays.SATURDAY), false, true, "deejay_football_club"),
+    DJTC("djtc", EDays.toList(EDays.SUNDAY), false, true, "deejay_training_center"),
+    PINO("pino", EDays.workingDay(), false, false, "pinocchio"),
+    CORD("cord", EDays.toList(EDays.MONDAY), false, false, "cordialmente");
 
     private String partialUrl;
     private String name;
@@ -22,18 +22,11 @@ public enum EShow {
     private boolean enabled;
     private boolean hasOldUrl;
 
-    EShow(String partialUrl, String name, List<EDays> days, boolean hasOldUrl, boolean enabled) {
+    EShow(String name, List<EDays> days, boolean hasOldUrl, boolean enabled, String partialUrl) {
         this.partialUrl = partialUrl;
         this.name = name;
         this.days = days;
         this.enabled = enabled;
         this.hasOldUrl = hasOldUrl;
     }
-//
-//    EShow(String partialUrl, String name) {
-//        this.partialUrl = partialUrl;
-//        this.name = name;
-//        this.days = EDays.workingDay();
-//        this.enabled = true;
-//    }
 }
