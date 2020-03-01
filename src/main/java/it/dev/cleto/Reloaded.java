@@ -5,15 +5,14 @@ import it.dev.cleto.media.Programming;
 import it.dev.cleto.utils.EShow;
 import it.dev.cleto.utils.Period;
 import it.dev.cleto.utils.Utils;
-import org.apache.log4j.Logger;
+import lombok.extern.log4j.Log4j;
 
 import java.text.ParseException;
 import java.util.Date;
 
 
+@Log4j
 public class Reloaded {
-    private static Logger log = Logger.getLogger(Reloaded.class);
-
     private static void start() {
 
         // TODO: aggiungere dei file temporanei per i file richiesti che non sei riuscito a trovare.

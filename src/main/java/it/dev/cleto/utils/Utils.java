@@ -1,6 +1,6 @@
 package it.dev.cleto.utils;
 
-import org.apache.log4j.Logger;
+import lombok.extern.log4j.Log4j;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,15 +11,14 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.logging.Handler;
 
+@Log4j
 public class Utils {
-
-    private static final Logger log = Logger.getLogger(Utils.class);
     private static final Integer DECORATOR_WIDTH = 80;
     private static final String DATE_FORMAT = "yyyyMMdd";
     private static final String DAY_FORMAT = "EEEE";
     private static final String TIME_FORMAT = "HH:mm:ss";
     private static final String DATE_PATH_URL_FORMAT = "yyyy/MM/dd";
-    public static final String COMMA = ",";
+    private static final String COMMA = ",";
     private static SimpleDateFormat sdfDate = new SimpleDateFormat(DATE_FORMAT);
     private static SimpleDateFormat sdfDay = new SimpleDateFormat(DAY_FORMAT);
     private static SimpleDateFormat sdfTime = new SimpleDateFormat(TIME_FORMAT);
@@ -101,7 +100,7 @@ public class Utils {
         return new Date();
     }
 
-    private static String getLastLine(String path) {
+    protected static String getLastLine(String path) {
         List<String> result = new ArrayList<>();
         FileReader in = null;
         try {

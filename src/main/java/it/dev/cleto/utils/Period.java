@@ -31,7 +31,7 @@ public class Period {
         validatePeriod(start, end);
     }
 
-    private static void validatePeriod(Date start, Date end) {
+    protected static void validatePeriod(Date start, Date end) {
         if (start.after(end))
             throw new RuntimeException("Invalid period - start[" + Utils.getDateFormat(start) + "] end[" + Utils.getDateFormat(end) + "]");
     }

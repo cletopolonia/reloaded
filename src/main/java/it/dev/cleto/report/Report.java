@@ -3,7 +3,7 @@ package it.dev.cleto.report;
 import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.log4j.Logger;
+import lombok.extern.log4j.Log4j;
 
 import java.io.*;
 import java.util.Arrays;
@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 @Getter
 @Setter
+@Log4j
 public class Report {
 
     private static final String NAME = "name";
@@ -22,8 +23,6 @@ public class Report {
     private static final String DIMENSION = "MB";
     private static final String DURATION_MP3 = "min";
     private static final String SEPARATOR = ",";
-
-    Logger log = Logger.getLogger(Report.class);
 
     private File report;
 

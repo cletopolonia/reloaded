@@ -7,7 +7,7 @@ import it.dev.cleto.utils.EShow;
 import it.dev.cleto.utils.Utils;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.log4j.Logger;
+import lombok.extern.log4j.Log4j;
 import org.farng.mp3.AbstractMP3Tag;
 import org.farng.mp3.MP3File;
 import org.farng.mp3.TagException;
@@ -25,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 
 @Getter
 @Setter
+@Log4j
 public class MP3Show {
     private String url;
     private String path;
@@ -34,8 +35,6 @@ public class MP3Show {
     private EShow eshow;
     private String durationDownloadInSec;
     private boolean hasOldUrl;
-
-    private static Logger log = Logger.getLogger(MP3Show.class);
 
     public MP3Show(EShow eShow, Date date) {
         this.date = date;

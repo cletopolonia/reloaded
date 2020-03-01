@@ -7,7 +7,14 @@ import java.util.List;
 @Getter
 public enum EShow {
 
+    OLD_CR31("cr31", EDays.workingDay(), true, false, "chiamate_roma_triuno_triuno"),
+    OLD_DJCI("djci", EDays.workingDay(), true, false, "deejay_chiama_italia"),
     OLD_EPCC("epcc", EDays.workingDay(), true, true, "catteland"),
+    OLD_TROP("niki", EDays.workingDay(), true, false, "tropical_pizza"),
+    OLD_PINO("pino", EDays.workingDay(), true, false, "pinocchio"),
+    OLD_DJFC("djfc", EDays.toList(EDays.SATURDAY), true, false, "deejay_football_club"),
+    OLD_DJTC("djtc", EDays.toList(EDays.SUNDAY), true, false, "deejay_training_center"),
+    OLD_CORD("cord", EDays.toList(EDays.MONDAY), true, false, "cordialmente"),
     CR31("cr31", EDays.workingDay(), false, true, "chiamate_roma_triuno_triuno"),
     DJCI("djci", EDays.workingDay(), false, true, "deejay_chiama_italia"),
     EPCC("epcc", EDays.workingDay(), false, true, "catteland"),
