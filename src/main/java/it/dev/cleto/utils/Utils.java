@@ -13,16 +13,17 @@ import java.util.logging.Handler;
 
 public class Utils {
 
-    private static final Integer DECORATOR_WIDTH = 80;
     private static final Logger log = Logger.getLogger(Utils.class);
+    private static final Integer DECORATOR_WIDTH = 80;
     private static final String DATE_FORMAT = "yyyyMMdd";
     private static final String DAY_FORMAT = "EEEE";
     private static final String TIME_FORMAT = "HH:mm:ss";
     private static final String DATE_PATH_URL_FORMAT = "yyyy/MM/dd";
-    private static final SimpleDateFormat SDF_DATE = new SimpleDateFormat(DATE_FORMAT);
-    private static final SimpleDateFormat SDF_DAY = new SimpleDateFormat(DAY_FORMAT);
-    private static final SimpleDateFormat SDF_TIME = new SimpleDateFormat(TIME_FORMAT);
-    private static final SimpleDateFormat SDF_DATE_PATH_URL = new SimpleDateFormat(DATE_PATH_URL_FORMAT);
+    public static final String COMMA = ",";
+    private static SimpleDateFormat sdfDate = new SimpleDateFormat(DATE_FORMAT);
+    private static SimpleDateFormat sdfDay = new SimpleDateFormat(DAY_FORMAT);
+    private static SimpleDateFormat sdfTime = new SimpleDateFormat(TIME_FORMAT);
+    private static SimpleDateFormat sdfDatePathUrl = new SimpleDateFormat(DATE_PATH_URL_FORMAT);
 
     public static final String EXT_MP3 = ".mp3";
     public static final String EXT_ORIGINAL_MP3 = ".original.mp3";
@@ -41,15 +42,15 @@ public class Utils {
 
 
     public static String getDateFormat(Date date) {
-        return SDF_DATE.format(date);
+        return sdfDate.format(date);
     }
 
     public static String getDayFormat(Date date) {
-        return SDF_DAY.format(date).toUpperCase();
+        return sdfDay.format(date).toUpperCase();
     }
 
     public static String getTimeFormat(Date date) {
-        return SDF_TIME.format(date);
+        return sdfTime.format(date);
     }
 
     public static String getDateCompleteFormat(Date date) {
@@ -57,11 +58,11 @@ public class Utils {
     }
 
     private static Date parseTime(String date) throws ParseException {
-        return SDF_TIME.parse(date);
+        return sdfTime.parse(date);
     }
 
     public static Date parseDate(String date) throws ParseException {
-        return SDF_DATE.parse(date);
+        return sdfDate.parse(date);
     }
 
     public static String getNowCompleteFormat() {
@@ -70,7 +71,7 @@ public class Utils {
     }
 
     public static void banner(String message) {
-        System.out.println(mark(message));
+        log.info(mark(message));
     }
 
     protected static String decorator() {
@@ -80,7 +81,7 @@ public class Utils {
     }
 
     protected static String mark(final String message) {
-        final StringBuilder mark = new StringBuilder();
+        StringBuilder mark = new StringBuilder();
         mark.append(LINE);
         mark.append(decorator());
         mark.append(message + LINE);
@@ -90,7 +91,7 @@ public class Utils {
 
     public static Date dateLastDownload() {
         String res = getLastLine(DOWNLOADS_CSV);
-        String array[] = res.split(",");
+        String[] array = res.split(COMMA);
         String dateString = array[0];
         try {
             return parseDate(dateString);
@@ -106,7 +107,7 @@ public class Utils {
         try {
             in = new FileReader(path);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            log.error(e);
         }
         try (BufferedReader reader = new BufferedReader(in)) {
             String line = reader.readLine();
@@ -136,6 +137,6 @@ public class Utils {
     }
 
     public static String getDatePathUrlFormat(Date date) {
-        return SDF_DATE_PATH_URL.format(date);
+        return sdfDatePathUrl.format(date);
     }
 }

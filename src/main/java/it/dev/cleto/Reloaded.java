@@ -16,15 +16,20 @@ public class Reloaded {
 
     private static void start() {
 
+        // TODO: aggiungere dei file temporanei per i file richiesti che non sei riuscito a trovare.
+        // TODO: aggiungere dei file temporaneo per l'ultimo scaricato, al posto di leggere l'ultima riga del file.
+
         // TODO inserire i test
         // TODO creare la configuration
-        // TODO trasformare il csv in excel
+        // TODO trasformare il in db
+        // TODO trasformare il tutto in apis
+        // todo dockerize
 
         Utils.banner("Start");
         try {
             Utils.disableLoggerJAudioTagger();
             invokeSingleDownload(false);
-            Period period = invokePeriodCreation(false);
+            Period period = invokePeriodCreation(true);
             while (period.continueDownload()) {
                 Date elaborationDate = period.getStart();
                 log.info("date: " + Utils.getDateFormat(elaborationDate));
@@ -73,9 +78,9 @@ public class Reloaded {
         if (!isCustomEnabled) {
             return new Period();
         } else {
-            log.info("invokePeriodCreation");
-            String from = "20190827";
-            String to = "20190921";
+            log.info("invokePeriodCre   ation");
+            String from = "20181231"; // catelland scaricate dal 31 dic 2018
+            String to = "20190131";
             return new Period(from, to);
         }
     }

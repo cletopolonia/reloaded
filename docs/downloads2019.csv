@@ -1,0 +1,930 @@
+timestamp        ,path                                 ,name,download (in secs),MB ,min,url
+20190308 13:53:01,/home/biadmin/Music/20190208_pino.mp3,pino,45                ,75 ,82 ,sentito fino a qui
+20190308 13:53:01,/home/biadmin/Music/20190308_cr31.mp3,cr31,45                ,75 ,82 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190308.mp3
+20190308 13:53:38,/home/biadmin/Music/20190308_djci.mp3,djci,35                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190308.mp3
+20190311 08:43:32,/home/biadmin/Music/20190309_djfc.mp3,djfc,29                ,81 ,88 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190309.mp3
+20190311 12:26:41,/home/biadmin/Music/20190311_cr31.mp3,cr31,40                ,77 ,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190311.mp3
+20190311 12:27:30,/home/biadmin/Music/20190311_djci.mp3,djci,48                ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190311.mp3
+20190311 16:54:53,/home/biadmin/Music/20190307_niki.mp3,niki,29                ,72 ,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190307.mp3
+20190311 16:56:02,/home/biadmin/Music/20190308_niki.mp3,niki,43                ,72 ,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190308.mp3
+20190311 17:20:37,/home/biadmin/Music/20190311_niki.mp3,niki,15                ,79 ,86 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190311.mp3
+20190312 12:17:14,/home/biadmin/Music/20190312_cr31.mp3,cr31,13                ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190312.mp3
+20190312 14:56:00,/home/biadmin/Music/20190312_djci.mp3,djci,18                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190312.mp3
+20190312 17:19:36,/home/biadmin/Music/20190312_niki.mp3,niki,14                ,75 ,82 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190312.mp3
+20190313 10:38:22,/home/biadmin/Music/20190313_cr31.mp3,cr31,51                ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190313.mp3
+20190313 12:36:03,/home/biadmin/Music/20190313_djci.mp3,djci,13                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190313.mp3
+20190314 11:53:18,/home/biadmin/Music/20190313_niki.mp3,niki,41                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190313.mp3
+20190314 11:54:07,/home/biadmin/Music/20190314_cr31.mp3,cr31,49                ,76 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190314.mp3
+20190314 12:43:10,/home/biadmin/Music/20190314_djci.mp3,djci,16                ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190314.mp3
+20190314 17:20:00,/home/biadmin/Music/20190314_niki.mp3,niki,23                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190314.mp3
+20190315 12:22:05,/home/biadmin/Music/20190315_cr31.mp3,cr31,20                ,76 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190315.mp3
+20190315 12:52:06,/home/biadmin/Music/20190315_djci.mp3,djci,42                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190315.mp3
+20190318 09:56:00,/home/biadmin/Music/20190315_niki.mp3,niki,10                ,75 ,82 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190315.mp3
+20190318 09:56:11,/home/biadmin/Music/20190316_djfc.mp3,djfc,10                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190316.mp3
+20190318 14:33:56,/home/biadmin/Music/20190318_djci.mp3,djci,8                 ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190318.mp3
+20190319 08:41:26,/home/biadmin/Music/20190318_niki.mp3,niki,21                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190318.mp3
+20190319 12:39:18,/home/biadmin/Music/20190319_djci.mp3,djci,17                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190319.mp3
+20190319 17:15:41,/home/biadmin/Music/20190319_niki.mp3,niki,19                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190319.mp3
+20190321 08:34:35,/home/biadmin/Music/20190320_djci.mp3,djci,110               ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190320.mp3
+20190321 08:36:17,/home/biadmin/Music/20190320_niki.mp3,niki,100               ,73 ,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190320.mp3
+20190321 13:56:36,/home/biadmin/Music/20190321_djci.mp3,djci,12                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190321.mp3
+20190322 12:17:21,/home/biadmin/Music/20190321_niki.mp3,niki,11                ,74 ,81 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190321.mp3
+20190322 12:26:50,/home/biadmin/Music/20190322_djci.mp3,djci,31                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190322.mp3
+20190322 17:24:57,/home/biadmin/Music/20190322_niki.mp3,niki,58                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190322.mp3
+20190325 08:51:42,/home/biadmin/Music/20190323_djfc.mp3,djfc,30                ,87 ,95 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190323.mp3
+20190325 12:33:31,/home/biadmin/Music/20190325_cr31.mp3,cr31,19                ,82 ,90 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190325.mp3
+20190325 16:48:18,/home/biadmin/Music/20190325_djci.mp3,djci,30                ,91 ,100,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190325.mp3
+20190326 09:03:16,/home/biadmin/Music/20190325_niki.mp3,niki,28                ,84 ,92 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190325.mp3
+20190326 10:13:37,/home/biadmin/Music/20190326_cr31.mp3,cr31,18                ,83 ,91 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190326.mp3
+20190326 12:50:25,/home/biadmin/Music/20190326_djci.mp3,djci,40                ,95 ,104,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190326.mp3
+20190327 08:51:26,/home/biadmin/Music/20190326_niki.mp3,niki,36                ,85 ,93 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190326.mp3
+20190327 11:16:40,/home/biadmin/Music/20190327_cr31.mp3,cr31,26                ,82 ,90 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190327.mp3
+20190327 12:46:32,/home/biadmin/Music/20190327_djci.mp3,djci,116               ,91 ,100,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190327.mp3
+20190327 17:20:52,/home/biadmin/Music/20190327_niki.mp3,niki,22                ,85 ,94 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190327.mp3
+20190328 14:19:06,/home/biadmin/Music/20190328_cr31.mp3,cr31,16                ,83 ,91 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190328.mp3
+20190328 14:19:31,/home/biadmin/Music/20190328_djci.mp3,djci,23                ,91 ,99 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190328.mp3
+20190328 17:29:30,/home/biadmin/Music/20190328_niki.mp3,niki,15                ,81 ,89 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190328.mp3
+20190329 12:19:26,/home/biadmin/Music/20190329_cr31.mp3,cr31,42                ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190329.mp3
+20190329 12:44:29,/home/biadmin/Music/20190329_djci.mp3,djci,30                ,88 ,96 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190329.mp3
+20190401 12:09:13,/home/biadmin/Music/20190329_niki.mp3,niki,15                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190329.mp3
+20190401 12:09:27,/home/biadmin/Music/20190330_djfc.mp3,djfc,13                ,92 ,101,https://media.deejay.it/legacy/audio/deejay_football_club/20190330.mp3
+20190401 12:41:43,/home/biadmin/Music/20190401_cr31.mp3,cr31,9                 ,76 ,83 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190104.mp3
+20190401 14:43:40,/home/biadmin/Music/20190401_djci.mp3,djci,9                 ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190401.mp3
+20190401 17:42:49,/home/biadmin/Music/20190401_niki.mp3,niki,10                ,80 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190401.mp3
+20190402 11:20:01,/home/biadmin/Music/20190402_cr31.mp3,cr31,8                 ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190402.mp3
+20190402 13:00:02,/home/biadmin/Music/20190402_djci.mp3,djci,29                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190402.mp3
+20190403 12:28:40,/home/biadmin/Music/20190402_niki.mp3,niki,12                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190402.mp3
+20190403 12:28:49,/home/biadmin/Music/20190403_cr31.mp3,cr31,8                 ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190403.mp3
+20190403 12:29:00,/home/biadmin/Music/20190403_djci.mp3,djci,10                ,86 ,94 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190403.mp3
+20190403 17:48:26,/home/biadmin/Music/20190403_niki.mp3,niki,10                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190403.mp3
+20190404 10:30:04,/home/biadmin/Music/20190404_cr31.mp3,cr31,23                ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190404.mp3
+20190404 17:24:14,/home/biadmin/Music/20190404_niki.mp3,niki,23                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190404.mp3
+20190404 17:27:22,/home/biadmin/Music/20190404_djci.mp3,djci,25                ,84 ,92 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190404.1.mp3
+20190405 12:33:09,/home/biadmin/Music/20190405_cr31.mp3,cr31,8                 ,79 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190405.mp3
+20190405 12:33:18,/home/biadmin/Music/20190405_djci.mp3,djci,8                 ,84 ,92 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190405.mp3
+20190405 18:36:14,/home/biadmin/Music/20190405_niki.mp3,niki,7                 ,73 ,80 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190405.mp3
+20190408 10:06:49,/home/biadmin/Music/20190406_djfc.mp3,djfc,26                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190406.mp3
+20190408 10:07:12,/home/biadmin/Music/20190408_cr31.mp3,cr31,23                ,78 ,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190408.mp3
+20190408 14:20:59,/home/biadmin/Music/20190408_djci.mp3,djci,129               ,84 ,92 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190408.mp3
+20190408 17:49:57,/home/biadmin/Music/20190408_niki.mp3,niki,130               ,75 ,82 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190408.mp3
+20190409 12:13:43,/home/biadmin/Music/20190409_cr31.mp3,cr31,24                ,79 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190409.mp3
+20190409 12:36:50,/home/biadmin/Music/20190409_djci.mp3,djci,25                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190409.mp3
+20190409 17:17:01,/home/biadmin/Music/20190409_niki.mp3,niki,25                ,75 ,82 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190409.mp3
+20190410 12:16:43,/home/biadmin/Music/20190410_cr31.mp3,cr31,8                 ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190410.mp3
+20190410 12:42:07,/home/biadmin/Music/20190410_djci.mp3,djci,8                 ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190410.mp3
+20190410 17:26:27,/home/biadmin/Music/20190410_niki.mp3,niki,9                 ,68 ,74 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190410.mp3
+20190411 10:24:29,/home/biadmin/Music/20190411_cr31.mp3,cr31,7                 ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190411.mp3
+20190411 12:37:07,/home/biadmin/Music/20190411_djci.mp3,djci,10                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190411.mp3
+20190412 08:38:23,/home/biadmin/Music/20190411_niki.mp3,niki,28                ,69 ,75 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190411.mp3
+20190412 11:17:23,/home/biadmin/Music/20190412_cr31.mp3,cr31,32                ,77 ,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190412.mp3
+20190412 12:40:15,/home/biadmin/Music/20190412_djci.mp3,djci,24                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190412.mp3
+20190412 17:34:31,/home/biadmin/Music/20190412_niki.mp3,niki,22                ,74 ,81 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190412.mp3
+20190415 11:11:10,/home/biadmin/Music/20190413_djfc.mp3,djfc,10                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190413.mp3
+20190415 11:11:18,/home/biadmin/Music/20190415_cr31.mp3,cr31,7                 ,80 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190415.mp3
+20190415 12:48:06,/home/biadmin/Music/20190415_djci.mp3,djci,10                ,88 ,97 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190415.mp3
+20190415 17:23:11,/home/biadmin/Music/20190415_niki.mp3,niki,8                 ,82 ,90 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190415.mp3
+20190416 10:07:42,/home/biadmin/Music/20190416_cr31.mp3,cr31,24                ,82 ,90 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190416.mp3
+20190416 12:27:42,/home/biadmin/Music/20190416_djci.mp3,djci,26                ,85 ,94 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190416.mp3
+20190416 17:17:52,/home/biadmin/Music/20190416_niki.mp3,niki,23                ,76 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190416.mp3
+20190417 10:26:59,/home/biadmin/Music/20190417_cr31.mp3,cr31,8                 ,84 ,92 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190417.mp3
+20190417 13:46:25,/home/biadmin/Music/20190417_djci.mp3,djci,8                 ,85 ,94 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190417.mp3
+20190417 17:18:55,/home/biadmin/Music/20190417_niki.mp3,niki,22                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190417.mp3
+20190418 09:55:10,/home/biadmin/Music/20190418_cr31.mp3,cr31,25                ,82 ,89 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190418.mp3
+20190418 12:55:45,/home/biadmin/Music/20190418_djci.mp3,djci,30                ,86 ,95 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190418.mp3
+20190418 17:16:48,/home/biadmin/Music/20190418_niki.mp3,niki,24                ,79 ,87 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190418.mp3
+20190423 08:11:58,/home/biadmin/Music/20190419_cr31.mp3,cr31,74                ,81 ,88 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190419.mp3
+20190423 08:12:49,/home/biadmin/Music/20190419_djci.mp3,djci,50                ,88 ,96 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190419.mp3
+20190423 08:14:47,/home/biadmin/Music/20190419_niki.mp3,niki,118               ,81 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190419.mp3
+20190423 08:16:11,/home/biadmin/Music/20190420_djfc.mp3,djfc,82                ,91 ,100,https://media.deejay.it/legacy/audio/deejay_football_club/20190420.mp3
+20190423 08:16:37,/home/biadmin/Music/20190422_niki.mp3,niki,25                ,83 ,91 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190422.mp3
+20190424 09:08:51,/home/biadmin/Music/20190423_niki.mp3,niki,11                ,87 ,95 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190423.mp3
+20190424 17:36:53,/home/biadmin/Music/20190424_niki.mp3,niki,13                ,83 ,91 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190424.mp3
+20190425 18:27:11,/home/biadmin/Music/20190425_niki.mp3,niki,30                ,79 ,87 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190425.mp3
+20190426 18:07:32,/home/biadmin/Music/20190426_niki.mp3,niki,24                ,80 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190426.mp3
+20190429 09:12:32,/home/biadmin/Music/20190427_djfc.mp3,djfc,11                ,95 ,104,https://media.deejay.it/legacy/audio/deejay_football_club/20190427.mp3
+20190429 11:40:31,/home/biadmin/Music/20190429_cr31.mp3,cr31,8                 ,87 ,95 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190429.mp3
+20190429 12:58:44,/home/biadmin/Music/20190429_djci.mp3,djci,20                ,93 ,102,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190429.mp3
+20190429 17:32:16,/home/biadmin/Music/20190429_niki.mp3,niki,9                 ,88 ,97 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190429.mp3
+20190430 09:59:36,/home/biadmin/Music/20190430_cr31.mp3,cr31,27                ,88 ,96 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190430.mp3
+20190430 12:49:48,/home/biadmin/Music/20190430_djci.mp3,djci,29                ,93 ,102,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190430.mp3
+20190430 18:34:07,/home/biadmin/Music/20190430_niki.mp3,niki,15                ,81 ,89 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190430.mp3
+20190502 08:51:26,/home/biadmin/Music/20190501_djci.mp3,djci,8                 ,90 ,98 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190501.mp3
+20190502 08:51:36,/home/biadmin/Music/20190501_niki.mp3,niki,10                ,86 ,95 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190501.mp3
+20190502 10:24:24,/home/biadmin/Music/20190502_cr31.mp3,cr31,8                 ,84 ,92 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190502.mp3
+20190502 13:08:57,/home/biadmin/Music/20190502_djci.mp3,djci,8                 ,89 ,97 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190502.mp3
+20190503 08:58:43,/home/biadmin/Music/20190502_niki.mp3,niki,27                ,85 ,93 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190502.mp3
+20190503 09:26:52,/home/biadmin/Music/20190503_cr31.mp3,cr31,68                ,81 ,89 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190503.mp3
+20190503 12:54:20,/home/biadmin/Music/20190503_djci.mp3,djci,25                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190503.mp3
+20190503 17:54:19,/home/biadmin/Music/20190503_niki.mp3,niki,23                ,76 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190503.mp3
+20190504 15:08:54,/home/biadmin/Music/20190504_djfc.mp3,djfc,38                ,90 ,98 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190504.mp3
+20190506 09:52:59,/home/biadmin/Music/20190506_cr31.mp3,cr31,24                ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190506.mp3
+20190506 12:46:44,/home/biadmin/Music/20190506_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190506.mp3
+20190506 17:15:53,/home/biadmin/Music/20190506_niki.mp3,niki,24                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190506.mp3
+20190507 12:30:41,/home/biadmin/Music/20190507_cr31.mp3,cr31,24                ,79 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190507.mp3
+20190507 12:31:07,/home/biadmin/Music/20190507_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190507.mp3
+20190507 17:36:40,/home/biadmin/Music/20190507_niki.mp3,niki,24                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190507.mp3
+20190508 10:18:05,/home/biadmin/Music/20190508_cr31.mp3,cr31,9                 ,75 ,83 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190508.mp3
+20190508 12:26:58,/home/biadmin/Music/20190508_djci.mp3,djci,11                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190508.mp3
+20190508 17:19:37,/home/biadmin/Music/20190508_niki.mp3,niki,11                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190508.mp3
+20190509 10:07:11,/home/biadmin/Music/20190509_cr31.mp3,cr31,23                ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190509.mp3
+20190509 12:33:00,/home/biadmin/Music/20190509_djci.mp3,djci,25                ,81 ,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190509.mp3
+20190509 17:38:46,/home/biadmin/Music/20190509_niki.mp3,niki,22                ,73 ,80 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190509.mp3
+20190510 10:36:26,/home/biadmin/Music/20190510_cr31.mp3,cr31,26                ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190510.mp3
+20190510 12:42:28,/home/biadmin/Music/20190510_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190510.mp3
+20190510 17:18:14,/home/biadmin/Music/20190510_niki.mp3,niki,23                ,74 ,81 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190510.mp3
+20190513 08:51:41,/home/biadmin/Music/20190511_djfc.mp3,djfc,47                ,86 ,94 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190511.mp3
+20190513 11:08:56,/home/biadmin/Music/20190513_cr31.mp3,cr31,24                ,76 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190513.mp3
+20190513 12:45:19,/home/biadmin/Music/20190513_djci.mp3,djci,25                ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190513.mp3
+20190513 17:27:47,/home/biadmin/Music/20190513_niki.mp3,niki,23                ,74 ,81 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190513.mp3
+20190514 09:46:06,/home/biadmin/Music/20190514_cr31.mp3,cr31,24                ,78 ,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190514.mp3
+20190514 12:34:38,/home/biadmin/Music/20190514_djci.mp3,djci,25                ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190514.mp3
+20190514 17:19:49,/home/biadmin/Music/20190514_niki.mp3,niki,22                ,72 ,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190514.mp3
+20190515 10:18:28,/home/biadmin/Music/20190515_cr31.mp3,cr31,34                ,75 ,82 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190515.mp3
+20190515 12:28:26,/home/biadmin/Music/20190515_djci.mp3,djci,35                ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190515.mp3
+20190515 17:41:11,/home/biadmin/Music/20190515_niki.mp3,niki,9                 ,72 ,78 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190515.mp3
+20190516 09:44:36,/home/biadmin/Music/20190516_cr31.mp3,cr31,27                ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190516.mp3
+20190516 12:41:27,/home/biadmin/Music/20190516_djci.mp3,djci,25                ,83 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190516.mp3
+20190516 17:23:51,/home/biadmin/Music/20190516_niki.mp3,niki,21                ,71 ,78 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190516.mp3
+20190517 10:40:09,/home/biadmin/Music/20190517_cr31.mp3,cr31,9                 ,76 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190517.mp3
+20190517 13:05:15,/home/biadmin/Music/20190517_djci.mp3,djci,9                 ,83 ,91 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190517.mp3
+20190517 17:20:00,/home/biadmin/Music/20190517_niki.mp3,niki,17                ,72 ,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190517.mp3
+20190520 08:22:49,/home/biadmin/Music/20190518_djfc.mp3,djfc,8                 ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190518.mp3
+20190520 10:48:10,/home/biadmin/Music/20190520_cr31.mp3,cr31,11                ,76 ,83 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190520.mp3
+20190520 12:46:25,/home/biadmin/Music/20190520_djci.mp3,djci,8                 ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190520.mp3
+20190520 17:23:48,/home/biadmin/Music/20190520_niki.mp3,niki,11                ,71 ,78 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190520.mp3
+20190521 09:39:07,/home/biadmin/Music/20190521_cr31.mp3,cr31,23                ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190521.mp3
+20190521 14:10:14,/home/biadmin/Music/20190521_djci.mp3,djci,24                ,80 ,87 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190521.mp3
+20190521 17:15:59,/home/biadmin/Music/20190521_niki.mp3,niki,21                ,70 ,76 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190521.mp3
+20190522 10:28:18,/home/biadmin/Music/20190522_cr31.mp3,cr31,8                 ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190522.mp3
+20190522 12:26:26,/home/biadmin/Music/20190522_djci.mp3,djci,14                ,82 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190522.mp3
+20190522 17:30:30,/home/biadmin/Music/20190522_niki.mp3,niki,16                ,81 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190522.mp3
+20190523 09:37:13,/home/biadmin/Music/20190523_cr31.mp3,cr31,24                ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190523.mp3
+20190523 12:27:14,/home/biadmin/Music/20190523_djci.mp3,djci,25                ,83 ,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190523.mp3
+20190523 17:20:29,/home/biadmin/Music/20190523_niki.mp3,niki,20                ,67 ,73 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190523.mp3
+20190524 10:13:11,/home/biadmin/Music/20190524_cr31.mp3,cr31,23                ,76 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190524.mp3
+20190524 14:56:15,/home/biadmin/Music/20190524_djci.mp3,djci,25                ,80 ,88 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190524.mp3
+20190524 17:22:04,/home/biadmin/Music/20190524_niki.mp3,niki,21                ,70 ,76 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190524.mp3
+20190527 11:18:59,/home/biadmin/Music/20190525_djfc.mp3,djfc,10                ,85 ,93 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190525.mp3
+20190527 11:19:07,/home/biadmin/Music/20190527_cr31.mp3,cr31,7                 ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190527.mp3
+20190527 12:46:11,/home/biadmin/Music/20190527_djci.mp3,djci,9                 ,86 ,94 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190527.mp3
+20190527 17:27:35,/home/biadmin/Music/20190527_niki.mp3,niki,12                ,81 ,89 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190527.mp3
+20190528 10:46:46,/home/biadmin/Music/20190528_cr31.mp3,cr31,25                ,83 ,91 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190528.mp3
+20190528 12:30:39,/home/biadmin/Music/20190528_djci.mp3,djci,26                ,86 ,95 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190528.mp3
+20190528 17:32:46,/home/biadmin/Music/20190528_niki.mp3,niki,25                ,83 ,90 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190528.mp3
+20190529 12:54:28,/home/biadmin/Music/20190529_cr31.mp3,cr31,35                ,81 ,89 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190529.mp3
+20190529 12:55:05,/home/biadmin/Music/20190529_djci.mp3,djci,35                ,87 ,95 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190529.mp3
+20190529 17:28:22,/home/biadmin/Music/20190529_niki.mp3,niki,11                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190529.mp3
+20190530 10:45:50,/home/biadmin/Music/20190530_cr31.mp3,cr31,24                ,79 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190530.mp3
+20190530 12:38:11,/home/biadmin/Music/20190530_djci.mp3,djci,25                ,84 ,92 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190530.mp3
+20190530 17:46:37,/home/biadmin/Music/20190530_niki.mp3,niki,23                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190530.mp3
+20190531 16:59:56,/home/biadmin/Music/20190531_cr31.mp3,cr31,25                ,79 ,86 ,https://media.deejay.it/legacy/podcast/trio/audio/20190531.mp3
+20190531 17:20:53,/home/biadmin/Music/20190531_niki.mp3,niki,25                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190531.mp3
+20190602 15:39:41,/home/biadmin/Music/20190601_djfc.mp3,djfc,27                ,90 ,99 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190601.mp3
+20190603 10:23:07,/home/biadmin/Music/20190603_cr31.mp3,cr31,26                ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190603.mp3
+20190603 12:44:51,/home/biadmin/Music/20190603_djci.mp3,djci,33                ,110,120,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190603.mp3
+20190604 09:11:02,/home/biadmin/Music/20190603_niki.mp3,niki,11                ,80 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190603.mp3
+20190604 11:23:03,/home/biadmin/Music/20190604_cr31.mp3,cr31,10                ,81 ,88 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190604.mp3
+20190604 13:57:27,/home/biadmin/Music/20190604_djci.mp3,djci,11                ,106,116,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190604.mp3
+20190605 09:07:12,/home/biadmin/Music/20190604_niki.mp3,niki,45                ,81 ,89 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190604.mp3
+20190605 12:20:58,/home/biadmin/Music/20190605_cr31.mp3,cr31,9                 ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190605.mp3
+20190605 12:52:00,/home/biadmin/Music/20190605_djci.mp3,djci,11                ,108,118,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190605.mp3
+20190606 14:08:09,/home/biadmin/Music/20190605_niki.mp3,niki,36                ,77 ,84 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190605.mp3
+20190606 14:08:40,/home/biadmin/Music/20190606_cr31.mp3,cr31,30                ,79 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190606.mp3
+20190606 14:09:21,/home/biadmin/Music/20190606_djci.mp3,djci,39                ,107,117,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190606.mp3
+20190607 12:54:33,/home/biadmin/Music/20190606_niki.mp3,niki,23                ,73 ,80 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190606.mp3
+20190607 12:54:58,/home/biadmin/Music/20190607_cr31.mp3,cr31,24                ,80 ,88 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190607.mp3
+20190607 12:55:29,/home/biadmin/Music/20190607_djci.mp3,djci,31                ,104,114,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190607.mp3
+20190608 09:52:17,/home/biadmin/Music/20190607_niki.mp3,niki,16                ,78 ,86 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190607.mp3
+20190610 11:34:36,/home/biadmin/Music/20190610_cr31.mp3,cr31,23                ,78 ,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190610.mp3
+20190610 16:06:24,/home/biadmin/Music/20190610_djci.mp3,djci,32                ,104,114,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190610.mp3
+20190610 19:47:15,/home/biadmin/Music/20190610_niki.mp3,niki,26                ,81 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190610.mp3
+20190611 11:24:42,/home/biadmin/Music/20190611_cr31.mp3,cr31,11                ,80 ,87 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190611.mp3
+20190611 13:17:06,/home/biadmin/Music/20190611_djci.mp3,djci,12                ,106,116,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190611.mp3
+20190612 09:31:13,/home/biadmin/Music/20190611_niki.mp3,niki,10                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190611.mp3
+20190612 12:48:58,/home/biadmin/Music/20190612_cr31.mp3,cr31,11                ,81 ,88 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190612.mp3
+20190612 12:49:11,/home/biadmin/Music/20190612_djci.mp3,djci,12                ,107,117,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190612.mp3
+20190613 08:42:50,/home/biadmin/Music/20190612_niki.mp3,niki,23                ,77 ,85 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190612.mp3
+20190613 10:10:07,/home/biadmin/Music/20190613_cr31.mp3,cr31,23                ,77 ,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190613.mp3
+20190613 14:06:24,/home/biadmin/Music/20190613_djci.mp3,djci,31                ,102,112,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190613.mp3
+20190614 09:06:55,/home/biadmin/Music/20190613_niki.mp3,niki,10                ,79 ,86 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190613.mp3
+20190614 11:15:44,/home/biadmin/Music/20190614_cr31.mp3,cr31,8                 ,77 ,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190614.mp3
+20190614 12:54:47,/home/biadmin/Music/20190614_djci.mp3,djci,14                ,107,117,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190614.mp3
+20190617 08:45:41,/home/biadmin/Music/20190614_niki.mp3,niki,24                ,76 ,83 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190614.mp3
+20190617 11:45:47,/home/biadmin/Music/20190617_cr31.mp3,cr31,24                ,76 ,83 ,https://media.deejay.it/2019/06/17/episodes/chiamate_roma_triuno_triuno/20190617.mp3
+20190617 13:26:29,/home/biadmin/Music/20190617_djci.mp3,djci,31                ,103,112,https://media.deejay.it/2019/06/17/episodes/deejay_chiama_italia/20190617.mp3
+20190617 18:33:33,/home/biadmin/Music/20190617_niki.mp3,niki,25                ,80 ,88 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190617.mp3
+20190618 15:06:09,/home/biadmin/Music/20190618_djci.mp3,djci,11                ,105,115,https://media.deejay.it/2019/06/18/episodes/deejay_chiama_italia/20190618.mp3
+20190618 15:08:00,/home/biadmin/Music/20190618_cr31.mp3,cr31,9                 ,78 ,85 ,https://media.deejay.it/2019/06/18/episodes/chiamate_roma_triuno_triuno/20190618.mp3
+20190619 10:11:08,/home/biadmin/Music/20190619_cr31.mp3,cr31,7                 ,78 ,85 ,https://media.deejay.it/2019/06/19/episodes/chiamate_roma_triuno_triuno/20190619.mp3
+20190619 14:01:53,/home/biadmin/Music/20190619_djci.mp3,djci,9                 ,100,110,https://media.deejay.it/2019/06/19/episodes/deejay_chiama_italia/20190619.mp3
+20190620 10:29:43,/home/biadmin/Music/20190620_cr31.mp3,cr31,23                ,76 ,83 ,https://media.deejay.it/2019/06/20/episodes/chiamate_roma_triuno_triuno/20190620.mp3
+20190620 12:34:21,/home/biadmin/Music/20190620_djci.mp3,djci,31                ,103,112,https://media.deejay.it/2019/06/20/episodes/deejay_chiama_italia/20190620.mp3
+20190620 12:35:11,/home/biadmin/Music/20190618_niki.mp3,niki,26                ,86 ,94 ,https://media.deejay.it/2019/06/18/episodes/tropical_pizza/20190618.mp3
+20190620 12:35:42,/home/biadmin/Music/20190619_niki.mp3,niki,24                ,77 ,85 ,https://media.deejay.it/2019/06/19/episodes/tropical_pizza/20190619.mp3
+20190621 09:52:51,/home/biadmin/Music/20190620_niki.mp3,niki,7                 ,59 ,64 ,https://media.deejay.it/2019/06/20/episodes/tropical_pizza/20190620.mp3
+20190621 09:53:00,/home/biadmin/Music/20190621_cr31.mp3,cr31,8                 ,78 ,86 ,https://media.deejay.it/2019/06/21/episodes/chiamate_roma_triuno_triuno/20190621.mp3
+20190621 14:00:50,/home/biadmin/Music/20190621_djci.mp3,djci,13                ,97 ,107,https://media.deejay.it/2019/06/21/episodes/deejay_chiama_italia/20190621.mp3
+20190625 08:56:58,/home/biadmin/Music/20190621_niki.mp3,niki,24                ,77 ,84 ,https://media.deejay.it/2019/06/21/episodes/tropical_pizza/20190621.mp3
+20190625 08:57:24,/home/biadmin/Music/20190624_cr31.mp3,cr31,25                ,80 ,88 ,https://media.deejay.it/2019/06/24/episodes/chiamate_roma_triuno_triuno/20190624.mp3
+20190625 08:57:57,/home/biadmin/Music/20190624_djci.mp3,djci,32                ,108,118,https://media.deejay.it/2019/06/24/episodes/deejay_chiama_italia/20190624.mp3
+20190625 08:58:22,/home/biadmin/Music/20190624_niki.mp3,niki,25                ,83 ,91 ,https://media.deejay.it/2019/06/24/episodes/tropical_pizza/20190624.mp3
+20190625 12:17:19,/home/biadmin/Music/20190625_cr31.mp3,cr31,25                ,81 ,88 ,https://media.deejay.it/2019/06/25/episodes/chiamate_roma_triuno_triuno/20190625.mp3
+20190625 12:39:25,/home/biadmin/Music/20190625_djci.mp3,djci,33                ,109,119,https://media.deejay.it/2019/06/25/episodes/deejay_chiama_italia/20190625.mp3
+20190626 09:29:56,/home/biadmin/Music/20190625_niki.mp3,niki,10                ,86 ,95 ,https://media.deejay.it/2019/06/25/episodes/tropical_pizza/20190625.mp3
+20190626 11:29:49,/home/biadmin/Music/20190626_cr31.mp3,cr31,8                 ,82 ,90 ,https://media.deejay.it/2019/06/26/episodes/chiamate_roma_triuno_triuno/20190626.mp3
+20190626 14:03:19,/home/biadmin/Music/20190626_djci.mp3,djci,10                ,107,117,https://media.deejay.it/2019/06/26/episodes/deejay_chiama_italia/20190626.mp3
+20190627 09:12:33,/home/biadmin/Music/20190626_niki.mp3,niki,10                ,81 ,89 ,https://media.deejay.it/2019/06/26/episodes/tropical_pizza/20190626.mp3
+20190627 09:12:43,/home/biadmin/Music/20190627_cr31.mp3,cr31,10                ,81 ,89 ,https://media.deejay.it/2019/06/27/episodes/chiamate_roma_triuno_triuno/20190627.mp3
+20190627 14:10:49,/home/biadmin/Music/20190627_djci.mp3,djci,11                ,103,112,https://media.deejay.it/2019/06/27/episodes/deejay_chiama_italia/20190627.mp3
+20190628 09:57:30,/home/biadmin/Music/20190627_niki.mp3,niki,25                ,83 ,91 ,https://media.deejay.it/2019/06/27/episodes/tropical_pizza/20190627.mp3
+20190628 12:37:36,/home/biadmin/Music/20190628_cr31.mp3,cr31,25                ,83 ,91 ,https://media.deejay.it/2019/06/28/episodes/chiamate_roma_triuno_triuno/20190628.mp3
+20190628 12:38:09,/home/biadmin/Music/20190628_djci.mp3,djci,32                ,104,114,https://media.deejay.it/2019/06/28/episodes/deejay_chiama_italia/20190628.mp3
+20190701 10:48:13,/home/biadmin/Music/20190628_niki.mp3,niki,29                ,81 ,89 ,https://media.deejay.it/2019/06/28/episodes/tropical_pizza/20190628.mp3
+20190701 15:31:04,/home/biadmin/Music/20190701_djci.mp3,djci,40                ,134,147,https://media.deejay.it/2019/07/01/episodes/deejay_chiama_italia/20190701.mp3
+20190701 18:20:37,/home/biadmin/Music/20190701_niki.mp3,niki,27                ,88 ,97 ,https://media.deejay.it/2019/07/01/episodes/tropical_pizza/20190701.mp3
+20190702 16:15:56,/home/biadmin/Music/20190702_djci.mp3,djci,12                ,134,146,https://media.deejay.it/2019/07/02/episodes/deejay_chiama_italia/20190702.mp3
+20190703 09:37:17,/home/biadmin/Music/20190702_niki.mp3,niki,10                ,87 ,95 ,https://media.deejay.it/2019/07/02/episodes/tropical_pizza/20190702.mp3
+20190703 14:55:43,/home/biadmin/Music/20190703_djci.mp3,djci,11                ,128,140,https://media.deejay.it/2019/07/03/episodes/deejay_chiama_italia/20190703.mp3
+20190704 09:16:57,/home/biadmin/Music/20190703_niki.mp3,niki,25                ,84 ,92 ,https://media.deejay.it/2019/07/03/episodes/tropical_pizza/20190703.mp3
+20190704 15:56:34,/home/biadmin/Music/20190704_djci.mp3,djci,38                ,127,139,https://media.deejay.it/2019/07/04/episodes/deejay_chiama_italia/20190704.mp3
+20190704 18:30:52,/home/biadmin/Music/20190704_niki.mp3,niki,25                ,80 ,88 ,https://media.deejay.it/2019/07/04/episodes/tropical_pizza/20190704.mp3
+20190705 20:47:29,/home/biadmin/Music/20190705_djci.mp3,djci,24                ,82 ,90 ,https://media.deejay.it/2019/07/05/episodes/deejay_chiama_italia/20190705.mp3
+20190705 20:47:53,/home/biadmin/Music/20190705_niki.mp3,niki,24                ,80 ,88 ,https://media.deejay.it/2019/07/05/episodes/tropical_pizza/20190705.mp3
+20190708 15:37:49,/home/biadmin/Music/20190708_djci.mp3,djci,41                ,123,134,https://media.deejay.it/2019/07/08/episodes/deejay_chiama_italia/20190708.mp3
+20190709 13:40:57,/home/biadmin/Music/20190709_djci.mp3,djci,12                ,122,134,https://media.deejay.it/2019/07/09/episodes/deejay_chiama_italia/20190709.mp3
+20190710 14:43:00,/home/biadmin/Music/20190710_djci.mp3,djci,11                ,127,140,https://media.deejay.it/2019/07/10/episodes/deejay_chiama_italia/20190710.mp3
+20190711 15:22:08,/home/biadmin/Music/20190711_djci.mp3,djci,36                ,122,133,https://media.deejay.it/2019/07/11/episodes/deejay_chiama_italia/20190711.mp3
+20190712 13:44:23,/home/biadmin/Music/20190712_djci.mp3,djci,36                ,121,133,https://media.deejay.it/2019/07/12/episodes/deejay_chiama_italia/20190712.mp3
+20190715 13:47:28,/home/biadmin/Music/20190715_djci.mp3,djci,74                ,132,145,https://media.deejay.it/2019/07/15/episodes/deejay_chiama_italia/20190715.mp3
+20190716 14:31:50,/home/biadmin/Music/20190716_djci.mp3,djci,40                ,132,145,https://media.deejay.it/2019/07/16/episodes/deejay_chiama_italia/20190716.mp3
+20190717 11:17:53,/home/biadmin/Music/20190106_djtc.mp3,djtc,21                ,48 ,52 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190106.mp3
+20190717 11:21:34,/home/biadmin/Music/20190113_djtc.mp3,djtc,19                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190113.mp3
+20190717 11:24:35,/home/biadmin/Music/20190120_djtc.mp3,djtc,18                ,40 ,44 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190120.mp3
+20190717 11:28:11,/home/biadmin/Music/20190127_djtc.mp3,djtc,18                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190127.mp3
+20190717 11:31:58,/home/biadmin/Music/20190203_djtc.mp3,djtc,18                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190203.mp3
+20190717 11:35:22,/home/biadmin/Music/20190210_djtc.mp3,djtc,18                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190210.mp3
+20190717 11:37:22,/home/biadmin/Music/20190217_djtc.mp3,djtc,18                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190217.mp3
+20190717 11:37:43,/home/biadmin/Music/20190224_djtc.mp3,djtc,19                ,45 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190224.mp3
+20190717 11:38:00,/home/biadmin/Music/20190303_djtc.mp3,djtc,17                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190303.mp3
+20190717 11:38:20,/home/biadmin/Music/20190310_djtc.mp3,djtc,18                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190310.mp3
+20190717 11:38:38,/home/biadmin/Music/20190317_djtc.mp3,djtc,18                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190317.mp3
+20190717 11:38:58,/home/biadmin/Music/20190331_djtc.mp3,djtc,19                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190331.mp3
+20190717 11:39:18,/home/biadmin/Music/20190407_djtc.mp3,djtc,19                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190407.mp3
+20190717 11:39:36,/home/biadmin/Music/20190414_djtc.mp3,djtc,17                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190414.mp3
+20190717 11:39:58,/home/biadmin/Music/20190428_djtc.mp3,djtc,21                ,47 ,52 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190428.mp3
+20190717 11:40:18,/home/biadmin/Music/20190505_djtc.mp3,djtc,19                ,44 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190505.mp3
+20190717 11:40:37,/home/biadmin/Music/20190512_djtc.mp3,djtc,18                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190512.mp3
+20190717 11:40:56,/home/biadmin/Music/20190519_djtc.mp3,djtc,19                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190519.mp3
+20190717 11:41:14,/home/biadmin/Music/20190526_djtc.mp3,djtc,17                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20190526.mp3
+20190717 14:05:48,/home/biadmin/Music/20190717_djci.mp3,djci,14                ,136,149,https://media.deejay.it/2019/07/17/episodes/deejay_chiama_italia/20190717.mp3
+20190718 15:50:02,/home/biadmin/Music/20190718_djci.mp3,djci,57                ,130,143,https://media.deejay.it/2019/07/18/episodes/deejay_chiama_italia/20190718.mp3
+20190719 13:37:57,/home/biadmin/Music/20190719_djci.mp3,djci,13                ,130,143,https://media.deejay.it/2019/07/19/episodes/deejay_chiama_italia/20190719.mp3
+20190722 13:50:34,/home/biadmin/Music/20190722_djci.mp3,djci,10                ,109,120,https://media.deejay.it/2019/07/22/episodes/deejay_chiama_italia/20190722.mp3
+20190723 09:33:48,/home/biadmin/Music/20181007_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181007.mp3
+20190723 09:34:01,/home/biadmin/Music/20181014_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181014.mp3
+20190723 09:34:14,/home/biadmin/Music/20181021_djtc.mp3,djtc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181021.mp3
+20190723 09:34:29,/home/biadmin/Music/20181028_djtc.mp3,djtc,14                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181028.mp3
+20190723 09:34:43,/home/biadmin/Music/20181104_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181104.mp3
+20190723 09:34:56,/home/biadmin/Music/20181111_djtc.mp3,djtc,12                ,41 ,44 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181111.mp3
+20190723 09:35:09,/home/biadmin/Music/20181118_djtc.mp3,djtc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181118.mp3
+20190723 09:35:23,/home/biadmin/Music/20181125_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181125.mp3
+20190723 09:35:36,/home/biadmin/Music/20181202_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181202.mp3
+20190723 09:35:49,/home/biadmin/Music/20181209_djtc.mp3,djtc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181209.mp3
+20190723 09:36:02,/home/biadmin/Music/20181216_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20181216.mp3
+20190723 15:00:29,/home/biadmin/Music/20190723_djci.mp3,djci,27                ,88 ,96 ,https://media.deejay.it/2019/07/23/episodes/deejay_chiama_italia/20190723.mp3
+20190724 15:10:00,/home/biadmin/Music/20190724_djci.mp3,djci,105               ,133,146,https://media.deejay.it/2019/07/24/episodes/deejay_chiama_italia/20190724.mp3
+20190725 15:21:47,/home/biadmin/Music/20190725_djci.mp3,djci,41                ,137,150,https://media.deejay.it/2019/07/25/episodes/deejay_chiama_italia/20190725.mp3
+20190725 17:29:25,/home/biadmin/Music/20180506_djtc.mp3,djtc,14                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180506.mp3
+20190725 17:29:39,/home/biadmin/Music/20180513_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180513.mp3
+20190725 17:29:53,/home/biadmin/Music/20180520_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180520.mp3
+20190725 17:30:06,/home/biadmin/Music/20180527_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180527.mp3
+20190725 17:30:20,/home/biadmin/Music/20180603_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180603.mp3
+20190807 09:53:36,/home/biadmin/Music/20190726_djci.mp3,djci,39                ,128,140,https://media.deejay.it/2019/07/26/episodes/deejay_chiama_italia/20190726.mp3
+20190807 09:54:19,/home/biadmin/Music/20190729_djci.mp3,djci,42                ,141,154,https://media.deejay.it/2019/07/29/episodes/deejay_chiama_italia/20190729.mp3
+20190807 09:55:01,/home/biadmin/Music/20190730_djci.mp3,djci,42                ,141,155,https://media.deejay.it/2019/07/30/episodes/deejay_chiama_italia/20190730.mp3
+20190807 09:55:45,/home/biadmin/Music/20190731_djci.mp3,djci,43                ,142,156,https://media.deejay.it/2019/07/31/episodes/deejay_chiama_italia/20190731.mp3
+20190807 09:56:27,/home/biadmin/Music/20190801_djci.mp3,djci,41                ,138,152,https://media.deejay.it/2019/08/01/episodes/deejay_chiama_italia/20190801.mp3
+20190807 09:57:09,/home/biadmin/Music/20190802_djci.mp3,djci,42                ,136,149,https://media.deejay.it/2019/08/02/episodes/deejay_chiama_italia/20190802.mp3
+20190808 14:56:22,/home/biadmin/Music/20171001_djtc.mp3,djtc,14                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171001.mp3
+20190808 14:56:37,/home/biadmin/Music/20171008_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171008.mp3
+20190808 14:57:09,/home/biadmin/Music/20171015_djtc.mp3,djtc,32                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171015.mp3
+20190808 14:57:23,/home/biadmin/Music/20171022_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171022.mp3
+20190808 14:57:38,/home/biadmin/Music/20171029_djtc.mp3,djtc,14                ,45 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171029.mp3
+20190808 14:57:51,/home/biadmin/Music/20171105_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171105.mp3
+20190808 14:58:04,/home/biadmin/Music/20171112_djtc.mp3,djtc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171112.mp3
+20190808 14:58:18,/home/biadmin/Music/20171119_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171119.mp3
+20190808 14:58:32,/home/biadmin/Music/20171126_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171126.mp3
+20190808 14:58:47,/home/biadmin/Music/20171203_djtc.mp3,djtc,13                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171203.mp3
+20190808 14:59:01,/home/biadmin/Music/20171217_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20171217.mp3
+20190808 14:59:19,/home/biadmin/Music/20180107_djtc.mp3,djtc,15                ,49 ,54 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180107.mp3
+20190808 14:59:33,/home/biadmin/Music/20180114_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180114.mp3
+20190808 14:59:47,/home/biadmin/Music/20180121_djtc.mp3,djtc,13                ,44 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180121.mp3
+20190808 15:00:00,/home/biadmin/Music/20180128_djtc.mp3,djtc,13                ,42 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180128.mp3
+20190808 15:00:14,/home/biadmin/Music/20180204_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180204.mp3
+20190808 15:00:28,/home/biadmin/Music/20180211_djtc.mp3,djtc,13                ,43 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180211.mp3
+20190808 15:00:41,/home/biadmin/Music/20180218_djtc.mp3,djtc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180218.mp3
+20190808 15:00:55,/home/biadmin/Music/20180225_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180225.mp3
+20190808 15:01:09,/home/biadmin/Music/20180304_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180304.mp3
+20190808 15:01:24,/home/biadmin/Music/20180311_djtc.mp3,djtc,14                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180311.mp3
+20190808 15:01:38,/home/biadmin/Music/20180318_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180318.mp3
+20190808 15:01:53,/home/biadmin/Music/20180325_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180325.mp3
+20190808 15:02:08,/home/biadmin/Music/20180408_djtc.mp3,djtc,14                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180408.mp3
+20190808 15:02:27,/home/biadmin/Music/20180415_djtc.mp3,djtc,17                ,39 ,42 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180415.mp3
+20190808 15:02:53,/home/biadmin/Music/20180429_djtc.mp3,djtc,25                ,46 ,51 ,https://media.deejay.it/legacy/audio/deejay_training_center/20180429.mp3
+20190814 15:02:12,/home/biadmin/Music/20161002_djtc.mp3,djtc,14                ,45 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161002.mp3
+20190814 15:02:27,/home/biadmin/Music/20161009_djtc.mp3,djtc,13                ,45 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161009.mp3
+20190814 15:02:41,/home/biadmin/Music/20161016_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161016.mp3
+20190814 15:02:55,/home/biadmin/Music/20161023_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161023.mp3
+20190814 15:03:10,/home/biadmin/Music/20161030_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161030.mp3
+20190814 15:03:24,/home/biadmin/Music/20161106_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161106.mp3
+20190814 15:03:38,/home/biadmin/Music/20161113_djtc.mp3,djtc,13                ,43 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161113.mp3
+20190814 15:03:53,/home/biadmin/Music/20161120_djtc.mp3,djtc,14                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161120.mp3
+20190814 15:04:13,/home/biadmin/Music/20161127_djtc.mp3,djtc,20                ,44 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161127.mp3
+20190814 15:04:37,/home/biadmin/Music/20161204_djtc.mp3,djtc,23                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161204.mp3
+20190814 15:04:50,/home/biadmin/Music/20161211_djtc.mp3,djtc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161211.mp3
+20190814 15:05:04,/home/biadmin/Music/20161218_djtc.mp3,djtc,13                ,43 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20161218.mp3
+20190814 15:05:21,/home/biadmin/Music/20170108_djtc.mp3,djtc,14                ,47 ,51 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170108.mp3
+20190814 15:05:37,/home/biadmin/Music/20170115_djtc.mp3,djtc,14                ,47 ,51 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170115.mp3
+20190814 15:05:50,/home/biadmin/Music/20170122_djtc.mp3,djtc,13                ,44 ,48 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170122.mp3
+20190814 15:06:05,/home/biadmin/Music/20170129_djtc.mp3,djtc,14                ,47 ,51 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170129.mp3
+20190814 15:06:19,/home/biadmin/Music/20170205_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170205.mp3
+20190814 15:06:39,/home/biadmin/Music/20170212_djtc.mp3,djtc,19                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170212.mp3
+20190814 15:06:54,/home/biadmin/Music/20170219_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170219.mp3
+20190814 15:07:10,/home/biadmin/Music/20170226_djtc.mp3,djtc,15                ,48 ,52 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170226.mp3
+20190814 15:07:23,/home/biadmin/Music/20170305_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170305.mp3
+20190814 15:07:37,/home/biadmin/Music/20170312_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170312.mp3
+20190814 15:07:52,/home/biadmin/Music/20170326_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170326.mp3
+20190814 15:08:06,/home/biadmin/Music/20170402_djtc.mp3,djtc,14                ,46 ,50 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170402.mp3
+20190814 15:08:20,/home/biadmin/Music/20170409_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170409.mp3
+20190814 15:08:37,/home/biadmin/Music/20170430_djtc.mp3,djtc,15                ,49 ,54 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170430.mp3
+20190814 15:10:22,/home/biadmin/Music/20170507_djtc.mp3,djtc,14                ,45 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170507.mp3
+20190814 15:10:35,/home/biadmin/Music/20170514_djtc.mp3,djtc,12                ,40 ,44 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170514.mp3
+20190814 15:10:48,/home/biadmin/Music/20170521_djtc.mp3,djtc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170521.mp3
+20190814 15:11:03,/home/biadmin/Music/20170528_djtc.mp3,djtc,13                ,44 ,49 ,https://media.deejay.it/legacy/audio/deejay_training_center/20170528.mp3
+20190826 08:03:18,/home/biadmin/Music/20190824_djfc.mp3,djfc,17                ,92 ,101,https://media.deejay.it/2019/08/24/episodes/deejay_football_club/20190824.mp3
+20190827 16:13:28,/home/biadmin/Music/20190801_pino.mp3,pino,22                ,92 ,100,https://media.deejay.it/2019/08/01/episodes/pinocchio/20190801.mp3
+20190827 16:13:48,/home/biadmin/Music/20190802_pino.mp3,pino,20                ,90 ,99 ,https://media.deejay.it/2019/08/02/episodes/pinocchio/20190802.mp3
+20190827 16:14:10,/home/biadmin/Music/20190805_pino.mp3,pino,21                ,91 ,100,https://media.deejay.it/2019/08/05/episodes/pinocchio/20190805.mp3
+20190827 16:14:31,/home/biadmin/Music/20190806_pino.mp3,pino,20                ,89 ,98 ,https://media.deejay.it/2019/08/06/episodes/pinocchio/20190806.mp3
+20190827 16:14:53,/home/biadmin/Music/20190807_pino.mp3,pino,22                ,90 ,99 ,https://media.deejay.it/2019/08/07/episodes/pinocchio/20190807.mp3
+20190827 16:15:16,/home/biadmin/Music/20190809_pino.mp3,pino,21                ,89 ,98 ,https://media.deejay.it/2019/08/09/episodes/pinocchio/20190809.mp3
+20190827 16:15:41,/home/biadmin/Music/20190812_pino.mp3,pino,24                ,93 ,101,https://media.deejay.it/2019/08/12/episodes/pinocchio/20190812.mp3
+20190827 16:16:01,/home/biadmin/Music/20190813_pino.mp3,pino,20                ,93 ,102,https://media.deejay.it/2019/08/13/episodes/pinocchio/20190813.mp3
+20190827 16:16:26,/home/biadmin/Music/20190814_pino.mp3,pino,24                ,92 ,101,https://media.deejay.it/2019/08/14/episodes/pinocchio/20190814.mp3
+20190827 16:16:52,/home/biadmin/Music/20190815_pino.mp3,pino,26                ,99 ,108,https://media.deejay.it/2019/08/15/episodes/pinocchio/20190815.mp3
+20190827 16:17:18,/home/biadmin/Music/20190816_pino.mp3,pino,25                ,90 ,98 ,https://media.deejay.it/2019/08/16/episodes/pinocchio/20190816.mp3
+20190827 16:17:42,/home/biadmin/Music/20190819_pino.mp3,pino,24                ,93 ,101,https://media.deejay.it/2019/08/19/episodes/pinocchio/20190819.mp3
+20190827 16:18:01,/home/biadmin/Music/20190820_pino.mp3,pino,19                ,89 ,97 ,https://media.deejay.it/2019/08/20/episodes/pinocchio/20190820.mp3
+20190827 16:18:26,/home/biadmin/Music/20190821_pino.mp3,pino,24                ,91 ,100,https://media.deejay.it/2019/08/21/episodes/pinocchio/20190821.mp3
+20190827 16:18:50,/home/biadmin/Music/20190822_pino.mp3,pino,24                ,88 ,96 ,https://media.deejay.it/2019/08/22/episodes/pinocchio/20190822.mp3
+20190827 16:19:14,/home/biadmin/Music/20190823_pino.mp3,pino,24                ,87 ,95 ,https://media.deejay.it/2019/08/23/episodes/pinocchio/20190823.mp3
+20190827 16:19:34,/home/biadmin/Music/20190826_pino.mp3,pino,19                ,92 ,101,https://media.deejay.it/2019/08/26/episodes/pinocchio/20190826.mp3
+20190901 17:15:51,/home/biadmin/Music/20190831_djfc.mp3,djfc,39                ,93 ,102,https://media.deejay.it/2019/08/31/episodes/deejay_football_club/20190831.mp3
+20190902 10:19:12,/home/biadmin/Music/20190902_cr31.mp3,cr31,26                ,89 ,97 ,https://media.deejay.it/2019/09/02/episodes/chiamate_roma_triuno_triuno/20190902.mp3
+20190902 14:36:19,/home/biadmin/Music/20190902_djci.mp3,djci,29                ,96 ,105,https://media.deejay.it/2019/09/02/episodes/deejay_chiama_italia/20190902.mp3
+20190903 08:21:57,/home/biadmin/Music/20190902_niki.mp3,niki,24                ,74 ,82 ,https://media.deejay.it/2019/09/02/episodes/tropical_pizza/20190902.mp3
+20190903 11:03:54,/home/biadmin/Music/20190903_cr31.mp3,cr31,26                ,86 ,95 ,https://media.deejay.it/2019/09/03/episodes/chiamate_roma_triuno_triuno/20190903.mp3
+20190903 12:35:23,/home/biadmin/Music/20190903_djci.mp3,djci,29                ,95 ,104,https://media.deejay.it/2019/09/03/episodes/deejay_chiama_italia/20190903.mp3
+20190904 12:09:56,/home/biadmin/Music/20190903_niki.mp3,niki,23                ,75 ,82 ,https://media.deejay.it/2019/09/03/episodes/tropical_pizza/20190903.mp3
+20190904 12:10:21,/home/biadmin/Music/20190904_cr31.mp3,cr31,25                ,84 ,92 ,https://media.deejay.it/2019/09/04/episodes/chiamate_roma_triuno_triuno/20190904.mp3
+20190904 12:59:44,/home/biadmin/Music/20190904_djci.mp3,djci,46                ,91 ,100,https://media.deejay.it/2019/09/04/episodes/deejay_chiama_italia/20190904.mp3
+20190904 18:02:33,/home/biadmin/Music/20190904_niki.mp3,niki,21                ,71 ,78 ,https://media.deejay.it/2019/09/04/episodes/tropical_pizza/20190904.mp3
+20190905 14:06:09,/home/biadmin/Music/20190905_djci.mp3,djci,27                ,89 ,97 ,https://media.deejay.it/2019/09/05/episodes/deejay_chiama_italia/20190905.mp3
+20190905 14:40:39,/home/biadmin/Music/20190905_cr31.mp3,cr31,27                ,82 ,90 ,https://media.deejay.it/2019/09/05/episodes/chiamate_roma_triuno_triuno/20190905.mp3
+20190906 09:41:50,/home/biadmin/Music/20190905_niki.mp3,niki,53                ,73 ,80 ,https://media.deejay.it/2019/09/05/episodes/tropical_pizza/20190905.mp3
+20190906 09:42:16,/home/biadmin/Music/20190906_cr31.mp3,cr31,26                ,82 ,90 ,https://media.deejay.it/2019/09/06/episodes/chiamate_roma_triuno_triuno/20190906.mp3
+20190906 13:41:50,/home/biadmin/Music/20190906_djci.mp3,djci,39                ,87 ,96 ,https://media.deejay.it/2019/09/06/episodes/deejay_chiama_italia/20190906.mp3
+20190906 17:25:15,/home/biadmin/Music/20190906_niki.mp3,niki,21                ,69 ,76 ,https://media.deejay.it/2019/09/06/episodes/tropical_pizza/20190906.mp3
+20190907 16:33:15,/home/biadmin/Music/20190907_djfc.mp3,djfc,15                ,51 ,56 ,https://media.deejay.it/2019/09/07/episodes/deejay_football_club/20190907.mp3
+20190909 10:04:11,/home/biadmin/Music/20190909_cr31.mp3,cr31,24                ,78 ,86 ,https://media.deejay.it/2019/09/09/episodes/chiamate_roma_triuno_triuno/20190909.mp3
+20190909 14:08:04,/home/biadmin/Music/20190909_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/09/09/episodes/deejay_chiama_italia/20190909.mp3
+20190909 17:42:39,/home/biadmin/Music/20190909_niki.mp3,niki,34                ,65 ,72 ,https://media.deejay.it/2019/09/09/episodes/tropical_pizza/20190909.mp3
+20190910 10:28:09,/home/biadmin/Music/20190910_cr31.mp3,cr31,8                 ,81 ,88 ,https://media.deejay.it/2019/09/10/episodes/chiamate_roma_triuno_triuno/20190910.mp3
+20190910 14:15:46,/home/biadmin/Music/20190910_djci.mp3,djci,8                 ,87 ,95 ,https://media.deejay.it/2019/09/10/episodes/deejay_chiama_italia/20190910.mp3
+20190911 08:34:44,/home/biadmin/Music/20190910_niki.mp3,niki,22                ,69 ,76 ,https://media.deejay.it/2019/09/10/episodes/tropical_pizza/20190910.mp3
+20190911 10:33:15,/home/biadmin/Music/20190911_cr31.mp3,cr31,24                ,79 ,86 ,https://media.deejay.it/2019/09/11/episodes/chiamate_roma_triuno_triuno/20190911.mp3
+20190911 12:33:16,/home/biadmin/Music/20190911_djci.mp3,djci,26                ,85 ,93 ,https://media.deejay.it/2019/09/11/episodes/deejay_chiama_italia/20190911.mp3
+20190911 17:40:30,/home/biadmin/Music/20190911_niki.mp3,niki,20                ,66 ,72 ,https://media.deejay.it/2019/09/11/episodes/tropical_pizza/20190911.mp3
+20190912 09:28:28,/home/biadmin/Music/20190912_cr31.mp3,cr31,24                ,81 ,89 ,https://media.deejay.it/2019/09/12/episodes/chiamate_roma_triuno_triuno/20190912.mp3
+20190912 14:41:05,/home/biadmin/Music/20190912_djci.mp3,djci,26                ,85 ,93 ,https://media.deejay.it/2019/09/12/episodes/deejay_chiama_italia/20190912.mp3
+20190912 18:06:22,/home/biadmin/Music/20190912_niki.mp3,niki,20                ,66 ,72 ,https://media.deejay.it/2019/09/12/episodes/tropical_pizza/20190912.mp3
+20190913 09:20:44,/home/biadmin/Music/20190913_cr31.mp3,cr31,25                ,82 ,90 ,https://media.deejay.it/2019/09/13/episodes/chiamate_roma_triuno_triuno/20190913.mp3
+20190913 14:26:04,/home/biadmin/Music/20190913_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/09/13/episodes/deejay_chiama_italia/20190913.mp3
+20190913 17:18:02,/home/biadmin/Music/20190913_niki.mp3,niki,20                ,65 ,71 ,https://media.deejay.it/2019/09/13/episodes/tropical_pizza/20190913.mp3
+20190916 10:13:25,/home/biadmin/Music/20190914_djfc.mp3,djfc,91                ,51 ,56 ,https://media.deejay.it/2019/09/14/episodes/deejay_football_club/20190914.mp3
+20190916 10:15:21,/home/biadmin/Music/20190916_cr31.mp3,cr31,115               ,78 ,85 ,https://media.deejay.it/2019/09/16/episodes/chiamate_roma_triuno_triuno/20190916.mp3
+20190916 12:21:38,/home/biadmin/Music/20190916_djci.mp3,djci,51                ,84 ,92 ,https://media.deejay.it/2019/09/16/episodes/deejay_chiama_italia/20190916.mp3
+20190916 12:29:05,/home/biadmin/Music/20190827_pino.mp3,pino,88                ,95 ,104,https://media.deejay.it/2019/08/27/episodes/pinocchio/20190827.mp3
+20190916 12:30:18,/home/biadmin/Music/20190828_pino.mp3,pino,72                ,92 ,101,https://media.deejay.it/2019/08/28/episodes/pinocchio/20190828.mp3
+20190916 12:31:13,/home/biadmin/Music/20190829_pino.mp3,pino,54                ,91 ,99 ,https://media.deejay.it/2019/08/29/episodes/pinocchio/20190829.mp3
+20190916 12:32:28,/home/biadmin/Music/20190830_pino.mp3,pino,73                ,116,127,https://media.deejay.it/2019/08/30/episodes/pinocchio/20190830.mp3
+20190916 12:33:24,/home/biadmin/Music/20190902_pino.mp3,pino,55                ,93 ,101,https://media.deejay.it/2019/09/02/episodes/pinocchio/20190902.mp3
+20190916 12:34:16,/home/biadmin/Music/20190903_pino.mp3,pino,52                ,92 ,101,https://media.deejay.it/2019/09/03/episodes/pinocchio/20190903.mp3
+20190916 12:35:07,/home/biadmin/Music/20190904_pino.mp3,pino,51                ,90 ,99 ,https://media.deejay.it/2019/09/04/episodes/pinocchio/20190904.mp3
+20190916 12:35:51,/home/biadmin/Music/20190905_pino.mp3,pino,43                ,86 ,94 ,https://media.deejay.it/2019/09/05/episodes/pinocchio/20190905.mp3
+20190916 12:36:44,/home/biadmin/Music/20190906_pino.mp3,pino,53                ,89 ,97 ,https://media.deejay.it/2019/09/06/episodes/pinocchio/20190906.mp3
+20190916 12:37:44,/home/biadmin/Music/20190909_pino.mp3,pino,60                ,85 ,93 ,https://media.deejay.it/2019/09/09/episodes/pinocchio/20190909.mp3
+20190916 12:39:09,/home/biadmin/Music/20190910_pino.mp3,pino,84                ,87 ,95 ,https://media.deejay.it/2019/09/10/episodes/pinocchio/20190910.mp3
+20190916 12:39:59,/home/biadmin/Music/20190911_pino.mp3,pino,49                ,84 ,92 ,https://media.deejay.it/2019/09/11/episodes/pinocchio/20190911.mp3
+20190916 12:41:37,/home/biadmin/Music/20190912_pino.mp3,pino,98                ,81 ,89 ,https://media.deejay.it/2019/09/12/episodes/pinocchio/20190912.mp3
+20190916 12:42:56,/home/biadmin/Music/20190913_pino.mp3,pino,79                ,81 ,89 ,https://media.deejay.it/2019/09/13/episodes/pinocchio/20190913.mp3
+20190916 17:47:47,/home/biadmin/Music/20190916_niki.mp3,niki,12                ,65 ,72 ,https://media.deejay.it/2019/09/16/episodes/tropical_pizza/20190916.mp3
+20190917 08:02:45,/home/biadmin/Music/20190902_catt.mp3,catt,14                ,47 ,52 ,https://media.deejay.it/2019/09/02/episodes/catteland/20190902.mp3
+20190917 08:02:59,/home/biadmin/Music/20190903_catt.mp3,catt,14                ,47 ,52 ,https://media.deejay.it/2019/09/03/episodes/catteland/20190903.mp3
+20190917 08:03:13,/home/biadmin/Music/20190904_catt.mp3,catt,14                ,46 ,50 ,https://media.deejay.it/2019/09/04/episodes/catteland/20190904.mp3
+20190917 08:03:27,/home/biadmin/Music/20190905_catt.mp3,catt,13                ,45 ,49 ,https://media.deejay.it/2019/09/05/episodes/catteland/20190905.mp3
+20190917 08:03:42,/home/biadmin/Music/20190906_catt.mp3,catt,14                ,46 ,51 ,https://media.deejay.it/2019/09/06/episodes/catteland/20190906.mp3
+20190917 08:03:55,/home/biadmin/Music/20190909_catt.mp3,catt,12                ,42 ,46 ,https://media.deejay.it/2019/09/09/episodes/catteland/20190909.mp3
+20190917 08:04:09,/home/biadmin/Music/20190910_catt.mp3,catt,13                ,43 ,47 ,https://media.deejay.it/2019/09/10/episodes/catteland/20190910.mp3
+20190917 08:04:22,/home/biadmin/Music/20190911_catt.mp3,catt,12                ,42 ,46 ,https://media.deejay.it/2019/09/11/episodes/catteland/20190911.mp3
+20190917 08:04:34,/home/biadmin/Music/20190912_catt.mp3,catt,12                ,42 ,46 ,https://media.deejay.it/2019/09/12/episodes/catteland/20190912.mp3
+20190917 08:04:47,/home/biadmin/Music/20190913_catt.mp3,catt,12                ,40 ,43 ,https://media.deejay.it/2019/09/13/episodes/catteland/20190913.mp3
+20190917 08:04:59,/home/biadmin/Music/20190916_catt.mp3,catt,12                ,40 ,44 ,https://media.deejay.it/2019/09/16/episodes/catteland/20190916.mp3
+20190917 10:56:43,/home/biadmin/Music/20190917_cr31.mp3,cr31,24                ,78 ,85 ,https://media.deejay.it/2019/09/17/episodes/chiamate_roma_triuno_triuno/20190917.mp3
+20190917 15:45:32,/home/biadmin/Music/20190917_djci.mp3,djci,24                ,81 ,89 ,https://media.deejay.it/2019/09/17/episodes/deejay_chiama_italia/20190917.mp3
+20190917 15:45:45,/home/biadmin/Music/20190917_catt.mp3,catt,12                ,42 ,46 ,https://media.deejay.it/2019/09/17/episodes/catteland/20190917.mp3
+20190918 08:50:39,/home/biadmin/Music/20190917_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/2019/09/17/episodes/catteland/20190917.mp3
+20190918 08:50:59,/home/biadmin/Music/20190917_niki.mp3,niki,19                ,66 ,73 ,https://media.deejay.it/2019/09/17/episodes/tropical_pizza/20190917.mp3
+20190918 10:43:55,/home/biadmin/Music/20190918_cr31.mp3,cr31,23                ,78 ,86 ,https://media.deejay.it/2019/09/18/episodes/chiamate_roma_triuno_triuno/20190918.mp3
+20190918 12:44:17,/home/biadmin/Music/20190918_djci.mp3,djci,25                ,82 ,90 ,https://media.deejay.it/2019/09/18/episodes/deejay_chiama_italia/20190918.mp3
+20190918 14:32:40,/home/biadmin/Music/20190918_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/2019/09/18/episodes/catteland/20190918.mp3
+20190919 08:39:19,/home/biadmin/Music/20190918_niki.mp3,niki,9                 ,62 ,68 ,https://media.deejay.it/2019/09/18/episodes/tropical_pizza/20190918.mp3
+20190919 10:04:37,/home/biadmin/Music/20190919_cr31.mp3,cr31,8                 ,79 ,87 ,https://media.deejay.it/2019/09/19/episodes/chiamate_roma_triuno_triuno/20190919.mp3
+20190919 13:56:00,/home/biadmin/Music/20190919_djci.mp3,djci,9                 ,83 ,91 ,https://media.deejay.it/2019/09/19/episodes/deejay_chiama_italia/20190919.mp3
+20190919 13:56:04,/home/biadmin/Music/20190919_epcc.mp3,epcc,4                 ,40 ,44 ,https://media.deejay.it/2019/09/19/episodes/catteland/20190919.mp3
+20190919 17:26:08,/home/biadmin/Music/20190919_niki.mp3,niki,15                ,63 ,69 ,https://media.deejay.it/2019/09/19/episodes/tropical_pizza/20190919.mp3
+20190920 10:05:48,/home/biadmin/Music/20190920_cr31.mp3,cr31,23                ,78 ,85 ,https://media.deejay.it/2019/09/20/episodes/chiamate_roma_triuno_triuno/20190920.mp3
+20190920 12:34:56,/home/biadmin/Music/20190920_djci.mp3,djci,47                ,86 ,95 ,https://media.deejay.it/2019/09/20/episodes/deejay_chiama_italia/20190920.mp3
+20190920 13:46:15,/home/biadmin/Music/20190920_epcc.mp3,epcc,12                ,39 ,42 ,https://media.deejay.it/2019/09/20/episodes/catteland/20190920.mp3
+20190920 17:41:38,/home/biadmin/Music/20190920_niki.mp3,niki,20                ,62 ,68 ,https://media.deejay.it/2019/09/20/episodes/tropical_pizza/20190920.mp3
+20190921 18:48:33,/home/biadmin/Music/20190921_djfc.mp3,djfc,16                ,52 ,56 ,https://media.deejay.it/2019/09/21/episodes/deejay_football_club/20190921.mp3
+20190923 11:10:39,/home/biadmin/Music/20190923_cr31.mp3,cr31,23                ,76 ,84 ,https://media.deejay.it/2019/09/23/episodes/chiamate_roma_triuno_triuno/20190923.mp3
+20190923 13:45:52,/home/biadmin/Music/20190923_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/09/23/episodes/deejay_chiama_italia/20190923.mp3
+20190923 13:46:05,/home/biadmin/Music/20190923_epcc.mp3,epcc,12                ,40 ,44 ,https://media.deejay.it/2019/09/23/episodes/catteland/20190923.mp3
+20190923 17:20:33,/home/biadmin/Music/20190923_niki.mp3,niki,20                ,65 ,71 ,https://media.deejay.it/2019/09/23/episodes/tropical_pizza/20190923.mp3
+20190924 10:00:10,/home/biadmin/Music/20190924_cr31.mp3,cr31,8                 ,76 ,83 ,https://media.deejay.it/2019/09/24/episodes/chiamate_roma_triuno_triuno/20190924.mp3
+20190924 14:12:32,/home/biadmin/Music/20190924_djci.mp3,djci,7                 ,85 ,93 ,https://media.deejay.it/2019/09/24/episodes/deejay_chiama_italia/20190924.mp3
+20190924 14:12:36,/home/biadmin/Music/20190924_epcc.mp3,epcc,3                 ,42 ,46 ,https://media.deejay.it/2019/09/24/episodes/catteland/20190924.mp3
+20190925 12:08:00,/home/biadmin/Music/20190924_niki.mp3,niki,32                ,68 ,74 ,https://media.deejay.it/2019/09/24/episodes/tropical_pizza/20190924.mp3
+20190925 12:08:35,/home/biadmin/Music/20190925_cr31.mp3,cr31,34                ,78 ,85 ,https://media.deejay.it/2019/09/25/episodes/chiamate_roma_triuno_triuno/20190925.mp3
+20190925 14:52:28,/home/biadmin/Music/20190925_djci.mp3,djci,8                 ,83 ,91 ,https://media.deejay.it/2019/09/25/episodes/deejay_chiama_italia/20190925.mp3
+20190925 14:52:32,/home/biadmin/Music/20190925_epcc.mp3,epcc,3                 ,42 ,46 ,https://media.deejay.it/2019/09/25/episodes/catteland/20190925.mp3
+20190925 18:05:01,/home/biadmin/Music/20190925_niki.mp3,niki,8                 ,67 ,73 ,https://media.deejay.it/2019/09/25/episodes/tropical_pizza/20190925.mp3
+20190926 10:10:33,/home/biadmin/Music/20190926_cr31.mp3,cr31,24                ,80 ,88 ,https://media.deejay.it/2019/09/26/episodes/chiamate_roma_triuno_triuno/20190926.mp3
+20190926 14:10:09,/home/biadmin/Music/20190926_djci.mp3,djci,25                ,84 ,92 ,https://media.deejay.it/2019/09/26/episodes/deejay_chiama_italia/20190926.mp3
+20190926 14:10:22,/home/biadmin/Music/20190926_epcc.mp3,epcc,12                ,41 ,44 ,https://media.deejay.it/2019/09/26/episodes/catteland/20190926.mp3
+20190926 18:09:10,/home/biadmin/Music/20190926_niki.mp3,niki,32                ,65 ,71 ,https://media.deejay.it/2019/09/26/episodes/tropical_pizza/20190926.mp3
+20190927 10:32:56,/home/biadmin/Music/20190927_cr31.mp3,cr31,23                ,78 ,85 ,https://media.deejay.it/2019/09/27/episodes/chiamate_roma_triuno_triuno/20190927.mp3
+20190927 12:46:18,/home/biadmin/Music/20190927_djci.mp3,djci,24                ,81 ,89 ,https://media.deejay.it/2019/09/27/episodes/deejay_chiama_italia/20190927.mp3
+20190927 13:50:53,/home/biadmin/Music/20190927_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/2019/09/27/episodes/catteland/20190927.mp3
+20190927 17:19:24,/home/biadmin/Music/20190927_niki.mp3,niki,22                ,64 ,70 ,https://media.deejay.it/2019/09/27/episodes/tropical_pizza/20190927.mp3
+20190928 14:40:51,/home/biadmin/Music/20190928_djfc.mp3,djfc,16                ,52 ,57 ,https://media.deejay.it/2019/09/28/episodes/deejay_football_club/20190928.mp3
+20190930 21:17:36,/home/biadmin/Music/20190930_cr31.mp3,cr31,25                ,76 ,83 ,https://media.deejay.it/2019/09/30/episodes/chiamate_roma_triuno_triuno/20190930.mp3
+20190930 21:18:04,/home/biadmin/Music/20190930_djci.mp3,djci,27                ,84 ,92 ,https://media.deejay.it/2019/09/30/episodes/deejay_chiama_italia/20190930.mp3
+20190930 21:18:16,/home/biadmin/Music/20190930_epcc.mp3,epcc,12                ,41 ,45 ,https://media.deejay.it/2019/09/30/episodes/catteland/20190930.mp3
+20190930 21:18:36,/home/biadmin/Music/20190930_niki.mp3,niki,19                ,65 ,71 ,https://media.deejay.it/2019/09/30/episodes/tropical_pizza/20190930.mp3
+20191001 10:58:22,/home/biadmin/Music/20191001_cr31.mp3,cr31,23                ,78 ,86 ,https://media.deejay.it/2019/10/01/episodes/chiamate_roma_triuno_triuno/20191001.mp3
+20191001 11:36:32,/home/biadmin/Music/20190501_epcc.mp3,epcc,15                ,48 ,53 ,https://media.deejay.it/legacy/audio/catteland/20190501.mp3
+20191001 11:36:46,/home/biadmin/Music/20190502_epcc.mp3,epcc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190502.mp3
+20191001 11:37:00,/home/biadmin/Music/20190503_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190503.mp3
+20191001 11:37:13,/home/biadmin/Music/20190506_epcc.mp3,epcc,12                ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190506.mp3
+20191001 11:37:25,/home/biadmin/Music/20190507_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190507.mp3
+20191001 11:37:38,/home/biadmin/Music/20190508_epcc.mp3,epcc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190508.mp3
+20191001 11:37:51,/home/biadmin/Music/20190509_epcc.mp3,epcc,12                ,40 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190509.mp3
+20191001 11:38:04,/home/biadmin/Music/20190510_epcc.mp3,epcc,11                ,38 ,42 ,https://media.deejay.it/legacy/audio/catteland/20190510.mp3
+20191001 11:38:16,/home/biadmin/Music/20190513_epcc.mp3,epcc,12                ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190513.mp3
+20191001 11:38:34,/home/biadmin/Music/20190514_epcc.mp3,epcc,16                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190514.mp3
+20191001 11:38:47,/home/biadmin/Music/20190515_epcc.mp3,epcc,12                ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190515.mp3
+20191001 11:38:59,/home/biadmin/Music/20190516_epcc.mp3,epcc,11                ,38 ,42 ,https://media.deejay.it/legacy/audio/catteland/20190516.mp3
+20191001 11:39:12,/home/biadmin/Music/20190517_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190517.mp3
+20191001 11:39:24,/home/biadmin/Music/20190520_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190520.mp3
+20191001 11:39:37,/home/biadmin/Music/20190521_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190521.mp3
+20191001 11:39:50,/home/biadmin/Music/20190523_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190523.mp3
+20191001 11:40:03,/home/biadmin/Music/20190524_epcc.mp3,epcc,12                ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190524.mp3
+20191001 11:40:16,/home/biadmin/Music/20190527_epcc.mp3,epcc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190527.mp3
+20191001 11:40:30,/home/biadmin/Music/20190528_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190528.mp3
+20191001 11:40:44,/home/biadmin/Music/20190529_epcc.mp3,epcc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190529.mp3
+20191001 11:40:57,/home/biadmin/Music/20190530_epcc.mp3,epcc,13                ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190530.mp3
+20191001 12:40:21,/home/biadmin/Music/20191001_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/10/01/episodes/deejay_chiama_italia/20191001.mp3
+20191001 14:49:46,/home/biadmin/Music/20191001_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/2019/10/01/episodes/catteland/20191001.mp3
+20191002 10:48:17,/home/biadmin/Music/20191002_cr31.mp3,cr31,24                ,79 ,87 ,https://media.deejay.it/2019/10/02/episodes/chiamate_roma_triuno_triuno/20191002.mp3
+20191002 12:21:47,/home/biadmin/Music/20191002_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/10/02/episodes/deejay_chiama_italia/20191002.mp3
+20191002 13:45:06,/home/biadmin/Music/20191002_epcc.mp3,epcc,12                ,39 ,43 ,https://media.deejay.it/2019/10/02/episodes/catteland/20191002.mp3
+20191003 08:44:01,/home/biadmin/Music/20191002_niki.mp3,niki,9                 ,63 ,69 ,https://media.deejay.it/2019/10/02/episodes/tropical_pizza/20191002.mp3
+20191003 15:14:34,/home/biadmin/Music/20191003_cr31.mp3,cr31,7                 ,78 ,85 ,https://media.deejay.it/2019/10/03/episodes/chiamate_roma_triuno_triuno/20191003.mp3
+20191003 15:14:42,/home/biadmin/Music/20191003_djci.mp3,djci,7                 ,83 ,91 ,https://media.deejay.it/2019/10/03/episodes/deejay_chiama_italia/20191003.mp3
+20191003 15:14:46,/home/biadmin/Music/20191003_epcc.mp3,epcc,4                 ,40 ,44 ,https://media.deejay.it/2019/10/03/episodes/catteland/20191003.mp3
+20191004 09:42:44,/home/biadmin/Music/20191003_niki.mp3,niki,9                 ,61 ,67 ,https://media.deejay.it/2019/10/03/episodes/tropical_pizza/20191003.mp3
+20191004 09:42:51,/home/biadmin/Music/20191004_cr31.mp3,cr31,7                 ,77 ,84 ,https://media.deejay.it/2019/10/04/episodes/chiamate_roma_triuno_triuno/20191004.mp3
+20191004 13:36:30,/home/biadmin/Music/20191004_djci.mp3,djci,7                 ,83 ,90 ,https://media.deejay.it/2019/10/04/episodes/deejay_chiama_italia/20191004.mp3
+20191004 13:36:34,/home/biadmin/Music/20191004_epcc.mp3,epcc,3                 ,40 ,44 ,https://media.deejay.it/2019/10/04/episodes/catteland/20191004.mp3
+20191004 17:30:38,/home/biadmin/Music/20191004_niki.mp3,niki,7                 ,63 ,68 ,https://media.deejay.it/2019/10/04/episodes/tropical_pizza/20191004.mp3
+20191007 09:02:33,/home/biadmin/Music/20191005_djfc.mp3,djfc,6                 ,51 ,56 ,https://media.deejay.it/2019/10/05/episodes/deejay_football_club/20191005.mp3
+20191007 09:47:33,/home/biadmin/Music/20191007_cr31.mp3,cr31,8                 ,79 ,87 ,https://media.deejay.it/2019/10/07/episodes/chiamate_roma_triuno_triuno/20191007.mp3
+20191007 13:18:59,/home/biadmin/Music/20191007_epcc.mp3,epcc,4                 ,40 ,43 ,https://media.deejay.it/2019/10/07/episodes/catteland/20191007.mp3
+20191007 17:25:08,/home/biadmin/Music/20191007_niki.mp3,niki,11                ,66 ,72 ,https://media.deejay.it/2019/10/07/episodes/tropical_pizza/20191007.mp3
+20191008 08:46:35,/home/biadmin/Music/20191007_djci.mp3,djci,8                 ,83 ,91 ,https://media.deejay.it/2019/10/07/episodes/deejay_chiama_italia/20191007.mp3
+20191008 11:40:27,/home/biadmin/Music/20191008_cr31.mp3,cr31,8                 ,79 ,86 ,https://media.deejay.it/2019/10/08/episodes/chiamate_roma_triuno_triuno/20191008.mp3
+20191008 12:55:44,/home/biadmin/Music/20191008_djci.mp3,djci,7                 ,84 ,92 ,https://media.deejay.it/2019/10/08/episodes/deejay_chiama_italia/20191008.mp3
+20191008 13:55:58,/home/biadmin/Music/20191008_epcc.mp3,epcc,3                 ,39 ,43 ,https://media.deejay.it/2019/10/08/episodes/catteland/20191008.mp3
+20191008 17:25:04,/home/biadmin/Music/20191008_niki.mp3,niki,13                ,66 ,73 ,https://media.deejay.it/2019/10/08/episodes/tropical_pizza/20191008.mp3
+20191009 09:17:16,/home/biadmin/Music/20191009_cr31.mp3,cr31,31                ,79 ,87 ,https://media.deejay.it/2019/10/09/episodes/chiamate_roma_triuno_triuno/20191009.mp3
+20191009 14:03:24,/home/biadmin/Music/20191009_djci.mp3,djci,25                ,83 ,91 ,https://media.deejay.it/2019/10/09/episodes/deejay_chiama_italia/20191009.mp3
+20191009 14:03:36,/home/biadmin/Music/20191009_epcc.mp3,epcc,12                ,40 ,44 ,https://media.deejay.it/2019/10/09/episodes/catteland/20191009.mp3
+20191009 18:58:52,/home/biadmin/Music/20191009_niki.mp3,niki,19                ,63 ,69 ,https://media.deejay.it/2019/10/09/episodes/tropical_pizza/20191009.mp3
+20191010 14:01:54,/home/biadmin/Music/20191010_djci.mp3,djci,25                ,81 ,89 ,https://media.deejay.it/2019/10/10/episodes/deejay_chiama_italia/20191010.mp3
+20191010 15:59:38,/home/biadmin/Music/20191010_epcc.mp3,epcc,11                ,39 ,43 ,https://media.deejay.it/2019/10/10/episodes/catteland/20191010.mp3
+20191010 16:43:19,/home/biadmin/Music/20191010_cr31.mp3,cr31,25                ,79 ,87 ,https://media.deejay.it/2019/10/10/episodes/chiamate_roma_triuno_triuno/20191010.mp3
+20191010 17:31:25,/home/biadmin/Music/20191010_niki.mp3,niki,19                ,64 ,70 ,https://media.deejay.it/2019/10/10/episodes/tropical_pizza/20191010.mp3
+20191011 10:10:58,/home/biadmin/Music/20191011_cr31.mp3,cr31,11                ,80 ,88 ,https://media.deejay.it/2019/10/11/episodes/chiamate_roma_triuno_triuno/20191011.mp3
+20191011 12:30:56,/home/biadmin/Music/20191011_djci.mp3,djci,9                 ,85 ,93 ,https://media.deejay.it/2019/10/11/episodes/deejay_chiama_italia/20191011.mp3
+20191011 14:39:28,/home/biadmin/Music/20191011_epcc.mp3,epcc,4                 ,40 ,44 ,https://media.deejay.it/2019/10/11/episodes/catteland/20191011.mp3
+20191011 17:20:14,/home/biadmin/Music/20191011_niki.mp3,niki,16                ,62 ,68 ,https://media.deejay.it/2019/10/11/episodes/tropical_pizza/20191011.mp3
+20191014 09:25:41,/home/biadmin/Music/20191012_djfc.mp3,djfc,16                ,48 ,52 ,https://media.deejay.it/2019/10/12/episodes/deejay_football_club/20191012.mp3
+20191014 09:25:55,/home/biadmin/Music/20191013_djtc.mp3,djtc,13                ,43 ,47 ,https://media.deejay.it/2019/10/13/episodes/deejay_training_center/20191013.mp3
+20191014 09:26:20,/home/biadmin/Music/20191014_cr31.mp3,cr31,25                ,79 ,87 ,https://media.deejay.it/2019/10/14/episodes/chiamate_roma_triuno_triuno/20191014.mp3
+20191014 13:43:13,/home/biadmin/Music/20191014_djci.mp3,djci,26                ,85 ,93 ,https://media.deejay.it/2019/10/14/episodes/deejay_chiama_italia/20191014.mp3
+20191014 13:43:26,/home/biadmin/Music/20191014_epcc.mp3,epcc,12                ,41 ,45 ,https://media.deejay.it/2019/10/14/episodes/catteland/20191014.mp3
+20191015 08:38:14,/home/biadmin/Music/20191014_niki.mp3,niki,11                ,70 ,77 ,https://media.deejay.it/2019/10/14/episodes/tropical_pizza/20191014.mp3
+20191015 12:24:47,/home/biadmin/Music/20191015_cr31.mp3,cr31,10                ,82 ,89 ,https://media.deejay.it/2019/10/15/episodes/chiamate_roma_triuno_triuno/20191015.mp3
+20191015 12:24:56,/home/biadmin/Music/20191015_djci.mp3,djci,9                 ,86 ,94 ,https://media.deejay.it/2019/10/15/episodes/deejay_chiama_italia/20191015.mp3
+20191015 14:21:15,/home/biadmin/Music/20191015_epcc.mp3,epcc,37                ,43 ,48 ,https://media.deejay.it/2019/10/15/episodes/catteland/20191015.mp3
+20191016 09:40:18,/home/biadmin/Music/20191015_niki.mp3,niki,10                ,67 ,73 ,https://media.deejay.it/2019/10/15/episodes/tropical_pizza/20191015.mp3
+20191016 09:40:26,/home/biadmin/Music/20191016_cr31.mp3,cr31,7                 ,80 ,87 ,https://media.deejay.it/2019/10/16/episodes/chiamate_roma_triuno_triuno/20191016.mp3
+20191016 12:44:50,/home/biadmin/Music/20191016_djci.mp3,djci,12                ,86 ,94 ,https://media.deejay.it/2019/10/16/episodes/deejay_chiama_italia/20191016.mp3
+20191016 14:58:59,/home/biadmin/Music/20191016_epcc.mp3,epcc,4                 ,42 ,46 ,https://media.deejay.it/2019/10/16/episodes/catteland/20191016.mp3
+20191016 17:21:57,/home/biadmin/Music/20191016_niki.mp3,niki,8                 ,67 ,73 ,https://media.deejay.it/2019/10/16/episodes/tropical_pizza/20191016.mp3
+20191017 10:14:52,/home/biadmin/Music/20191017_cr31.mp3,cr31,24                ,80 ,87 ,https://media.deejay.it/2019/10/17/episodes/chiamate_roma_triuno_triuno/20191017.mp3
+20191017 14:27:35,/home/biadmin/Music/20191017_djci.mp3,djci,26                ,86 ,95 ,https://media.deejay.it/2019/10/17/episodes/deejay_chiama_italia/20191017.mp3
+20191017 14:27:48,/home/biadmin/Music/20191017_epcc.mp3,epcc,12                ,43 ,47 ,https://media.deejay.it/2019/10/17/episodes/catteland/20191017.mp3
+20191018 09:54:21,/home/biadmin/Music/20191017_niki.mp3,niki,8                 ,67 ,73 ,https://media.deejay.it/2019/10/17/episodes/tropical_pizza/20191017.mp3
+20191018 09:54:29,/home/biadmin/Music/20191018_cr31.mp3,cr31,7                 ,80 ,88 ,https://media.deejay.it/2019/10/18/episodes/chiamate_roma_triuno_triuno/20191018.mp3
+20191018 12:29:08,/home/biadmin/Music/20191018_djci.mp3,djci,9                 ,86 ,94 ,https://media.deejay.it/2019/10/18/episodes/deejay_chiama_italia/20191018.mp3
+20191018 14:46:35,/home/biadmin/Music/20191018_epcc.mp3,epcc,4                 ,41 ,45 ,https://media.deejay.it/2019/10/18/episodes/catteland/20191018.mp3
+20191018 17:16:36,/home/biadmin/Music/20191018_niki.mp3,niki,8                 ,65 ,71 ,https://media.deejay.it/2019/10/18/episodes/tropical_pizza/20191018.mp3
+20191021 08:52:53,/home/biadmin/Music/20191019_djfc.mp3,djfc,7                 ,54 ,59 ,https://media.deejay.it/2019/10/19/episodes/deejay_football_club/20191019.mp3
+20191021 08:52:59,/home/biadmin/Music/20191020_djtc.mp3,djtc,5                 ,40 ,44 ,https://media.deejay.it/2019/10/20/episodes/deejay_training_center/20191020.mp3
+20191021 13:31:29,/home/biadmin/Music/20191021_cr31.mp3,cr31,11                ,85 ,93 ,https://media.deejay.it/2019/10/21/episodes/chiamate_roma_triuno_triuno/20191021.mp3
+20191021 13:31:41,/home/biadmin/Music/20191021_djci.mp3,djci,12                ,91 ,100,https://media.deejay.it/2019/10/21/episodes/deejay_chiama_italia/20191021.mp3
+20191021 13:31:48,/home/biadmin/Music/20191021_epcc.mp3,epcc,6                 ,44 ,48 ,https://media.deejay.it/2019/10/21/episodes/catteland/20191021.mp3
+20191022 08:48:47,/home/biadmin/Music/20191021_niki.mp3,niki,9                 ,75 ,82 ,https://media.deejay.it/2019/10/21/episodes/tropical_pizza/20191021.mp3
+20191022 11:18:54,/home/biadmin/Music/20191022_cr31.mp3,cr31,8                 ,84 ,92 ,https://media.deejay.it/2019/10/22/episodes/chiamate_roma_triuno_triuno/20191022.mp3
+20191022 12:40:13,/home/biadmin/Music/20191022_djci.mp3,djci,9                 ,91 ,99 ,https://media.deejay.it/2019/10/22/episodes/deejay_chiama_italia/20191022.mp3
+20191022 15:18:32,/home/biadmin/Music/20191022_epcc.mp3,epcc,5                 ,43 ,47 ,https://media.deejay.it/2019/10/22/episodes/catteland/20191022.mp3
+20191023 09:37:40,/home/biadmin/Music/20191022_niki.mp3,niki,21                ,72 ,79 ,https://media.deejay.it/2019/10/22/episodes/tropical_pizza/20191022.mp3
+20191023 09:37:51,/home/biadmin/Music/20191023_cr31.mp3,cr31,10                ,82 ,90 ,https://media.deejay.it/2019/10/23/episodes/chiamate_roma_triuno_triuno/20191023.mp3
+20191023 15:15:51,/home/biadmin/Music/20191023_djci.mp3,djci,13                ,86 ,94 ,https://media.deejay.it/2019/10/23/episodes/deejay_chiama_italia/20191023.mp3
+20191023 15:15:58,/home/biadmin/Music/20191023_epcc.mp3,epcc,7                 ,44 ,48 ,https://media.deejay.it/2019/10/23/episodes/catteland/20191023.mp3
+20191024 14:14:16,/home/biadmin/Music/20191023_niki.mp3,niki,23                ,70 ,77 ,https://media.deejay.it/2019/10/23/episodes/tropical_pizza/20191023.mp3
+20191024 14:14:30,/home/biadmin/Music/20191024_cr31.mp3,cr31,14                ,82 ,89 ,https://media.deejay.it/2019/10/24/episodes/chiamate_roma_triuno_triuno/20191024.mp3
+20191024 14:14:45,/home/biadmin/Music/20191024_djci.mp3,djci,15                ,86 ,95 ,https://media.deejay.it/2019/10/24/episodes/deejay_chiama_italia/20191024.mp3
+20191024 14:14:55,/home/biadmin/Music/20191024_epcc.mp3,epcc,10                ,42 ,46 ,https://media.deejay.it/2019/10/24/episodes/catteland/20191024.mp3
+20191024 17:21:39,/home/biadmin/Music/20191024_niki.mp3,niki,14                ,67 ,73 ,https://media.deejay.it/2019/10/24/episodes/tropical_pizza/20191024.mp3
+20191025 10:18:40,/home/biadmin/Music/20191025_cr31.mp3,cr31,14                ,84 ,92 ,https://media.deejay.it/2019/10/25/episodes/chiamate_roma_triuno_triuno/20191025.mp3
+20191025 12:29:17,/home/biadmin/Music/20191025_djci.mp3,djci,15                ,86 ,94 ,https://media.deejay.it/2019/10/25/episodes/deejay_chiama_italia/20191025.mp3
+20191025 14:23:36,/home/biadmin/Music/20191025_epcc.mp3,epcc,9                 ,42 ,46 ,https://media.deejay.it/2019/10/25/episodes/catteland/20191025.mp3
+20191025 17:27:26,/home/biadmin/Music/20191025_niki.mp3,niki,13                ,67 ,73 ,https://media.deejay.it/2019/10/25/episodes/tropical_pizza/20191025.mp3
+20191026 18:09:33,/home/biadmin/Music/20191026_djfc.mp3,djfc,8                 ,57 ,63 ,https://media.deejay.it/2019/10/26/episodes/deejay_football_club/20191026.mp3
+20191028 11:22:46,/home/biadmin/Music/20191028_cr31.mp3,cr31,8                 ,85 ,93 ,https://media.deejay.it/2019/10/28/episodes/chiamate_roma_triuno_triuno/20191028.mp3
+20191028 12:39:10,/home/biadmin/Music/20191028_djci.mp3,djci,14                ,89 ,98 ,https://media.deejay.it/2019/10/28/episodes/deejay_chiama_italia/20191028.mp3
+20191028 14:20:04,/home/biadmin/Music/20191028_epcc.mp3,epcc,12                ,47 ,52 ,https://media.deejay.it/2019/10/28/episodes/catteland/20191028.mp3
+20191029 09:08:25,/home/biadmin/Music/20191028_niki.mp3,niki,14                ,74 ,81 ,https://media.deejay.it/2019/10/28/episodes/tropical_pizza/20191028.mp3
+20191029 10:31:23,/home/biadmin/Music/20191029_cr31.mp3,cr31,14                ,85 ,93 ,https://media.deejay.it/2019/10/29/episodes/chiamate_roma_triuno_triuno/20191029.mp3
+20191029 13:54:16,/home/biadmin/Music/20191029_djci.mp3,djci,13                ,92 ,101,https://media.deejay.it/2019/10/29/episodes/deejay_chiama_italia/20191029.mp3
+20191029 13:54:20,/home/biadmin/Music/20191029_epcc.mp3,epcc,4                 ,47 ,51 ,https://media.deejay.it/2019/10/29/episodes/catteland/20191029.mp3
+20191029 17:28:56,/home/biadmin/Music/20191029_niki.mp3,niki,22                ,73 ,80 ,https://media.deejay.it/2019/10/29/episodes/tropical_pizza/20191029.mp3
+20191030 10:12:29,/home/biadmin/Music/20191030_cr31.mp3,cr31,11                ,85 ,93 ,https://media.deejay.it/2019/10/30/episodes/chiamate_roma_triuno_triuno/20191030.mp3
+20191030 12:24:10,/home/biadmin/Music/20191030_djci.mp3,djci,15                ,90 ,98 ,https://media.deejay.it/2019/10/30/episodes/deejay_chiama_italia/20191030.mp3
+20191030 15:12:05,/home/biadmin/Music/20191030_epcc.mp3,epcc,6                 ,45 ,49 ,https://media.deejay.it/2019/10/30/episodes/catteland/20191030.mp3
+20191030 17:22:20,/home/biadmin/Music/20191030_niki.mp3,niki,17                ,69 ,76 ,https://media.deejay.it/2019/10/30/episodes/tropical_pizza/20191030.mp3
+20191031 09:38:32,/home/biadmin/Music/20191031_cr31.mp3,cr31,11                ,84 ,93 ,https://media.deejay.it/2019/10/31/episodes/chiamate_roma_triuno_triuno/20191031.mp3
+20191031 13:43:39,/home/biadmin/Music/20191031_djci.mp3,djci,12                ,91 ,99 ,https://media.deejay.it/2019/10/31/episodes/deejay_chiama_italia/20191031.mp3
+20191031 13:43:45,/home/biadmin/Music/20191031_epcc.mp3,epcc,5                 ,45 ,50 ,https://media.deejay.it/2019/10/31/episodes/catteland/20191031.mp3
+20191031 17:30:20,/home/biadmin/Music/20191031_niki.mp3,niki,16                ,72 ,79 ,https://media.deejay.it/2019/10/31/episodes/tropical_pizza/20191031.mp3
+20191101 18:06:21,/home/biadmin/Music/20191101_djci.mp3,djci,14                ,89 ,97 ,https://media.deejay.it/2019/11/01/episodes/deejay_chiama_italia/20191101.mp3
+20191101 18:06:29,/home/biadmin/Music/20191101_epcc.mp3,epcc,8                 ,45 ,49 ,https://media.deejay.it/2019/11/01/episodes/catteland/20191101.mp3
+20191101 18:06:41,/home/biadmin/Music/20191101_niki.mp3,niki,11                ,70 ,77 ,https://media.deejay.it/2019/11/01/episodes/tropical_pizza/20191101.mp3
+20191103 16:56:42,/home/biadmin/Music/20191102_djfc.mp3,djfc,10                ,52 ,57 ,https://media.deejay.it/2019/11/02/episodes/deejay_football_club/20191102.mp3
+20191103 16:56:52,/home/biadmin/Music/20191103_djtc.mp3,djtc,10                ,47 ,51 ,https://media.deejay.it/2019/11/03/episodes/deejay_training_center/20191103.mp3
+20191104 10:02:09,/home/biadmin/Music/20191104_cr31.mp3,cr31,38                ,76 ,84 ,https://media.deejay.it/2019/11/04/episodes/chiamate_roma_triuno_triuno/20191104.mp3
+20191104 12:24:58,/home/biadmin/Music/20191104_djci.mp3,djci,14                ,85 ,93 ,https://media.deejay.it/2019/11/04/episodes/deejay_chiama_italia/20191104.mp3
+20191104 14:19:38,/home/biadmin/Music/20191104_epcc.mp3,epcc,10                ,42 ,46 ,https://media.deejay.it/2019/11/04/episodes/catteland/20191104.mp3
+20191105 08:42:34,/home/biadmin/Music/20191104_niki.mp3,niki,13                ,66 ,72 ,https://media.deejay.it/2019/11/04/episodes/tropical_pizza/20191104.mp3
+20191105 10:58:15,/home/biadmin/Music/20191105_cr31.mp3,cr31,13                ,79 ,86 ,https://media.deejay.it/2019/11/05/episodes/chiamate_roma_triuno_triuno/20191105.mp3
+20191105 12:17:46,/home/biadmin/Music/20191105_djci.mp3,djci,16                ,82 ,90 ,https://media.deejay.it/2019/11/05/episodes/deejay_chiama_italia/20191105.mp3
+20191105 14:57:57,/home/biadmin/Music/20191105_epcc.mp3,epcc,10                ,42 ,46 ,https://media.deejay.it/2019/11/05/episodes/catteland/20191105.mp3
+20191105 15:02:50,/home/biadmin/Music/20190408_epcc.mp3,epcc,6                 ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190408.mp3
+20191105 15:02:57,/home/biadmin/Music/20190409_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190409.mp3
+20191105 15:03:03,/home/biadmin/Music/20190410_epcc.mp3,epcc,5                 ,38 ,42 ,https://media.deejay.it/legacy/audio/catteland/20190410.mp3
+20191105 15:03:10,/home/biadmin/Music/20190411_epcc.mp3,epcc,6                 ,39 ,42 ,https://media.deejay.it/legacy/audio/catteland/20190411.mp3
+20191105 15:03:16,/home/biadmin/Music/20190412_epcc.mp3,epcc,5                 ,41 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190412.mp3
+20191105 15:03:22,/home/biadmin/Music/20190415_epcc.mp3,epcc,5                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190415.mp3
+20191105 15:03:29,/home/biadmin/Music/20190416_epcc.mp3,epcc,6                 ,42 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190416.mp3
+20191105 15:03:36,/home/biadmin/Music/20190417_epcc.mp3,epcc,6                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190417.mp3
+20191105 15:03:44,/home/biadmin/Music/20190418_epcc.mp3,epcc,7                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190418.mp3
+20191105 15:03:51,/home/biadmin/Music/20190419_epcc.mp3,epcc,6                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190419.mp3
+20191105 15:04:05,/home/biadmin/Music/20190429_epcc.mp3,epcc,8                 ,47 ,51 ,https://media.deejay.it/legacy/audio/catteland/20190429.mp3
+20191105 15:04:11,/home/biadmin/Music/20190430_epcc.mp3,epcc,6                 ,46 ,50 ,https://media.deejay.it/legacy/audio/catteland/20190430.mp3
+20191106 08:32:46,/home/biadmin/Music/20191105_niki.mp3,niki,9                 ,68 ,74 ,https://media.deejay.it/2019/11/05/episodes/tropical_pizza/20191105.mp3
+20191106 09:52:15,/home/biadmin/Music/20191106_cr31.mp3,cr31,10                ,79 ,87 ,https://media.deejay.it/2019/11/06/episodes/chiamate_roma_triuno_triuno/20191106.mp3
+20191106 12:28:21,/home/biadmin/Music/20191106_djci.mp3,djci,11                ,82 ,90 ,https://media.deejay.it/2019/11/06/episodes/deejay_chiama_italia/20191106.mp3
+20191106 14:09:25,/home/biadmin/Music/20191106_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/2019/11/06/episodes/catteland/20191106.mp3
+20191106 17:47:38,/home/biadmin/Music/20191106_niki.mp3,niki,12                ,65 ,72 ,https://media.deejay.it/2019/11/06/episodes/tropical_pizza/20191106.mp3
+20191107 09:39:32,/home/biadmin/Music/20191107_cr31.mp3,cr31,14                ,99 ,108,https://media.deejay.it/2019/11/07/episodes/chiamate_roma_triuno_triuno/20191107.mp3
+20191107 12:21:58,/home/biadmin/Music/20191107_djci.mp3,djci,14                ,82 ,90 ,https://media.deejay.it/2019/11/07/episodes/deejay_chiama_italia/20191107.mp3
+20191107 14:09:41,/home/biadmin/Music/20191107_epcc.mp3,epcc,9                 ,40 ,44 ,https://media.deejay.it/2019/11/07/episodes/catteland/20191107.mp3
+20191108 09:37:06,/home/biadmin/Music/20191107_niki.mp3,niki,9                 ,63 ,69 ,https://media.deejay.it/2019/11/07/episodes/tropical_pizza/20191107.mp3
+20191108 09:37:17,/home/biadmin/Music/20191108_cr31.mp3,cr31,10                ,78 ,86 ,https://media.deejay.it/2019/11/08/episodes/chiamate_roma_triuno_triuno/20191108.mp3
+20191108 12:45:41,/home/biadmin/Music/20191108_djci.mp3,djci,14                ,81 ,89 ,https://media.deejay.it/2019/11/08/episodes/deejay_chiama_italia/20191108.mp3
+20191108 16:33:36,/home/biadmin/Music/20191108_epcc.mp3,epcc,7                 ,39 ,43 ,https://media.deejay.it/2019/11/08/episodes/catteland/20191108.mp3
+20191108 17:48:34,/home/biadmin/Music/20191108_niki.mp3,niki,15                ,62 ,68 ,https://media.deejay.it/2019/11/08/episodes/tropical_pizza/20191108.mp3
+20191111 09:15:16,/home/biadmin/Music/20191109_djfc.mp3,djfc,11                ,46 ,50 ,https://media.deejay.it/2019/11/09/episodes/deejay_football_club/20191109.mp3
+20191111 09:15:20,/home/biadmin/Music/20191110_djtc.mp3,djtc,4                 ,42 ,46 ,https://media.deejay.it/2019/11/10/episodes/deejay_training_center/20191110.mp3
+20191111 11:50:21,/home/biadmin/Music/20191111_cr31.mp3,cr31,14                ,79 ,87 ,https://media.deejay.it/2019/11/11/episodes/chiamate_roma_triuno_triuno/20191111.mp3
+20191111 12:39:24,/home/biadmin/Music/20191111_djci.mp3,djci,14                ,81 ,88 ,https://media.deejay.it/2019/11/11/episodes/deejay_chiama_italia/20191111.mp3
+20191111 14:55:30,/home/biadmin/Music/20191111_epcc.mp3,epcc,10                ,40 ,44 ,https://media.deejay.it/2019/11/11/episodes/catteland/20191111.mp3
+20191112 12:06:15,/home/biadmin/Music/20191112_cr31.mp3,cr31,2                 ,25 ,27 ,https://media.deejay.it/2019/11/12/episodes/chiamate_roma_triuno_triuno/20191112.mp3
+20191112 12:52:41,/home/biadmin/Music/20191112_djci.mp3,djci,16                ,83 ,91 ,https://media.deejay.it/2019/11/12/episodes/deejay_chiama_italia/20191112.mp3
+20191112 16:02:26,/home/biadmin/Music/20191112_epcc.mp3,epcc,6                 ,39 ,43 ,https://media.deejay.it/2019/11/12/episodes/catteland/20191112.mp3
+20191112 17:20:51,/home/biadmin/Music/20191112_niki.mp3,niki,9                 ,64 ,70 ,https://media.deejay.it/2019/11/12/episodes/tropical_pizza/20191112.mp3
+20191113 10:17:38,/home/biadmin/Music/20191113_cr31.mp3,cr31,11                ,79 ,86 ,https://media.deejay.it/2019/11/13/episodes/chiamate_roma_triuno_triuno/20191113.mp3
+20191113 12:27:59,/home/biadmin/Music/20191113_djci.mp3,djci,13                ,83 ,91 ,https://media.deejay.it/2019/11/13/episodes/deejay_chiama_italia/20191113.mp3
+20191113 14:54:50,/home/biadmin/Music/20191113_epcc.mp3,epcc,14                ,40 ,44 ,https://media.deejay.it/2019/11/13/episodes/catteland/20191113.mp3
+20191113 17:58:25,/home/biadmin/Music/20191113_niki.mp3,niki,10                ,62 ,68 ,https://media.deejay.it/2019/11/13/episodes/tropical_pizza/20191113.mp3
+20191114 09:57:59,/home/biadmin/Music/20191114_cr31.mp3,cr31,10                ,79 ,86 ,https://media.deejay.it/2019/11/14/episodes/chiamate_roma_triuno_triuno/20191114.mp3
+20191114 12:28:12,/home/biadmin/Music/20191114_djci.mp3,djci,11                ,83 ,90 ,https://media.deejay.it/2019/11/14/episodes/deejay_chiama_italia/20191114.mp3
+20191114 13:50:51,/home/biadmin/Music/20191114_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/2019/11/14/episodes/catteland/20191114.mp3
+20191115 08:43:15,/home/biadmin/Music/20191114_niki.mp3,niki,11                ,63 ,69 ,https://media.deejay.it/2019/11/14/episodes/tropical_pizza/20191114.mp3
+20191115 09:54:07,/home/biadmin/Music/20191115_cr31.mp3,cr31,12                ,79 ,87 ,https://media.deejay.it/2019/11/15/episodes/chiamate_roma_triuno_triuno/20191115.mp3
+20191115 13:48:54,/home/biadmin/Music/20191115_djci.mp3,djci,14                ,82 ,90 ,https://media.deejay.it/2019/11/15/episodes/deejay_chiama_italia/20191115.mp3
+20191115 13:48:59,/home/biadmin/Music/20191115_epcc.mp3,epcc,4                 ,40 ,44 ,https://media.deejay.it/2019/11/15/episodes/catteland/20191115.mp3
+20191115 17:32:21,/home/biadmin/Music/20191115_niki.mp3,niki,19                ,62 ,68 ,https://media.deejay.it/2019/11/15/episodes/tropical_pizza/20191115.mp3
+20191116 14:47:18,/home/biadmin/Music/20191116_djfc.mp3,djfc,8                 ,48 ,53 ,https://media.deejay.it/2019/11/16/episodes/deejay_football_club/20191116.mp3
+20191118 09:37:31,/home/biadmin/Music/20191117_djtc.mp3,djtc,10                ,41 ,45 ,https://media.deejay.it/2019/11/17/episodes/deejay_training_center/20191117.mp3
+20191118 09:37:39,/home/biadmin/Music/20191118_cr31.mp3,cr31,7                 ,79 ,86 ,https://media.deejay.it/2019/11/18/episodes/chiamate_roma_triuno_triuno/20191118.mp3
+20191118 13:55:29,/home/biadmin/Music/20191118_djci.mp3,djci,39                ,82 ,90 ,https://media.deejay.it/2019/11/18/episodes/deejay_chiama_italia/20191118.mp3
+20191118 13:55:45,/home/biadmin/Music/20191118_epcc.mp3,epcc,16                ,40 ,44 ,https://media.deejay.it/2019/11/18/episodes/catteland/20191118.mp3
+20191119 08:43:08,/home/biadmin/Music/20191118_niki.mp3,niki,14                ,65 ,71 ,https://media.deejay.it/2019/11/18/episodes/tropical_pizza/20191118.mp3
+20191119 10:55:18,/home/biadmin/Music/20191119_cr31.mp3,cr31,13                ,78 ,86 ,https://media.deejay.it/2019/11/19/episodes/chiamate_roma_triuno_triuno/20191119.mp3
+20191119 14:07:45,/home/biadmin/Music/20191119_djci.mp3,djci,12                ,82 ,90 ,https://media.deejay.it/2019/11/19/episodes/deejay_chiama_italia/20191119.mp3
+20191119 14:07:49,/home/biadmin/Music/20191119_epcc.mp3,epcc,3                 ,40 ,44 ,https://media.deejay.it/2019/11/19/episodes/catteland/20191119.mp3
+20191120 09:21:48,/home/biadmin/Music/20191119_niki.mp3,niki,9                 ,64 ,70 ,https://media.deejay.it/2019/11/19/episodes/tropical_pizza/20191119.mp3
+20191120 12:31:38,/home/biadmin/Music/20191120_cr31.mp3,cr31,12                ,79 ,87 ,https://media.deejay.it/2019/11/20/episodes/chiamate_roma_triuno_triuno/20191120.mp3
+20191120 12:31:53,/home/biadmin/Music/20191120_djci.mp3,djci,15                ,83 ,91 ,https://media.deejay.it/2019/11/20/episodes/deejay_chiama_italia/20191120.mp3
+20191121 08:42:31,/home/biadmin/Music/20191120_epcc.mp3,epcc,11                ,41 ,45 ,https://media.deejay.it/2019/11/20/episodes/catteland/20191120.mp3
+20191121 10:16:30,/home/biadmin/Music/20191121_cr31.mp3,cr31,12                ,78 ,85 ,https://media.deejay.it/2019/11/21/episodes/chiamate_roma_triuno_triuno/20191121.mp3
+20191121 14:36:18,/home/biadmin/Music/20191121_djci.mp3,djci,13                ,80 ,87 ,https://media.deejay.it/2019/11/21/episodes/deejay_chiama_italia/20191121.mp3
+20191121 14:36:22,/home/biadmin/Music/20191121_epcc.mp3,epcc,4                 ,40 ,44 ,https://media.deejay.it/2019/11/21/episodes/catteland/20191121.mp3
+20191122 08:03:02,/home/biadmin/Music/20191121_niki.mp3,niki,8                 ,63 ,69 ,https://media.deejay.it/2019/11/21/episodes/tropical_pizza/20191121.mp3
+20191122 10:25:52,/home/biadmin/Music/20191122_cr31.mp3,cr31,10                ,78 ,85 ,https://media.deejay.it/2019/11/22/episodes/chiamate_roma_triuno_triuno/20191122.mp3
+20191122 13:59:07,/home/biadmin/Music/20191122_djci.mp3,djci,11                ,83 ,91 ,https://media.deejay.it/2019/11/22/episodes/deejay_chiama_italia/20191122.mp3
+20191122 13:59:13,/home/biadmin/Music/20191122_epcc.mp3,epcc,5                 ,40 ,44 ,https://media.deejay.it/2019/11/22/episodes/catteland/20191122.mp3
+20191125 10:19:12,/home/biadmin/Music/20191122_niki.mp3,niki,14                ,63 ,69 ,https://media.deejay.it/2019/11/22/episodes/tropical_pizza/20191122.mp3
+20191125 10:19:19,/home/biadmin/Music/20191123_djfc.mp3,djfc,7                 ,49 ,54 ,https://media.deejay.it/2019/11/23/episodes/deejay_football_club/20191123.mp3
+20191125 10:19:24,/home/biadmin/Music/20191124_djtc.mp3,djtc,4                 ,42 ,46 ,https://media.deejay.it/2019/11/24/episodes/deejay_training_center/20191124.mp3
+20191125 10:19:32,/home/biadmin/Music/20191125_cr31.mp3,cr31,8                 ,81 ,88 ,https://media.deejay.it/2019/11/25/episodes/chiamate_roma_triuno_triuno/20191125.mp3
+20191125 12:31:45,/home/biadmin/Music/20191125_djci.mp3,djci,13                ,82 ,90 ,https://media.deejay.it/2019/11/25/episodes/deejay_chiama_italia/20191125.mp3
+20191125 17:16:50,/home/biadmin/Music/20191125_epcc.mp3,epcc,10                ,40 ,44 ,https://media.deejay.it/2019/11/25/episodes/catteland/20191125.mp3
+20191125 17:16:58,/home/biadmin/Music/20191125_niki.mp3,niki,7                 ,61 ,67 ,https://media.deejay.it/2019/11/25/episodes/tropical_pizza/20191125.mp3
+20191126 12:25:33,/home/biadmin/Music/20191126_cr31.mp3,cr31,14                ,81 ,88 ,https://media.deejay.it/2019/11/26/episodes/chiamate_roma_triuno_triuno/20191126.mp3
+20191126 12:25:42,/home/biadmin/Music/20191126_djci.mp3,djci,9                 ,84 ,92 ,https://media.deejay.it/2019/11/26/episodes/deejay_chiama_italia/20191126.mp3
+20191127 07:52:02,/home/biadmin/Music/20191126_epcc.mp3,epcc,5                 ,40 ,43 ,https://media.deejay.it/2019/11/26/episodes/catteland/20191126.mp3
+20191127 07:52:13,/home/biadmin/Music/20191126_niki.mp3,niki,10                ,68 ,74 ,https://media.deejay.it/2019/11/26/episodes/tropical_pizza/20191126.mp3
+20191127 14:23:45,/home/biadmin/Music/20191127_cr31.mp3,cr31,11                ,86 ,95 ,https://media.deejay.it/2019/11/27/episodes/chiamate_roma_triuno_triuno/20191127.mp3
+20191127 14:23:56,/home/biadmin/Music/20191127_djci.mp3,djci,10                ,85 ,94 ,https://media.deejay.it/2019/11/27/episodes/deejay_chiama_italia/20191127.mp3
+20191127 14:24:01,/home/biadmin/Music/20191127_epcc.mp3,epcc,4                 ,39 ,43 ,https://media.deejay.it/2019/11/27/episodes/catteland/20191127.mp3
+20191128 08:52:37,/home/biadmin/Music/20191127_niki.mp3,niki,9                 ,65 ,71 ,https://media.deejay.it/2019/11/27/episodes/tropical_pizza/20191127.mp3
+20191128 12:15:19,/home/biadmin/Music/20191128_cr31.mp3,cr31,10                ,81 ,89 ,https://media.deejay.it/2019/11/28/episodes/chiamate_roma_triuno_triuno/20191128.mp3
+20191128 13:41:18,/home/biadmin/Music/20191128_djci.mp3,djci,11                ,82 ,89 ,https://media.deejay.it/2019/11/28/episodes/deejay_chiama_italia/20191128.mp3
+20191128 13:41:24,/home/biadmin/Music/20191128_epcc.mp3,epcc,5                 ,40 ,44 ,https://media.deejay.it/2019/11/28/episodes/catteland/20191128.mp3
+20191129 10:29:29,/home/biadmin/Music/20191129_cr31.mp3,cr31,9                 ,80 ,88 ,https://media.deejay.it/2019/11/29/episodes/chiamate_roma_triuno_triuno/20191129.mp3
+20191129 13:06:41,/home/biadmin/Music/20191129_djci.mp3,djci,34                ,83 ,91 ,https://media.deejay.it/2019/11/29/episodes/deejay_chiama_italia/20191129.mp3
+20191129 13:24:06,/home/biadmin/Music/20191129_epcc.mp3,epcc,18                ,40 ,44 ,https://media.deejay.it/2019/11/29/episodes/catteland/20191129.mp3
+20191129 17:28:26,/home/biadmin/Music/20191129_niki.mp3,niki,18                ,56 ,61 ,https://media.deejay.it/2019/11/29/episodes/tropical_pizza/20191129.mp3
+20191130 15:00:52,/home/biadmin/Music/20191130_djfc.mp3,djfc,7                 ,53 ,58 ,https://media.deejay.it/2019/11/30/episodes/deejay_football_club/20191130.mp3
+20191202 08:40:58,/home/biadmin/Music/20191201_djtc.mp3,djtc,8                 ,42 ,46 ,https://media.deejay.it/2019/12/01/episodes/deejay_training_center/20191201.mp3
+20191202 18:17:05,/home/biadmin/Music/20191202_cr31.mp3,cr31,12                ,79 ,87 ,https://media.deejay.it/2019/12/02/episodes/chiamate_roma_triuno_triuno/20191202.mp3
+20191202 18:17:20,/home/biadmin/Music/20191202_djci.mp3,djci,14                ,86 ,95 ,https://media.deejay.it/2019/12/02/episodes/deejay_chiama_italia/20191202.mp3
+20191202 18:17:26,/home/biadmin/Music/20191202_epcc.mp3,epcc,6                 ,43 ,47 ,https://media.deejay.it/2019/12/02/episodes/catteland/20191202.mp3
+20191203 10:49:02,/home/biadmin/Music/20191203_cr31.mp3,cr31,10                ,79 ,86 ,https://media.deejay.it/2019/12/03/episodes/chiamate_roma_triuno_triuno/20191203.mp3
+20191203 13:46:21,/home/biadmin/Music/20191203_djci.mp3,djci,10                ,90 ,99 ,https://media.deejay.it/2019/12/03/episodes/deejay_chiama_italia/20191203.mp3
+20191203 13:46:27,/home/biadmin/Music/20191203_epcc.mp3,epcc,5                 ,42 ,46 ,https://media.deejay.it/2019/12/03/episodes/catteland/20191203.mp3
+20191203 17:23:16,/home/biadmin/Music/20191203_niki.mp3,niki,29                ,70 ,77 ,https://media.deejay.it/2019/12/03/episodes/tropical_pizza/20191203.mp3
+20191204 10:18:02,/home/biadmin/Music/20191204_cr31.mp3,cr31,11                ,79 ,87 ,https://media.deejay.it/2019/12/04/episodes/chiamate_roma_triuno_triuno/20191204.mp3
+20191204 13:44:26,/home/biadmin/Music/20191204_djci.mp3,djci,16                ,85 ,93 ,https://media.deejay.it/2019/12/04/episodes/deejay_chiama_italia/20191204.mp3
+20191204 13:44:33,/home/biadmin/Music/20191204_epcc.mp3,epcc,6                 ,42 ,46 ,https://media.deejay.it/2019/12/04/episodes/catteland/20191204.mp3
+20191204 17:24:03,/home/biadmin/Music/20191204_niki.mp3,niki,10                ,67 ,73 ,https://media.deejay.it/2019/12/04/episodes/tropical_pizza/20191204.mp3
+20191205 13:02:16,/home/biadmin/Music/20191205_cr31.mp3,cr31,10                ,79 ,86 ,https://media.deejay.it/2019/12/05/episodes/chiamate_roma_triuno_triuno/20191205.mp3
+20191205 13:02:26,/home/biadmin/Music/20191205_djci.mp3,djci,10                ,83 ,91 ,https://media.deejay.it/2019/12/05/episodes/deejay_chiama_italia/20191205.mp3
+20191205 14:51:38,/home/biadmin/Music/20191205_epcc.mp3,epcc,5                 ,39 ,43 ,https://media.deejay.it/2019/12/05/episodes/catteland/20191205.mp3
+20191206 09:17:36,/home/biadmin/Music/20191205_niki.mp3,niki,9                 ,64 ,70 ,https://media.deejay.it/2019/12/05/episodes/tropical_pizza/20191205.mp3
+20191206 10:41:38,/home/biadmin/Music/20191206_cr31.mp3,cr31,7                 ,80 ,88 ,https://media.deejay.it/2019/12/06/episodes/chiamate_roma_triuno_triuno/20191206.mp3
+20191206 14:23:00,/home/biadmin/Music/20191206_djci.mp3,djci,8                 ,84 ,92 ,https://media.deejay.it/2019/12/06/episodes/deejay_chiama_italia/20191206.mp3
+20191206 14:23:04,/home/biadmin/Music/20191206_epcc.mp3,epcc,3                 ,39 ,42 ,https://media.deejay.it/2019/12/06/episodes/catteland/20191206.mp3
+20191206 17:21:05,/home/biadmin/Music/20191206_niki.mp3,niki,6                 ,63 ,69 ,https://media.deejay.it/2019/12/06/episodes/tropical_pizza/20191206.mp3
+20191209 09:32:50,/home/biadmin/Music/20191207_djfc.mp3,djfc,10                ,50 ,55 ,https://media.deejay.it/2019/12/07/episodes/deejay_football_club/20191207.mp3
+20191209 09:32:55,/home/biadmin/Music/20191208_djtc.mp3,djtc,4                 ,42 ,46 ,https://media.deejay.it/2019/12/08/episodes/deejay_training_center/20191208.mp3
+20191209 12:17:02,/home/biadmin/Music/20191209_cr31.mp3,cr31,8                 ,80 ,88 ,https://media.deejay.it/2019/12/09/episodes/chiamate_roma_triuno_triuno/20191209.mp3
+20191209 13:49:04,/home/biadmin/Music/20191209_djci.mp3,djci,9                 ,86 ,94 ,https://media.deejay.it/2019/12/09/episodes/deejay_chiama_italia/20191209.mp3
+20191209 13:49:08,/home/biadmin/Music/20191209_epcc.mp3,epcc,4                 ,43 ,48 ,https://media.deejay.it/2019/12/09/episodes/catteland/20191209.mp3
+20191210 09:59:35,/home/biadmin/Music/20191209_niki.mp3,niki,11                ,66 ,73 ,https://media.deejay.it/2019/12/09/episodes/tropical_pizza/20191209.mp3
+20191210 12:27:09,/home/biadmin/Music/20191210_djci.mp3,djci,14                ,85 ,94 ,https://media.deejay.it/2019/12/10/episodes/deejay_chiama_italia/20191210.mp3
+20191210 15:33:57,/home/biadmin/Music/20191210_epcc.mp3,epcc,5                 ,41 ,44 ,https://media.deejay.it/2019/12/10/episodes/catteland/20191210.mp3
+20191210 16:46:31,/home/biadmin/Music/20191210_cr31.mp3,cr31,14                ,105,115,https://media.deejay.it/2019/12/10/episodes/chiamate_roma_triuno_triuno/20191210.mp3
+20191211 09:17:49,/home/biadmin/Music/20191210_niki.mp3,niki,10                ,67 ,74 ,https://media.deejay.it/2019/12/10/episodes/tropical_pizza/20191210.mp3
+20191211 10:25:20,/home/biadmin/Music/20191211_cr31.mp3,cr31,14                ,79 ,87 ,https://media.deejay.it/2019/12/11/episodes/chiamate_roma_triuno_triuno/20191211.mp3
+20191211 14:50:11,/home/biadmin/Music/20191211_djci.mp3,djci,11                ,84 ,92 ,https://media.deejay.it/2019/12/11/episodes/deejay_chiama_italia/20191211.mp3
+20191211 14:50:16,/home/biadmin/Music/20191211_epcc.mp3,epcc,5                 ,41 ,45 ,https://media.deejay.it/2019/12/11/episodes/catteland/20191211.mp3
+20191212 10:53:38,/home/biadmin/Music/20191211_niki.mp3,niki,8                 ,65 ,71 ,https://media.deejay.it/2019/12/11/episodes/tropical_pizza/20191211.mp3
+20191212 10:53:45,/home/biadmin/Music/20191212_cr31.mp3,cr31,7                 ,79 ,86 ,https://media.deejay.it/2019/12/12/episodes/chiamate_roma_triuno_triuno/20191212.mp3
+20191212 13:03:44,/home/biadmin/Music/20191212_djci.mp3,djci,8                 ,83 ,91 ,https://media.deejay.it/2019/12/12/episodes/deejay_chiama_italia/20191212.mp3
+20191212 14:20:16,/home/biadmin/Music/20191212_epcc.mp3,epcc,4                 ,41 ,45 ,https://media.deejay.it/2019/12/12/episodes/catteland/20191212.mp3
+20191213 08:51:24,/home/biadmin/Music/20191212_niki.mp3,niki,9                 ,63 ,70 ,https://media.deejay.it/2019/12/12/episodes/tropical_pizza/20191212.mp3
+20191213 13:41:55,/home/biadmin/Music/20191213_cr31.mp3,cr31,10                ,78 ,85 ,https://media.deejay.it/2019/12/13/episodes/chiamate_roma_triuno_triuno/20191213.mp3
+20191213 13:42:07,/home/biadmin/Music/20191213_djci.mp3,djci,11                ,83 ,91 ,https://media.deejay.it/2019/12/13/episodes/deejay_chiama_italia/20191213.mp3
+20191213 13:42:12,/home/biadmin/Music/20191213_epcc.mp3,epcc,5                 ,39 ,43 ,https://media.deejay.it/2019/12/13/episodes/catteland/20191213.mp3
+20191213 21:00:32,/home/biadmin/Music/20191213_niki.mp3,niki,10                ,61 ,67 ,https://media.deejay.it/2019/12/13/episodes/tropical_pizza/20191213.mp3
+20191216 08:56:19,/home/biadmin/Music/20191214_djfc.mp3,djfc,6                 ,51 ,56 ,https://media.deejay.it/2019/12/14/episodes/deejay_football_club/20191214.mp3
+20191216 12:44:20,/home/biadmin/Music/20191216_cr31.mp3,cr31,7                 ,81 ,89 ,https://media.deejay.it/2019/12/16/episodes/chiamate_roma_triuno_triuno/20191216.mp3
+20191216 12:44:28,/home/biadmin/Music/20191216_djci.mp3,djci,8                 ,88 ,97 ,https://media.deejay.it/2019/12/16/episodes/deejay_chiama_italia/20191216.mp3
+20191216 14:56:31,/home/biadmin/Music/20191216_epcc.mp3,epcc,4                 ,44 ,48 ,https://media.deejay.it/2019/12/16/episodes/catteland/20191216.mp3
+20191217 11:17:01,/home/biadmin/Music/20191217_cr31.mp3,cr31,7                 ,82 ,90 ,https://media.deejay.it/2019/12/17/episodes/chiamate_roma_triuno_triuno/20191217.mp3
+20191217 14:37:36,/home/biadmin/Music/20191217_djci.mp3,djci,8                 ,87 ,96 ,https://media.deejay.it/2019/12/17/episodes/deejay_chiama_italia/20191217.mp3
+20191217 14:37:40,/home/biadmin/Music/20191217_epcc.mp3,epcc,4                 ,44 ,48 ,https://media.deejay.it/2019/12/17/episodes/catteland/20191217.mp3
+20191218 09:41:17,/home/biadmin/Music/20191217_niki.mp3,niki,11                ,67 ,74 ,https://media.deejay.it/2019/12/17/episodes/tropical_pizza/20191217.mp3
+20191219 09:57:30,/home/biadmin/Music/20191219_cr31.mp3,cr31,10                ,83 ,91 ,https://media.deejay.it/2019/12/19/episodes/chiamate_roma_triuno_triuno/20191219.mp3
+20191220 08:40:18,/home/biadmin/Music/20191219_djci.mp3,djci,8                 ,87 ,95 ,https://media.deejay.it/2019/12/19/episodes/deejay_chiama_italia/20191219.mp3
+20191220 08:40:22,/home/biadmin/Music/20191219_epcc.mp3,epcc,4                 ,42 ,46 ,https://media.deejay.it/2019/12/19/episodes/catteland/20191219.mp3
+20191220 08:40:29,/home/biadmin/Music/20191219_niki.mp3,niki,7                 ,67 ,74 ,https://media.deejay.it/2019/12/19/episodes/tropical_pizza/20191219.mp3
+20191220 09:50:36,/home/biadmin/Music/20191220_cr31.mp3,cr31,7                 ,80 ,87 ,https://media.deejay.it/2019/12/20/episodes/chiamate_roma_triuno_triuno/20191220.mp3
+20191220 12:28:47,/home/biadmin/Music/20191220_djci.mp3,djci,11                ,86 ,95 ,https://media.deejay.it/2019/12/20/episodes/deejay_chiama_italia/20191220.mp3
+20191220 15:11:16,/home/biadmin/Music/20191220_epcc.mp3,epcc,4                 ,43 ,47 ,https://media.deejay.it/2019/12/20/episodes/catteland/20191220.mp3
+20191221 13:44:53,/home/biadmin/Music/20191220_niki.mp3,niki,11                ,68 ,75 ,https://media.deejay.it/2019/12/20/episodes/tropical_pizza/20191220.mp3
+20191221 13:45:00,/home/biadmin/Music/20191221_djfc.mp3,djfc,6                 ,54 ,59 ,https://media.deejay.it/2019/12/21/episodes/deejay_football_club/20191221.mp3
+20191223 18:08:25,/home/biadmin/Music/20191222_djtc.mp3,djtc,7                 ,46 ,51 ,https://media.deejay.it/2019/12/22/episodes/deejay_training_center/20191222.mp3
+20191223 18:08:37,/home/biadmin/Music/20191223_cr31.mp3,cr31,11                ,88 ,97 ,https://media.deejay.it/2019/12/23/episodes/chiamate_roma_triuno_triuno/20191223.mp3
+20191223 18:08:49,/home/biadmin/Music/20191223_djci.mp3,djci,11                ,94 ,103,https://media.deejay.it/2019/12/23/episodes/deejay_chiama_italia/20191223.mp3
+20191227 11:03:40,/home/biadmin/Music/20191224_cr31.mp3,cr31,11                ,92 ,101,https://media.deejay.it/2019/12/24/episodes/chiamate_roma_triuno_triuno/20191224.mp3
+20191227 11:03:54,/home/biadmin/Music/20191224_djci.mp3,djci,13                ,97 ,106,https://media.deejay.it/2019/12/24/episodes/deejay_chiama_italia/20191224.mp3
+20191227 11:04:00,/home/biadmin/Music/20191224_epcc.mp3,epcc,5                 ,47 ,51 ,https://media.deejay.it/2019/12/24/episodes/catteland/20191224.mp3
+20191227 11:04:23,/home/biadmin/Music/20191224_niki.mp3,niki,22                ,75 ,82 ,https://media.deejay.it/2019/12/24/episodes/tropical_pizza/20191224.mp3
+20200113 08:33:45,/home/biadmin/Music/20200105_djtc.mp3,djtc,10                ,47 ,52 ,https://media.deejay.it/2020/01/05/episodes/deejay_training_center/20200105.mp3
+20200113 08:34:07,/home/biadmin/Music/20200106_djci.mp3,djci,21                ,95 ,105,https://media.deejay.it/2020/01/06/episodes/deejay_chiama_italia/20200106.mp3
+20200113 08:34:19,/home/biadmin/Music/20200106_epcc.mp3,epcc,11                ,46 ,51 ,https://media.deejay.it/2020/01/06/episodes/catteland/20200106.mp3
+20200113 08:34:34,/home/biadmin/Music/20200106_niki.mp3,niki,15                ,73 ,80 ,https://media.deejay.it/2020/01/06/episodes/tropical_pizza/20200106.mp3
+20200113 08:34:53,/home/biadmin/Music/20200107_cr31.mp3,cr31,19                ,91 ,100,https://media.deejay.it/2020/01/07/episodes/chiamate_roma_triuno_triuno/20200107.mp3
+20200113 08:35:15,/home/biadmin/Music/20200107_djci.mp3,djci,21                ,96 ,105,https://media.deejay.it/2020/01/07/episodes/deejay_chiama_italia/20200107.mp3
+20200113 08:35:24,/home/biadmin/Music/20200107_epcc.mp3,epcc,8                 ,47 ,52 ,https://media.deejay.it/2020/01/07/episodes/catteland/20200107.mp3
+20200113 08:35:36,/home/biadmin/Music/20200107_niki.mp3,niki,12                ,73 ,80 ,https://media.deejay.it/2020/01/07/episodes/tropical_pizza/20200107.mp3
+20200113 08:35:59,/home/biadmin/Music/20200108_cr31.mp3,cr31,22                ,90 ,98 ,https://media.deejay.it/2020/01/08/episodes/chiamate_roma_triuno_triuno/20200108.mp3
+20200113 08:36:16,/home/biadmin/Music/20200108_djci.mp3,djci,17                ,95 ,104,https://media.deejay.it/2020/01/08/episodes/deejay_chiama_italia/20200108.mp3
+20200113 08:36:25,/home/biadmin/Music/20200108_epcc.mp3,epcc,9                 ,47 ,52 ,https://media.deejay.it/2020/01/08/episodes/catteland/20200108.mp3
+20200113 08:36:40,/home/biadmin/Music/20200108_niki.mp3,niki,14                ,74 ,81 ,https://media.deejay.it/2020/01/08/episodes/tropical_pizza/20200108.mp3
+20200113 08:36:57,/home/biadmin/Music/20200109_cr31.mp3,cr31,16                ,88 ,96 ,https://media.deejay.it/2020/01/09/episodes/chiamate_roma_triuno_triuno/20200109.mp3
+20200113 08:49:16,/home/biadmin/Music/20200109_djci.mp3,djci,739               ,92 ,101,https://media.deejay.it/2020/01/09/episodes/deejay_chiama_italia/20200109.mp3
+20200113 08:49:24,/home/biadmin/Music/20200109_epcc.mp3,epcc,7                 ,45 ,49 ,https://media.deejay.it/2020/01/09/episodes/catteland/20200109.mp3
+20200113 08:49:36,/home/biadmin/Music/20200109_niki.mp3,niki,11                ,73 ,80 ,https://media.deejay.it/2020/01/09/episodes/tropical_pizza/20200109.mp3
+20200113 08:49:48,/home/biadmin/Music/20200110_cr31.mp3,cr31,12                ,85 ,94 ,https://media.deejay.it/2020/01/10/episodes/chiamate_roma_triuno_triuno/20200110.mp3
+20200113 08:49:57,/home/biadmin/Music/20200110_djci.mp3,djci,9                 ,90 ,99 ,https://media.deejay.it/2020/01/10/episodes/deejay_chiama_italia/20200110.mp3
+20200113 11:52:45,/home/biadmin/Music/20200113_cr31.mp3,cr31,17                ,82 ,90 ,https://media.deejay.it/2020/01/13/episodes/chiamate_roma_triuno_triuno/20200113.mp3
+20200113 14:32:07,/home/biadmin/Music/20200113_djci.mp3,djci,29                ,88 ,96 ,https://media.deejay.it/2020/01/13/episodes/deejay_chiama_italia/20200113.mp3
+20200113 14:32:21,/home/biadmin/Music/20200113_epcc.mp3,epcc,13                ,42 ,46 ,https://media.deejay.it/2020/01/13/episodes/catteland/20200113.mp3
+20200114 08:32:13,/home/biadmin/Music/20200113_niki.mp3,niki,69                ,70 ,76 ,https://media.deejay.it/2020/01/13/episodes/tropical_pizza/20200113.mp3
+20200114 11:16:43,/home/biadmin/Music/20200114_cr31.mp3,cr31,8                 ,83 ,91 ,https://media.deejay.it/2020/01/14/episodes/chiamate_roma_triuno_triuno/20200114.mp3
+20200114 13:16:09,/home/biadmin/Music/20200114_djci.mp3,djci,9                 ,88 ,97 ,https://media.deejay.it/2020/01/14/episodes/deejay_chiama_italia/20200114.mp3
+20200114 13:16:14,/home/biadmin/Music/20200114_epcc.mp3,epcc,5                 ,43 ,48 ,https://media.deejay.it/2020/01/14/episodes/catteland/20200114.mp3
+20200114 17:24:25,/home/biadmin/Music/20200114_niki.mp3,niki,9                 ,71 ,78 ,https://media.deejay.it/2020/01/14/episodes/tropical_pizza/20200114.mp3
+20200115 10:27:07,/home/biadmin/Music/20200115_cr31.mp3,cr31,10                ,82 ,89 ,https://media.deejay.it/2020/01/15/episodes/chiamate_roma_triuno_triuno/20200115.mp3
+20200115 14:06:42,/home/biadmin/Music/20200115_djci.mp3,djci,11                ,87 ,96 ,https://media.deejay.it/2020/01/15/episodes/deejay_chiama_italia/20200115.mp3
+20200115 14:06:47,/home/biadmin/Music/20200115_epcc.mp3,epcc,5                 ,44 ,48 ,https://media.deejay.it/2020/01/15/episodes/catteland/20200115.mp3
+20200116 08:37:36,/home/biadmin/Music/20200115_niki.mp3,niki,7                 ,66 ,73 ,https://media.deejay.it/2020/01/15/episodes/tropical_pizza/20200115.mp3
+20200116 12:23:05,/home/biadmin/Music/20200116_cr31.mp3,cr31,8                 ,83 ,90 ,https://media.deejay.it/2020/01/16/episodes/chiamate_roma_triuno_triuno/20200116.mp3
+20200116 13:05:44,/home/biadmin/Music/20200116_djci.mp3,djci,8                 ,86 ,94 ,https://media.deejay.it/2020/01/16/episodes/deejay_chiama_italia/20200116.mp3
+20200117 08:17:26,/home/biadmin/Music/20200116_epcc.mp3,epcc,5                 ,42 ,46 ,https://media.deejay.it/2020/01/16/episodes/catteland/20200116.mp3
+20200117 08:17:38,/home/biadmin/Music/20200116_niki.mp3,niki,11                ,72 ,79 ,https://media.deejay.it/2020/01/16/episodes/tropical_pizza/20200116.mp3
+20200117 10:53:08,/home/biadmin/Music/20200117_cr31.mp3,cr31,10                ,81 ,89 ,https://media.deejay.it/2020/01/17/episodes/chiamate_roma_triuno_triuno/20200117.mp3
+20200117 14:03:52,/home/biadmin/Music/20200117_djci.mp3,djci,14                ,86 ,94 ,https://media.deejay.it/2020/01/17/episodes/deejay_chiama_italia/20200117.mp3
+20200117 14:04:00,/home/biadmin/Music/20200117_epcc.mp3,epcc,7                 ,43 ,47 ,https://media.deejay.it/2020/01/17/episodes/catteland/20200117.mp3
+20200118 14:07:10,/home/biadmin/Music/20200117_niki.mp3,niki,11                ,65 ,71 ,https://media.deejay.it/2020/01/17/episodes/tropical_pizza/20200117.mp3
+20200118 14:07:17,/home/biadmin/Music/20200118_djfc.mp3,djfc,6                 ,53 ,58 ,https://media.deejay.it/2020/01/18/episodes/deejay_football_club/20200118.mp3
+20200120 08:56:19,/home/biadmin/Music/20200119_djtc.mp3,djtc,6                 ,45 ,49 ,https://media.deejay.it/2020/01/19/episodes/deejay_training_center/20200119.mp3
+20200120 14:36:32,/home/biadmin/Music/20200120_cr31.mp3,cr31,13                ,81 ,88 ,https://media.deejay.it/2020/01/20/episodes/chiamate_roma_triuno_triuno/20200120.mp3
+20200120 14:36:45,/home/biadmin/Music/20200120_djci.mp3,djci,12                ,86 ,94 ,https://media.deejay.it/2020/01/20/episodes/deejay_chiama_italia/20200120.mp3
+20200120 14:36:51,/home/biadmin/Music/20200120_epcc.mp3,epcc,6                 ,43 ,47 ,https://media.deejay.it/2020/01/20/episodes/catteland/20200120.mp3
+20200120 18:18:26,/home/biadmin/Music/20200120_niki.mp3,niki,9                 ,70 ,77 ,https://media.deejay.it/2020/01/20/episodes/tropical_pizza/20200120.mp3
+20200121 11:13:23,/home/biadmin/Music/20200121_cr31.mp3,cr31,8                 ,80 ,88 ,https://media.deejay.it/2020/01/21/episodes/chiamate_roma_triuno_triuno/20200121.mp3
+20200121 13:02:26,/home/biadmin/Music/20200121_djci.mp3,djci,8                 ,89 ,98 ,https://media.deejay.it/2020/01/21/episodes/deejay_chiama_italia/20200121.mp3
+20200121 17:23:32,/home/biadmin/Music/20200121_epcc.mp3,epcc,4                 ,43 ,47 ,https://media.deejay.it/2020/01/21/episodes/catteland/20200121.mp3
+20200121 17:23:48,/home/biadmin/Music/20200121_niki.mp3,niki,16                ,73 ,80 ,https://media.deejay.it/2020/01/21/episodes/tropical_pizza/20200121.mp3
+20200122 12:21:42,/home/biadmin/Music/20200122_cr31.mp3,cr31,9                 ,80 ,88 ,https://media.deejay.it/2020/01/22/episodes/chiamate_roma_triuno_triuno/20200122.mp3
+20200122 12:21:54,/home/biadmin/Music/20200122_djci.mp3,djci,11                ,85 ,94 ,https://media.deejay.it/2020/01/22/episodes/deejay_chiama_italia/20200122.mp3
+20200122 14:45:19,/home/biadmin/Music/20200122_epcc.mp3,epcc,5                 ,45 ,49 ,https://media.deejay.it/2020/01/22/episodes/catteland/20200122.mp3
+20200123 09:28:45,/home/biadmin/Music/20200122_niki.mp3,niki,9                 ,70 ,76 ,https://media.deejay.it/2020/01/22/episodes/tropical_pizza/20200122.mp3
+20200123 09:28:57,/home/biadmin/Music/20200123_cr31.mp3,cr31,11                ,82 ,90 ,https://media.deejay.it/2020/01/23/episodes/chiamate_roma_triuno_triuno/20200123.mp3
+20200123 14:33:49,/home/biadmin/Music/20200123_djci.mp3,djci,10                ,85 ,94 ,https://media.deejay.it/2020/01/23/episodes/deejay_chiama_italia/20200123.mp3
+20200123 14:33:55,/home/biadmin/Music/20200123_epcc.mp3,epcc,5                 ,41 ,45 ,https://media.deejay.it/2020/01/23/episodes/catteland/20200123.mp3
+20200124 10:13:09,/home/biadmin/Music/20200123_niki.mp3,niki,23                ,69 ,76 ,https://media.deejay.it/2020/01/23/episodes/tropical_pizza/20200123.mp3
+20200124 10:13:35,/home/biadmin/Music/20200124_cr31.mp3,cr31,26                ,81 ,88 ,https://media.deejay.it/2020/01/24/episodes/chiamate_roma_triuno_triuno/20200124.mp3
+20200124 13:36:29,/home/biadmin/Music/20200124_djci.mp3,djci,9                 ,86 ,94 ,https://media.deejay.it/2020/01/24/episodes/deejay_chiama_italia/20200124.mp3
+20200124 13:36:33,/home/biadmin/Music/20200124_epcc.mp3,epcc,3                 ,41 ,45 ,https://media.deejay.it/2020/01/24/episodes/catteland/20200124.mp3
+20200125 15:28:29,/home/biadmin/Music/20200124_niki.mp3,niki,10                ,67 ,73 ,https://media.deejay.it/2020/01/24/episodes/tropical_pizza/20200124.mp3
+20200125 15:28:36,/home/biadmin/Music/20200125_djfc.mp3,djfc,6                 ,54 ,59 ,https://media.deejay.it/2020/01/25/episodes/deejay_football_club/20200125.mp3
+20200127 09:26:14,/home/biadmin/Music/20200126_djtc.mp3,djtc,6                 ,44 ,48 ,https://media.deejay.it/2020/01/26/episodes/deejay_training_center/20200126.mp3
+20200127 09:26:23,/home/biadmin/Music/20200127_cr31.mp3,cr31,9                 ,87 ,95 ,https://media.deejay.it/2020/01/27/episodes/chiamate_roma_triuno_triuno/20200127.mp3
+20200127 13:47:52,/home/biadmin/Music/20200127_djci.mp3,djci,10                ,91 ,100,https://media.deejay.it/2020/01/27/episodes/deejay_chiama_italia/20200127.mp3
+20200127 13:47:57,/home/biadmin/Music/20200127_epcc.mp3,epcc,5                 ,47 ,52 ,https://media.deejay.it/2020/01/27/episodes/catteland/20200127.mp3
+20200128 09:56:44,/home/biadmin/Music/20200127_niki.mp3,niki,9                 ,76 ,83 ,https://media.deejay.it/2020/01/27/episodes/tropical_pizza/20200127.mp3
+20200128 09:56:56,/home/biadmin/Music/20200128_cr31.mp3,cr31,11                ,90 ,99 ,https://media.deejay.it/2020/01/28/episodes/chiamate_roma_triuno_triuno/20200128.mp3
+20200128 12:38:11,/home/biadmin/Music/20200128_djci.mp3,djci,12                ,98 ,107,https://media.deejay.it/2020/01/28/episodes/deejay_chiama_italia/20200128.mp3
+20200128 14:47:22,/home/biadmin/Music/20200128_epcc.mp3,epcc,5                 ,48 ,53 ,https://media.deejay.it/2020/01/28/episodes/catteland/20200128.mp3
+20200128 17:35:03,/home/biadmin/Music/20200128_niki.mp3,niki,17                ,77 ,84 ,https://media.deejay.it/2020/01/28/episodes/tropical_pizza/20200128.mp3
+20200129 11:11:54,/home/biadmin/Music/20200129_cr31.mp3,cr31,13                ,86 ,94 ,https://media.deejay.it/2020/01/29/episodes/chiamate_roma_triuno_triuno/20200129.mp3
+20200129 13:05:00,/home/biadmin/Music/20200129_djci.mp3,djci,11                ,93 ,102,https://media.deejay.it/2020/01/29/episodes/deejay_chiama_italia/20200129.mp3
+20200129 16:15:10,/home/biadmin/Music/20200129_epcc.mp3,epcc,5                 ,45 ,49 ,https://media.deejay.it/2020/01/29/episodes/catteland/20200129.mp3
+20200129 17:26:07,/home/biadmin/Music/20200129_niki.mp3,niki,13                ,73 ,80 ,https://media.deejay.it/2020/01/29/episodes/tropical_pizza/20200129.mp3
+20200130 10:28:16,/home/biadmin/Music/20200130_cr31.mp3,cr31,10                ,84 ,92 ,https://media.deejay.it/2020/01/30/episodes/chiamate_roma_triuno_triuno/20200130.mp3
+20200130 12:38:29,/home/biadmin/Music/20200130_djci.mp3,djci,11                ,90 ,98 ,https://media.deejay.it/2020/01/30/episodes/deejay_chiama_italia/20200130.mp3
+20200130 14:18:29,/home/biadmin/Music/20200130_epcc.mp3,epcc,6                 ,48 ,53 ,https://media.deejay.it/2020/01/30/episodes/catteland/20200130.mp3
+20200130 16:41:15,/home/biadmin/Music/20190201_epcc.mp3,epcc,8                 ,45 ,49 ,https://media.deejay.it/legacy/audio/catteland/20190201.mp3
+20200130 16:41:25,/home/biadmin/Music/20190204_epcc.mp3,epcc,7                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190204.mp3
+20200130 16:41:35,/home/biadmin/Music/20190205_epcc.mp3,epcc,7                 ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190205.mp3
+20200130 16:41:45,/home/biadmin/Music/20190206_epcc.mp3,epcc,7                 ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190206.mp3
+20200130 16:41:53,/home/biadmin/Music/20190207_epcc.mp3,epcc,6                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190207.mp3
+20200130 16:42:02,/home/biadmin/Music/20190208_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190208.mp3
+20200130 16:42:11,/home/biadmin/Music/20190211_epcc.mp3,epcc,6                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190211.mp3
+20200130 16:42:20,/home/biadmin/Music/20190212_epcc.mp3,epcc,6                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190212.mp3
+20200130 16:42:29,/home/biadmin/Music/20190213_epcc.mp3,epcc,6                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190213.mp3
+20200130 16:42:39,/home/biadmin/Music/20190214_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190214.mp3
+20200130 16:42:47,/home/biadmin/Music/20190215_epcc.mp3,epcc,6                 ,41 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190215.mp3
+20200130 16:42:56,/home/biadmin/Music/20190218_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190218.mp3
+20200130 16:43:06,/home/biadmin/Music/20190219_epcc.mp3,epcc,7                 ,41 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190219.mp3
+20200130 16:43:15,/home/biadmin/Music/20190220_epcc.mp3,epcc,7                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190220.mp3
+20200130 16:43:24,/home/biadmin/Music/20190221_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190221.mp3
+20200130 16:43:33,/home/biadmin/Music/20190222_epcc.mp3,epcc,6                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190222.mp3
+20200130 16:43:42,/home/biadmin/Music/20190225_epcc.mp3,epcc,6                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190225.mp3
+20200130 16:43:52,/home/biadmin/Music/20190226_epcc.mp3,epcc,7                 ,47 ,52 ,https://media.deejay.it/legacy/audio/catteland/20190226.mp3
+20200130 16:44:02,/home/biadmin/Music/20190227_epcc.mp3,epcc,7                 ,43 ,48 ,https://media.deejay.it/legacy/audio/catteland/20190227.mp3
+20200130 16:44:11,/home/biadmin/Music/20190228_epcc.mp3,epcc,7                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190228.mp3
+20200130 16:44:21,/home/biadmin/Music/20190301_epcc.mp3,epcc,7                 ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190301.mp3
+20200130 16:44:30,/home/biadmin/Music/20190304_epcc.mp3,epcc,6                 ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190304.mp3
+20200130 16:44:39,/home/biadmin/Music/20190305_epcc.mp3,epcc,6                 ,40 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190305.mp3
+20200130 16:44:49,/home/biadmin/Music/20190306_epcc.mp3,epcc,8                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190306.mp3
+20200130 16:44:58,/home/biadmin/Music/20190307_epcc.mp3,epcc,7                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190307.mp3
+20200130 16:45:06,/home/biadmin/Music/20190308_epcc.mp3,epcc,6                 ,40 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190308.mp3
+20200130 16:45:14,/home/biadmin/Music/20190311_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190311.mp3
+20200130 16:45:21,/home/biadmin/Music/20190312_epcc.mp3,epcc,7                 ,41 ,45 ,https://media.deejay.it/legacy/audio/catteland/20190312.mp3
+20200130 16:45:28,/home/biadmin/Music/20190313_epcc.mp3,epcc,6                 ,39 ,43 ,https://media.deejay.it/legacy/audio/catteland/20190313.mp3
+20200130 16:45:36,/home/biadmin/Music/20190314_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190314.mp3
+20200130 16:45:43,/home/biadmin/Music/20190315_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190315.mp3
+20200130 16:45:51,/home/biadmin/Music/20190318_epcc.mp3,epcc,7                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190318.mp3
+20200130 16:45:59,/home/biadmin/Music/20190319_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190319.mp3
+20200130 16:46:08,/home/biadmin/Music/20190320_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190320.mp3
+20200130 16:46:16,/home/biadmin/Music/20190321_epcc.mp3,epcc,7                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190321.mp3
+20200130 16:46:24,/home/biadmin/Music/20190322_epcc.mp3,epcc,6                 ,40 ,44 ,https://media.deejay.it/legacy/audio/catteland/20190322.mp3
+20200130 16:46:33,/home/biadmin/Music/20190325_epcc.mp3,epcc,7                 ,44 ,49 ,https://media.deejay.it/legacy/audio/catteland/20190325.mp3
+20200130 16:46:42,/home/biadmin/Music/20190326_epcc.mp3,epcc,8                 ,45 ,49 ,https://media.deejay.it/legacy/audio/catteland/20190326.mp3
+20200130 16:46:50,/home/biadmin/Music/20190327_epcc.mp3,epcc,7                 ,43 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190327.mp3
+20200130 16:46:58,/home/biadmin/Music/20190328_epcc.mp3,epcc,7                 ,42 ,47 ,https://media.deejay.it/legacy/audio/catteland/20190328.mp3
+20200130 16:47:06,/home/biadmin/Music/20190329_epcc.mp3,epcc,7                 ,42 ,46 ,https://media.deejay.it/legacy/audio/catteland/20190329.mp3
+20200131 08:57:07,/home/biadmin/Music/20200130_niki.mp3,niki,14                ,73 ,80 ,https://media.deejay.it/2020/01/30/episodes/tropical_pizza/20200130.mp3
+20200131 09:46:07,/home/biadmin/Music/20200131_cr31.mp3,cr31,21                ,85 ,94 ,https://media.deejay.it/2020/01/31/episodes/chiamate_roma_triuno_triuno/20200131.mp3
+20200131 13:45:22,/home/biadmin/Music/20200131_djci.mp3,djci,23                ,92 ,101,https://media.deejay.it/2020/01/31/episodes/deejay_chiama_italia/20200131.mp3
+20200131 13:45:28,/home/biadmin/Music/20200131_epcc.mp3,epcc,6                 ,47 ,52 ,https://media.deejay.it/2020/01/31/episodes/catteland/20200131.mp3
+20200131 23:06:42,/home/biadmin/Music/20200131_niki.mp3,niki,11                ,70 ,77 ,https://media.deejay.it/2020/01/31/episodes/tropical_pizza/20200131.mp3
+20200202 10:21:53,/home/biadmin/Music/20200201_djfc.mp3,djfc,11                ,58 ,63 ,https://media.deejay.it/2020/02/01/episodes/deejay_football_club/20200201.mp3
+20200203 11:33:41,/home/biadmin/Music/20200202_djtc.mp3,djtc,5                 ,43 ,47 ,https://media.deejay.it/2020/02/02/episodes/deejay_training_center/20200202.mp3
+20200203 11:33:52,/home/biadmin/Music/20200203_cr31.mp3,cr31,10                ,82 ,90 ,https://media.deejay.it/2020/02/03/episodes/chiamate_roma_triuno_triuno/20200203.mp3
+20200203 13:28:12,/home/biadmin/Music/20200203_djci.mp3,djci,12                ,96 ,105,https://media.deejay.it/2020/02/03/episodes/deejay_chiama_italia/20200203.mp3
+20200203 13:28:19,/home/biadmin/Music/20200203_epcc.mp3,epcc,6                 ,45 ,49 ,https://media.deejay.it/2020/02/03/episodes/catteland/20200203.mp3
+20200203 17:28:30,/home/biadmin/Music/20200203_niki.mp3,niki,12                ,74 ,81 ,https://media.deejay.it/2020/02/03/episodes/tropical_pizza/20200203.mp3
+20200204 10:58:12,/home/biadmin/Music/20200204_cr31.mp3,cr31,13                ,85 ,93 ,https://media.deejay.it/2020/02/04/episodes/chiamate_roma_triuno_triuno/20200204.mp3
+20200204 12:28:45,/home/biadmin/Music/20200204_djci.mp3,djci,17                ,91 ,100,https://media.deejay.it/2020/02/04/episodes/deejay_chiama_italia/20200204.mp3
+20200204 17:19:31,/home/biadmin/Music/20200204_epcc.mp3,epcc,10                ,44 ,49 ,https://media.deejay.it/2020/02/04/episodes/catteland/20200204.mp3
+20200204 17:19:41,/home/biadmin/Music/20200204_niki.mp3,niki,9                 ,74 ,81 ,https://media.deejay.it/2020/02/04/episodes/tropical_pizza/20200204.mp3
+20200205 12:55:38,/home/biadmin/Music/20200205_cr31.mp3,cr31,12                ,82 ,90 ,https://media.deejay.it/2020/02/05/episodes/chiamate_roma_triuno_triuno/20200205.mp3
+20200205 12:55:50,/home/biadmin/Music/20200205_djci.mp3,djci,12                ,91 ,100,https://media.deejay.it/2020/02/05/episodes/deejay_chiama_italia/20200205.mp3
+20200205 15:55:55,/home/biadmin/Music/20200205_epcc.mp3,epcc,7                 ,46 ,51 ,https://media.deejay.it/2020/02/05/episodes/catteland/20200205.mp3
+20200206 08:44:37,/home/biadmin/Music/20200205_niki.mp3,niki,16                ,75 ,82 ,https://media.deejay.it/2020/02/05/episodes/tropical_pizza/20200205.mp3
+20200206 11:34:23,/home/biadmin/Music/20200206_cr31.mp3,cr31,12                ,80 ,87 ,https://media.deejay.it/2020/02/06/episodes/chiamate_roma_triuno_triuno/20200206.mp3
+20200206 13:07:06,/home/biadmin/Music/20200206_djci.mp3,djci,13                ,85 ,93 ,https://media.deejay.it/2020/02/06/episodes/deejay_chiama_italia/20200206.mp3
+20200206 14:46:50,/home/biadmin/Music/20200206_epcc.mp3,epcc,10                ,44 ,48 ,https://media.deejay.it/2020/02/06/episodes/catteland/20200206.mp3
+20200207 10:00:52,/home/biadmin/Music/20200206_niki.mp3,niki,15                ,67 ,74 ,https://media.deejay.it/2020/02/06/episodes/tropical_pizza/20200206.mp3
+20200207 10:01:08,/home/biadmin/Music/20200207_cr31.mp3,cr31,15                ,80 ,88 ,https://media.deejay.it/2020/02/07/episodes/chiamate_roma_triuno_triuno/20200207.mp3
+20200207 12:29:00,/home/biadmin/Music/20200207_djci.mp3,djci,13                ,82 ,90 ,https://media.deejay.it/2020/02/07/episodes/deejay_chiama_italia/20200207.mp3
+20200207 15:02:45,/home/biadmin/Music/20200207_epcc.mp3,epcc,6                 ,43 ,47 ,https://media.deejay.it/2020/02/07/episodes/catteland/20200207.mp3
+20200210 09:31:30,/home/biadmin/Music/20200207_niki.mp3,niki,9                 ,66 ,73 ,https://media.deejay.it/2020/02/07/episodes/tropical_pizza/20200207.mp3
+20200210 09:31:39,/home/biadmin/Music/20200208_djfc.mp3,djfc,8                 ,54 ,59 ,https://media.deejay.it/2020/02/08/episodes/deejay_football_club/20200208.mp3
+20200210 09:31:50,/home/biadmin/Music/20200209_djtc.mp3,djtc,11                ,45 ,49 ,https://media.deejay.it/2020/02/09/episodes/deejay_training_center/20200209.mp3
+20200210 12:06:57,/home/biadmin/Music/20200210_cr31.mp3,cr31,12                ,97 ,107,https://media.deejay.it/2020/02/10/episodes/chiamate_roma_triuno_triuno/20200210.mp3
+20200210 14:11:26,/home/biadmin/Music/20200210_djci.mp3,djci,13                ,105,115,https://media.deejay.it/2020/02/10/episodes/deejay_chiama_italia/20200210.mp3
+20200210 14:11:31,/home/biadmin/Music/20200210_epcc.mp3,epcc,5                 ,42 ,46 ,https://media.deejay.it/2020/02/10/episodes/catteland/20200210.mp3
+20200211 09:24:56,/home/biadmin/Music/20200210_niki.mp3,niki,17                ,65 ,72 ,https://media.deejay.it/2020/02/10/episodes/tropical_pizza/20200210.mp3
+20200211 12:27:25,/home/biadmin/Music/20200211_cr31.mp3,cr31,14                ,80 ,87 ,https://media.deejay.it/2020/02/11/episodes/chiamate_roma_triuno_triuno/20200211.mp3
+20200211 12:27:41,/home/biadmin/Music/20200211_djci.mp3,djci,15                ,84 ,92 ,https://media.deejay.it/2020/02/11/episodes/deejay_chiama_italia/20200211.mp3
+20200211 17:38:20,/home/biadmin/Music/20200211_epcc.mp3,epcc,9                 ,43 ,48 ,https://media.deejay.it/2020/02/11/episodes/catteland/20200211.mp3
+20200211 17:38:29,/home/biadmin/Music/20200211_niki.mp3,niki,8                 ,70 ,76 ,https://media.deejay.it/2020/02/11/episodes/tropical_pizza/20200211.mp3
+20200212 12:17:22,/home/biadmin/Music/20200212_cr31.mp3,cr31,11                ,78 ,85 ,https://media.deejay.it/2020/02/12/episodes/chiamate_roma_triuno_triuno/20200212.mp3
+20200212 14:32:19,/home/biadmin/Music/20200212_djci.mp3,djci,10                ,82 ,89 ,https://media.deejay.it/2020/02/12/episodes/deejay_chiama_italia/20200212.mp3
+20200212 14:32:25,/home/biadmin/Music/20200212_epcc.mp3,epcc,5                 ,41 ,45 ,https://media.deejay.it/2020/02/12/episodes/catteland/20200212.mp3
+20200212 18:09:38,/home/biadmin/Music/20200212_niki.mp3,niki,11                ,64 ,70 ,https://media.deejay.it/2020/02/12/episodes/tropical_pizza/20200212.mp3
+20200213 09:47:17,/home/biadmin/Music/20200213_cr31.mp3,cr31,29                ,78 ,86 ,https://media.deejay.it/2020/02/13/episodes/chiamate_roma_triuno_triuno/20200213.mp3
