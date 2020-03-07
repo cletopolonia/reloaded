@@ -34,5 +34,4 @@ public enum EDays {
     public static List<EDays> workingDay() {
         return Arrays.stream(EDays.values()).filter(EDays::isWorkingDay).collect(Collectors.toList());
     }
-
 }

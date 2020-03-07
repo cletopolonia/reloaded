@@ -1,0 +1,96 @@
+version: '2'
+services:
+
+  kirk-nginx:
+    image: nginx
+    container_name: kirk-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - <CURR_DIR>/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - <CURR_DIR>/nginx/server.key:/etc/nginx/certs.d/server.key
+      - <CURR_DIR>/nginx/server.crt:/etc/nginx/certs.d/server.crt
+      - <CURR_DIR>/nginx/usr/share/nginx/html/:/usr/share/nginx/html/
+    restart: always
+    depends_on:
+      - kirk-admin
+      - kirk-core
+    networks:
+      default:
+        ipv4_address: 172.8.1.61
+
+  kirk-core:
+    image: docker.gfm.cloud/vodafone/kirk-core:<REVISION>
+    container_name: kirk-core
+    ports:
+      - "8082"
+    environment:
+      - SPRING_PROFILES_ACTIVE=postgres
+      - SPRING_JPA_SHOW_SQL=true
+      - PACKAGE_SCAN=it.vodafone.kirk.core.entities
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://kirk-postgres:5432/kirk_core
+      - SPRING_DATASOURCE_USERNAME=${KIRK_POSTGRES_CORE_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${KIRK_POSTGRES_CORE_PASSWORD}
+      - PRIVATEKEY_FILENAME=/opt/cfg/rsa/private_key.der
+      - PUBLICKEY_FILENAME=/opt/cfg/rsa/public_key.der
+      - KIRK_ADMIN_INITIAL_P=${KIRK_ADMIN_INITIAL_P}
+      - KIRK_ADMIN_INITIAL_MAIL=${KIRK_ADMIN_INITIAL_MAIL}
+      - KIRK_TIMEZONE=${KIRK_TIMEZONE}
+      - SARBOX_DIR=${KIRK_CORE_SARBOX_DIR}
+      - SARBOX_MINIMUM_PASSWORD_LENGTH=${SARBOX_MINIMUM_PASSWORD_LENGTH}
+      - SARBOX_MINIMUM_SUBSTRING_LENGTH_OF_PASSWORD=${SARBOX_MINIMUM_SUBSTRING_LENGTH_OF_PASSWORD}
+      - SARBOX_MINIMUM_SUBSTRING_LENGTH_OF_USERNAME=${SARBOX_MINIMUM_SUBSTRING_LENGTH_OF_USERNAME}
+      - SARBOX_LOGIN_ERRORS_LIMIT=${SARBOX_LOGIN_ERRORS_LIMIT}
+      - SARBOX_TEMPORARY_BLOCK_ACCOUNT_DURATION=${SARBOX_TEMPORARY_BLOCK_ACCOUNT_DURATION}
+      - SARBOX_PASSWORD_EXPIRING_DURATION=${SARBOX_PASSWORD_EXPIRING_DURATION}
+      - SARBOX_CHANGE_PASSWORD_REQUIRED_BEFORE_EXPIRATION=${SARBOX_CHANGE_PASSWORD_REQUIRED_BEFORE_EXPIRATION}
+      - SARBOX_TIME_TO_RESET_COUNT_ERROR_AFTER_LAST_ERROR=${SARBOX_TIME_TO_RESET_COUNT_ERROR_AFTER_LAST_ERROR}
+      - SARBOX_DICTIONARIES_FILES=${SARBOX_DICTIONARIES_FILES}
+
+    volumes:
+      - <CURR_DIR>/var/kirk/data:/var/kirk/data
+      - <CURR_DIR>/tmp/kirk/data:/tmp/kirk/data
+    networks:
+      default:
+        ipv4_address: 172.8.1.50
+
+
+  kirk-admin:
+    image: docker.gfm.cloud/vodafone/kirk-admin:<REVISION>
+    container_name: kirk-admin
+    ports:
+      - "8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=postgres
+      - SPRING_JPA_SHOW_SQL=true
+      - PACKAGE_SCAN=it.vodafone.kirk.admin.entities
+      - KIRK_DATASOURCE_PRODUCTION_URL=jdbc:postgresql://kirk-postgres:5432/kirk_prod
+      - KIRK_DATASOURCE_PRODUCTION_USERNAME=${KIRK_POSTGRES_PROD_USERNAME}
+      - KIRK_DATASOURCE_PRODUCTION_PASSWORD=${KIRK_POSTGRES_PROD_PASSWORD}
+      - KIRK_DATASOURCE_DEV_URL=jdbc:postgresql://kirk-postgres:5432/kirk_dev
+      - KIRK_DATASOURCE_DEV_USERNAME=${KIRK_POSTGRES_DEV_USERNAME}
+      - KIRK_DATASOURCE_DEV_PASSWORD=${KIRK_POSTGRES_DEV_PASSWORD}
+      - SQL_STAGING_DIR=${KIRK_SQL_STAGING}
+      - SQL_COMPLETED_DIR=${KIRK_SQL_COMPLETED}
+      - SQL_FAILURE_DIR=${KIRK_SQL_FAILURE}
+      - PRIVATEKEY_FILENAME=/opt/cfg/rsa/private_key.der
+      - PUBLICKEY_FILENAME=/opt/cfg/rsa/public_key.der
+      - KIRK_ADMIN_INITIAL_P=${KIRK_ADMIN_INITIAL_P}
+      - KIRK_ADMIN_INITIAL_MAIL=${KIRK_ADMIN_INITIAL_MAIL}
+      - ADMIN_ADDRESS=http://kirk-admin:8080
+      - KIRK_TIMEZONE=${KIRK_TIMEZONE}
+      - FILES_REMOTE_HOME=${FILES_REMOTE_HOME}
+      - EXAMPLE_STYLE_ENABLE=true
+
+    volumes:
+      - <CURR_DIR>/var/kirk/data:/var/kirk/data
+      - <CURR_DIR>/tmp/kirk/data:/tmp/kirk/data
+    networks:
+      default:
+        ipv4_address: 172.8.1.51
+
+networks:
+  default:
+    external:
+      name: kirk

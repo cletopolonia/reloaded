@@ -1,0 +1,47 @@
+version: '2'
+services:
+
+  reloaded-postgres:
+    image:  erodriguezg/postgres-without-volume:9.6.2
+    container_name: reloaded
+    environment:
+      - POSTGRES_USER=${RELOADED_POSTGRES_USERNAME}
+      - POSTGRES_PASSWORD=${RELOADED_POSTGRES_PASSWORD}
+    volumes:
+      - <CURR_DIR>/postgres/unique/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+#    networks:
+#       default:
+#         ipv4_address: 172.8.1.86
+#
+#  kirk-postgres-prod:
+#    image:  erodriguezg/postgres-without-volume:9.6.2
+#    container_name: kirk-postgres-prod
+#    environment:
+#      - POSTGRES_USER=${KIRK_POSTGRES_PROD_USERNAME}
+#      - POSTGRES_PASSWORD=${KIRK_POSTGRES_PROD_PASSWORD}
+#    volumes:
+#      - <CURR_DIR>/postgres/prod/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+#    ports:
+#      - "5432:5432"
+#    networks:
+#       default:
+#         ipv4_address: 172.8.1.62
+#
+#
+#  kirk-postgres-dev:
+#    image:  erodriguezg/postgres-without-volume:9.6.2
+#    container_name: kirk-postgres-dev
+#    environment:
+#      - POSTGRES_USER=${KIRK_POSTGRES_DEV_USERNAME}
+#      - POSTGRES_PASSWORD=${KIRK_POSTGRES_DEV_PASSWORD}
+#    volumes:
+#      - <CURR_DIR>/postgres/dev/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+#    ports:
+#      - "5433:5432"
+#    networks:
+#      default:
+#        ipv4_address: 172.8.1.63
+
+
