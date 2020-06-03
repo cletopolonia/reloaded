@@ -28,7 +28,7 @@ public class Reloaded {
         try {
             Utils.disableLoggerJAudioTagger();
             invokeSingleDownload(false);
-            Period period = invokePeriodCreation(true);
+            Period period = invokePeriodCreation(false);
             while (period.continueDownload()) {
                 Date elaborationDate = period.getStart();
                 log.info("date: " + Utils.getDateFormat(elaborationDate));
@@ -77,9 +77,9 @@ public class Reloaded {
         if (!isCustomEnabled) {
             return new Period();
         } else {
-            log.info("invokePeriodCre   ation");
-            String from = "20181231"; // catelland scaricate dal 31 dic 2018
-            String to = "20190131";
+            log.info("invokePeriodCreation");
+            String from = "20180301"; // catelland scaricate dal 1 marzo 2018 -> ad oggi
+            String to = "20180401";
             return new Period(from, to);
         }
     }
