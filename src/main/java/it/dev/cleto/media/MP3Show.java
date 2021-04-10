@@ -197,7 +197,7 @@ public class MP3Show {
 
     // v1
     protected String createUrlV1(EShow eShow) {
-        return Utils.BASE_URL_OLD + eShow.getPartialUrl() + Utils.URL_SEPARATOR
+        return Utils.BASE_URL_V1 + eShow.getPartialUrl() + Utils.URL_SEPARATOR
                 + Utils.getDateFormat(getDate()) + Utils.EXT_MP3;
     }
 

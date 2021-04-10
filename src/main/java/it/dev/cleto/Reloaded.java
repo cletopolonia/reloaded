@@ -20,8 +20,6 @@ public class Reloaded {
 
         // TODO inserire i test
         // TODO creare la configuration
-        // TODO trasformare il in db
-        // TODO trasformare il tutto in apis
         // todo dockerize
 
         Utils.banner("Start");

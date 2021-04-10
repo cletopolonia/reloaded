@@ -32,11 +32,11 @@ public class Utils {
     public static final String FILE_SEPARATOR = "_";
     public static final String LINE = System.lineSeparator();
 
-    public static final String BASE_URL_OLD = "https://media.deejay.it/legacy/audio/";
+    public static final String BASE_URL_V1 = "https://media.deejay.it/legacy/audio/";
     public static final String BASE_URL = "https://media.deejay.it/";
     public static final String EPISODES = "/episodes/";
     public static final String BASE_PATH = "D:\\musica\\reloaded\\";
-    public static final String DOWNLOADS_CSV = "D:\\musica\\reloaded\\downloads.csv";
+    public static final String DOWNLOADS_CSV = "docs\\downloads.csv";
 
     public static final String UNKNOWN = "Unknown";
 
