@@ -29,13 +29,6 @@ public class ReloadedTest {
         assertNotNull(p.getReport());
     }
 
-    @Test
-    public void resetTagTest() throws IOException, ParseException {
-        String dateMp3fileTest = "20190118";
-        Date dateForTest = new SimpleDateFormat("yyyyMMdd").parse(dateMp3fileTest);
 
-        MP3Show mp3 = new MP3Show(EShow.EPCC, dateForTest);
-//        mp3.resetTags();
 
-    }
 }

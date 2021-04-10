@@ -34,19 +34,28 @@ public class MP3Show {
     private Date date;
     private EShow eshow;
     private String durationDownloadInSec;
-    private boolean hasOldUrl;
 
     public MP3Show(EShow eShow, Date date) {
         this.date = date;
         this.eshow = eShow;
-        if (eShow.isHasOldUrl())
-            this.url = createUrlOld(eshow);
-        else
-            this.url = createUrl(eshow);
+        this.url = createUrl(date);
         this.name = createName(eshow);
         this.path = createPath();
     }
 
+    public String createUrl(Date date) {
+        String version = Utils.getVersion(date);
+        switch (version) {
+            case "v1":
+                return createUrlV1(eshow);
+            case "v2":
+                return createUrlV2(eshow);
+            case "v3":
+                return createUrlV3(eshow);
+            default:
+                return "v4";
+        }
+    }
 
     public MP3Show(EShow eShow, String date, String url) throws ParseException {
         this.date = Utils.parseDate(date);
@@ -78,10 +87,9 @@ public class MP3Show {
 
     public void resetTags() throws IOException {
         File file = new File(getPath());
-        MP3File mp3file = null;
+        MP3File mp3file;
         try {
             mp3file = new MP3File(file);
-            if (mp3file == null) return;
             resetTagID3v1Tag(mp3file);
             updateTagID3v2Tag(file.getName(), mp3file);
             mp3file.save();
@@ -148,7 +156,7 @@ public class MP3Show {
             BufferedInputStream in = new BufferedInputStream(url.openStream());
             FileOutputStream fileOutputStream = new FileOutputStream(getPath());
             log.info("  downloading: " + getUrl() + " start at " + Utils.getTimeFormat(Date.from(start)));
-            byte dataBuffer[] = new byte[1024];
+            byte[] dataBuffer = new byte[1024];
             int bytesRead;
             while ((bytesRead = in.read(dataBuffer, 0, 1024)) != -1) {
                 fileOutputStream.write(dataBuffer, 0, bytesRead);
@@ -187,15 +195,25 @@ public class MP3Show {
                 + Utils.FILE_SEPARATOR + getName() + Utils.EXT_MP3;
     }
 
-    protected String createUrlOld(EShow eShow) {
+    // v1
+    protected String createUrlV1(EShow eShow) {
         return Utils.BASE_URL_OLD + eShow.getPartialUrl() + Utils.URL_SEPARATOR
                 + Utils.getDateFormat(getDate()) + Utils.EXT_MP3;
     }
 
-    protected String createUrl(EShow eShow) {
+    // v2
+    protected String createUrlV2(EShow eShow) {
         Date date = getDate();
         return Utils.BASE_URL + Utils.getDatePathUrlFormat(date) + Utils.EPISODES
                 + eShow.getPartialUrl() + Utils.URL_SEPARATOR
+                + Utils.getDateFormat(date) + Utils.EXT_MP3;
+    }
+
+    // v3
+    protected String createUrlV3(EShow eShow) {
+        Date date = getDate();
+        return Utils.BASE_URL + Utils.getDatePathUrlFormat(date) + Utils.EPISODES
+                + eShow.getPartialUrl() + Utils.URL_SEPARATOR + eShow.getPartialUrl() + "-"
                 + Utils.getDateFormat(date) + Utils.EXT_MP3;
     }
 

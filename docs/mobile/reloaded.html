@@ -1,0 +1,155 @@
+<html>
+	<head>
+		<title>reloaded</title>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<style>
+			body { background-color: lightblue; font-family: monospace;}
+			div {font-size: 200%;}
+			a {padding: 25px;}
+			p {margin: 0px;}
+			.date-box { color: red; margin-bottom: 40px;}
+		</style>
+		<script>
+			MS_IN_A_DAY = 1000*60*60*24*1; // Offset by one day;
+			
+			YYYY_MM_DD_NO_SEPARATOR = 1; // YYYYMMDD;
+			YYYY_MM_DD_SLASH_SEPARATOR = 2; // YYYY/MM/DD;
+			DAYS_NO_SEPARATOR = 3; // DDD;
+			
+			URL_1_MEDIA = "https://media.deejay.it/";
+			URL_2_EPISODES = "/episodes/";
+			URL_3_MP3_EXTENSION = ".mp3";
+			
+			DAYS = ["DO", "LU", "MA", "ME", "GI", "VE", "SA"];
+
+			WORKING_DAYS = [1,2,3,4,5];
+			SAT = [6];
+			SUN = [0];
+
+			CR31_20210309 = { "name": "cr31", "url":"chiamate_roma_triuno_triuno/", "days":WORKING_DAYS};
+			DJCI_20210309 = { "name": "djci", "url":"deejay_chiama_italia/", "days":WORKING_DAYS};
+			EPCC_20210309 = { "name": "epcc", "url":"catteland/", "days":WORKING_DAYS};
+			DJFC_20210309 = { "name": "djfc", "url":"deejay_football_club/", "days":SAT};
+			DJTC_20210309 = { "name": "djtc", "url":"deejay_training_center/", "days":SUN};
+			
+			CR31 = { "name": "cr31", "url":"chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-", "days":WORKING_DAYS};
+			DJCI = { "name": "djci", "url":"deejay_chiama_italia/deejay_chiama_italia-", "days":WORKING_DAYS};
+			EPCC = { "name": "epcc", "url":"catteland/catteland-", "days":WORKING_DAYS};
+			DJFC = { "name": "djfc", "url":"deejay_football_club/deejay_football_club-", "days":SAT};
+			DJTC = { "name": "djtc", "url":"deejay_training_center/deejay_training_center-", "days":SUN};
+
+			PROGRAMS = [DJCI,EPCC,DJFC,DJTC];
+
+			function init(){
+				console.log("init");
+				console.log(addDaysToToday(0));
+				console.log(addDaysToToday(-40));
+				console.log(addDaysToToday(+40));
+				console.log("print");
+				console.log(getFormat(addDaysToToday(0), YYYY_MM_DD_NO_SEPARATOR));
+				console.log(getFormat(addDaysToToday(0), YYYY_MM_DD_SLASH_SEPARATOR));
+				console.log(PROGRAMS);
+				console.log(getUrl(addDaysToToday(0),PROGRAMS[0]));
+				console.log(PROGRAMS[0].days);
+				console.log(addDaysToToday(0).getDay());
+				console.log(PROGRAMS[0].days.includes(addDaysToToday(0).getDay()));
+				createProgramsOfLastDays(3);
+			}
+
+			function createProgramsOfLastDays(number){
+				for(var index=number; index >=0; index--){
+					createProgramsOf(addDaysToToday(-index));
+				}
+			}
+
+
+			function createProgramsOf(date){
+				addDate(date);
+				for(var index=0; index < PROGRAMS.length; index++){
+					addLink(date, PROGRAMS[index]);
+				}
+				addBr(getFormat(date, YYYY_MM_DD_NO_SEPARATOR));
+			}
+
+			function addDate(date){
+				$("#programs").append(createDiv(date));
+			}
+			function createDiv(date){
+				var div = document.createElement('div');
+				$(div).addClass(getFormat(date, YYYY_MM_DD_NO_SEPARATOR));
+				$(div).addClass('date-box');
+				var p = document.createElement('p');
+				$(p).html(getFormat(date, DAYS_NO_SEPARATOR) + " " + getFormat(date, YYYY_MM_DD_NO_SEPARATOR));
+				$(div).append(p);
+				return div;
+			}
+
+			function addLink(date, program){
+				$('div.' + getFormat(date, YYYY_MM_DD_NO_SEPARATOR)).append(createLink(date, program));
+			}
+			function addBr(date){
+				$('.' + date + ':last').append(createBr());
+			}
+
+			function createBr(){
+				var br = document.createElement('br');
+				return br;
+			}
+
+			function createLink(date, program){
+				if(program.days.includes(date.getDay())){
+					var linkAnchor = document.createElement('a');
+					return $(linkAnchor)
+						.attr('href', getUrl(date, program))
+						.attr('target','_blank') 
+						.html(getFormat(date, YYYY_MM_DD_NO_SEPARATOR) + "_" + program.name);
+				}
+				return document.createElement('span');
+			}
+
+			function getUrl(date, program){
+				return URL_1_MEDIA
+						+ getFormat(date,YYYY_MM_DD_SLASH_SEPARATOR)
+						+ URL_2_EPISODES
+						+ program.url
+						+ getFormat(date,YYYY_MM_DD_NO_SEPARATOR)
+						+ URL_3_MP3_EXTENSION;
+			}
+
+			function addDaysToToday(number){
+				var now=new Date();
+				var yesterdayMs = now.getTime() + number * MS_IN_A_DAY;
+				now.setTime( yesterdayMs );
+				return now;
+			}
+
+			function getFormat(date, format){
+				var yyyy = date.getFullYear().toString();
+				var mm = (date.getMonth()+1).toString(); // getMonth() is zero-based
+				var dd  = date.getDate().toString();
+				var ddd  = date.getDay();
+				switch(format){
+				case 1: 
+					return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]);
+				case 2:
+					return yyyy + "/" + (mm[1]?mm:"0"+mm[0]) + "/" + (dd[1]?dd:"0"+dd[0]);
+				case 3: 
+					return DAYS[ddd];
+				default:
+					return 1/0;
+				}
+			}
+	
+	
+	
+	
+	
+			$(function(){
+				init();
+			}); 
+		</script>
+	</head>
+	<body>
+		<div id="programs"></div>
+	</body>
+</html>		

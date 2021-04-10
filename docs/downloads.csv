@@ -1,13 +1,22 @@
-timestamp        ,path                                 ,name,download (in secs),MB,min,url
-20190308 13:53:01,/home/biadmin/Music/20190308_cr31.mp3,cr31,45                ,75,82 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190308.mp3
-20190308 13:53:38,/home/biadmin/Music/20190308_djci.mp3,djci,35                ,81,89 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190308.mp3
-20190311 08:43:32,/home/biadmin/Music/20190309_djfc.mp3,djfc,29                ,81,88 ,https://media.deejay.it/legacy/audio/deejay_football_club/20190309.mp3
-20190311 12:26:41,/home/biadmin/Music/20190311_cr31.mp3,cr31,40                ,77,85 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190311.mp3
-20190311 12:27:30,/home/biadmin/Music/20190311_djci.mp3,djci,48                ,82,90 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190311.mp3
-20190311 16:54:53,/home/biadmin/Music/20190307_niki.mp3,niki,29                ,72,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190307.mp3
-20190311 16:56:02,/home/biadmin/Music/20190308_niki.mp3,niki,43                ,72,79 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190308.mp3
-20190311 17:20:37,/home/biadmin/Music/20190311_niki.mp3,niki,15                ,79,86 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190311.mp3
-20190312 12:17:14,/home/biadmin/Music/20190312_cr31.mp3,cr31,13                ,77,84 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190312.mp3
-20190312 14:56:00,/home/biadmin/Music/20190312_djci.mp3,djci,18                ,85,93 ,https://media.deejay.it/legacy/audio/deejay_chiama_italia/20190312.mp3
-20190312 17:19:36,/home/biadmin/Music/20190312_niki.mp3,niki,14                ,75,82 ,https://media.deejay.it/legacy/audio/tropical_pizza/20190312.mp3
-20190313 10:38:22,/home/biadmin/Music/20190313_cr31.mp3,cr31,51                ,78,86 ,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20190313.mp3
+timestamp,path,name,download (in secs),MB,min,url
+20210308 08:53:29,D:\musica\reloaded\20210308_cr31.mp3,cr31,16,81,89,https://media.deejay.it/2021/03/08/episodes/chiamate_roma_triuno_triuno/20210308.mp3
+20210313 09:12:30,D:\musica\reloaded\20210309_cr31.mp3,cr31,13,81,89,https://media.deejay.it/2021/03/09/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210309.mp3
+20210313 09:12:41,D:\musica\reloaded\20210310_cr31.mp3,cr31,10,88,97,https://media.deejay.it/2021/03/10/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210310.mp3
+20210313 09:12:51,D:\musica\reloaded\20210311_cr31.mp3,cr31,10,82,89,https://media.deejay.it/2021/03/11/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210311.mp3
+20210313 09:13:01,D:\musica\reloaded\20210312_cr31.mp3,cr31,9,82,90,https://media.deejay.it/2021/03/12/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210312.mp3
+20210320 12:24:14,D:\musica\reloaded\20210315_cr31.mp3,cr31,12,81,88,https://media.deejay.it/2021/03/15/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210315.mp3
+20210320 12:24:34,D:\musica\reloaded\20210316_cr31.mp3,cr31,19,82,90,https://media.deejay.it/2021/03/16/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210316.mp3
+20210320 12:24:46,D:\musica\reloaded\20210317_cr31.mp3,cr31,12,82,89,https://media.deejay.it/2021/03/17/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210317.mp3
+20210320 12:24:56,D:\musica\reloaded\20210318_cr31.mp3,cr31,10,81,88,https://media.deejay.it/2021/03/18/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210318.mp3
+20210320 12:25:06,D:\musica\reloaded\20210319_cr31.mp3,cr31,10,80,88,https://media.deejay.it/2021/03/19/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210319.mp3
+20210327 09:12:59,D:\musica\reloaded\20210322_cr31.mp3,cr31,12,82,90,https://media.deejay.it/2021/03/22/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210322.mp3
+20210327 09:13:13,D:\musica\reloaded\20210323_cr31.mp3,cr31,13,83,91,https://media.deejay.it/2021/03/23/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210323.mp3
+20210327 09:13:24,D:\musica\reloaded\20210324_cr31.mp3,cr31,11,86,95,https://media.deejay.it/2021/03/24/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210324.mp3
+20210327 09:13:34,D:\musica\reloaded\20210325_cr31.mp3,cr31,10,83,91,https://media.deejay.it/2021/03/25/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210325.mp3
+20210327 09:13:45,D:\musica\reloaded\20210326_cr31.mp3,cr31,11,85,93,https://media.deejay.it/2021/03/26/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210326.mp3
+20210402 17:51:46,D:\musica\reloaded\20210329_cr31.mp3,cr31,12,85,93,https://media.deejay.it/2021/03/29/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210329.mp3
+20210402 17:51:57,D:\musica\reloaded\20210330_cr31.mp3,cr31,10,85,93,https://media.deejay.it/2021/03/30/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210330.mp3
+20210402 17:52:07,D:\musica\reloaded\20210331_cr31.mp3,cr31,10,85,93,https://media.deejay.it/2021/03/31/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210331.mp3
+20210402 17:52:18,D:\musica\reloaded\20210401_cr31.mp3,cr31,11,90,99,https://media.deejay.it/2021/04/01/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210401.mp3
+20210402 17:52:29,D:\musica\reloaded\20210402_cr31.mp3,cr31,11,90,99,https://media.deejay.it/2021/04/02/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210402.mp3
+20210403 11:21:03,D:\musica\reloaded\20170501_cr31.mp3,cr31,18,84,92,https://media.deejay.it/legacy/audio/chiamate_roma_triuno_triuno/20170501.mp3

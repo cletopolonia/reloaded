@@ -28,7 +28,7 @@ public class Reloaded {
         try {
             Utils.disableLoggerJAudioTagger();
             invokeSingleDownload(false);
-            Period period = invokePeriodCreation(true);
+            Period period = invokePeriodCreation(false);
             while (period.continueDownload()) {
                 Date elaborationDate = period.getStart();
                 log.info("date: " + Utils.getDateFormat(elaborationDate));
@@ -63,6 +63,7 @@ public class Reloaded {
 
 //        EShow eShow = EShow.DJCI;
 //        String urlFixed = basePath + pathDate + "/episodes/deejay_chiama_italia/" + realDate +".mp3";
+//        dal 9/03/2021 l'url diventa https://media.deejay.it/2021/03/09/episodes/chiamate_roma_triuno_triuno/chiamate_roma_triuno_triuno-20210309.mp3
 
         EShow eShow = EShow.TROP;
         String urlFixed = basePath + pathDate + "/episodes/tropical_pizza/" + realDate + ".mp3";
@@ -77,9 +78,9 @@ public class Reloaded {
         if (!isCustomEnabled) {
             return new Period();
         } else {
-            log.info("invokePeriodCre   ation");
-            String from = "20181231"; // catelland scaricate dal 31 dic 2018
-            String to = "20190131";
+            log.info("invokePeriodCreation");
+            String from = "20170501"; // catelland scaricate dal 01 ago 2017
+            String to = "20170801";
             return new Period(from, to);
         }
     }

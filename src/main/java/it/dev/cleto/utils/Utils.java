@@ -19,10 +19,11 @@ public class Utils {
     private static final String TIME_FORMAT = "HH:mm:ss";
     private static final String DATE_PATH_URL_FORMAT = "yyyy/MM/dd";
     private static final String COMMA = ",";
-    private static SimpleDateFormat sdfDate = new SimpleDateFormat(DATE_FORMAT);
-    private static SimpleDateFormat sdfDay = new SimpleDateFormat(DAY_FORMAT);
-    private static SimpleDateFormat sdfTime = new SimpleDateFormat(TIME_FORMAT);
-    private static SimpleDateFormat sdfDatePathUrl = new SimpleDateFormat(DATE_PATH_URL_FORMAT);
+    private static final Locale LOCALE = Locale.ENGLISH;
+    private static SimpleDateFormat sdfDate = new SimpleDateFormat(DATE_FORMAT, LOCALE);
+    private static SimpleDateFormat sdfDay = new SimpleDateFormat(DAY_FORMAT, LOCALE);
+    private static SimpleDateFormat sdfTime = new SimpleDateFormat(TIME_FORMAT, LOCALE);
+    private static SimpleDateFormat sdfDatePathUrl = new SimpleDateFormat(DATE_PATH_URL_FORMAT, LOCALE);
 
     public static final String EXT_MP3 = ".mp3";
     public static final String EXT_ORIGINAL_MP3 = ".original.mp3";
@@ -34,8 +35,8 @@ public class Utils {
     public static final String BASE_URL_OLD = "https://media.deejay.it/legacy/audio/";
     public static final String BASE_URL = "https://media.deejay.it/";
     public static final String EPISODES = "/episodes/";
-    public static final String BASE_PATH = "/home/biadmin/Music/";
-    public static final String DOWNLOADS_CSV = "/home/biadmin/Music/downloads.csv";
+    public static final String BASE_PATH = "D:\\musica\\reloaded\\";
+    public static final String DOWNLOADS_CSV = "D:\\musica\\reloaded\\downloads.csv";
 
     public static final String UNKNOWN = "Unknown";
 
@@ -80,12 +81,10 @@ public class Utils {
     }
 
     protected static String mark(final String message) {
-        StringBuilder mark = new StringBuilder();
-        mark.append(LINE);
-        mark.append(decorator());
-        mark.append(message + LINE);
-        mark.append(decorator());
-        return mark.toString();
+        return LINE +
+                decorator() +
+                message + LINE +
+                decorator();
     }
 
     public static Date dateLastDownload() {
@@ -137,5 +136,28 @@ public class Utils {
 
     public static String getDatePathUrlFormat(Date date) {
         return sdfDatePathUrl.format(date);
+    }
+
+    public static String getVersion(Date date) {
+        // v1 --> fino al 2019/05/30 circa
+        // v2 --> fino al 08/03/2021 compreso
+        // v3 --> dal 09/03/2021
+
+        Calendar v1Date = new GregorianCalendar();
+        v1Date.set(Calendar.DAY_OF_MONTH,30);
+        v1Date.set(Calendar.MONTH,4);
+        v1Date.set(Calendar.YEAR,2019);
+
+        Calendar v2Date = new GregorianCalendar();
+        v2Date.set(Calendar.DAY_OF_MONTH,8);
+        v2Date.set(Calendar.MONTH,2);
+        v2Date.set(Calendar.YEAR,2021);
+
+        if(date.before(v1Date.getTime()))
+            return "v1";
+        if(date.after(v2Date.getTime()))
+            return "v3";
+        else
+            return "v2";
     }
 }
