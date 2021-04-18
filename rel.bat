@@ -1,1 +1,1 @@
-java -cp "D:\dev\progetti\reloaded\target\libs\*;D:\dev\progetti\reloaded\target\reloaded.jar" it.dev.cleto.Reloaded && pause
+java -cp "F:\dev\progetti\reloaded\target\libs\*;F:\dev\progetti\reloaded\target\reloaded.jar" it.dev.cleto.Reloaded && pause
